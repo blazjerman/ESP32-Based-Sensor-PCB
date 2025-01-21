@@ -2108,6 +2108,122 @@
 			)
 		)
 	)
+	(sheet
+		(at 35.56 127)
+		(size 16.51 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "028149f7-49ac-4132-bd36-8484c23b8e21")
+		(property "Sheetname" "buck_3.3v"
+			(at 35.56 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_3.3v.kicad_sch"
+			(at 35.56 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 35.56 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6141eb4f-9d32-4712-a482-5c8c3bb4726b")
+		)
+		(pin "OUT" input
+			(at 52.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "14bf0f3f-1997-4fc5-a211-d688ca3ebdd7")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 127)
+		(size 16.51 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9935e397-0063-4fd7-800b-2451c0b5a00a")
+		(property "Sheetname" "buck_5v"
+			(at 67.31 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck_5v.kicad_sch"
+			(at 67.31 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT" input
+			(at 83.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dcd67c72-ef69-4b1d-abc1-1aa8124d06c6")
+		)
+		(pin "IN" input
+			(at 67.31 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "59c77a1a-1e5a-4a29-b2b7-65e6c52db695")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
