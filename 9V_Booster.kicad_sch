@@ -1089,7 +1089,6 @@
 	(hierarchical_label "IN"
 		(shape input)
 		(at 83.82 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1101,7 +1100,6 @@
 	(hierarchical_label "OUT"
 		(shape output)
 		(at 181.61 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1204,7 +1202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.1452 92.71 0)
 			(effects
 				(font
@@ -1223,6 +1221,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 170.18 88.9 0)
 			(effects
 				(font
@@ -1367,6 +1374,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "f3a99b15-40e0-4888-8cfd-ce439d525b81")
 		)
@@ -1422,7 +1438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.432 102.87 90)
 			(effects
 				(font
@@ -1441,6 +1457,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -1492,7 +1517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.2152 92.71 0)
 			(effects
 				(font
@@ -1511,6 +1536,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 95.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 95.25 88.9 0)
 			(effects
 				(font
@@ -1562,7 +1596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.432 91.44 90)
 			(effects
 				(font
@@ -1581,6 +1615,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -1629,7 +1672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Neosid_SMS-ME3010"
 			(at 124.46 82.55 0)
 			(effects
 				(font
@@ -1658,6 +1701,15 @@
 		)
 		(property "Value_1" "Low core loss for 1.2MHz"
 			(at 124.46 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 124.46 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 142.24 82.55 0)
 			(effects
 				(font
@@ -1725,6 +1777,15 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 142.24 82.55 0)
 			(effects
 				(font

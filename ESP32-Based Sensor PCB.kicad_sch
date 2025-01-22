@@ -6208,16 +6208,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 96.52) (xy 203.2 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1635dfd1-9261-4ce3-838a-821f1f4bf674")
-	)
-	(wire
-		(pts
 			(xy 91.44 134.62) (xy 91.44 132.08)
 		)
 		(stroke
@@ -6528,13 +6518,13 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 59.69) (xy 251.46 59.69)
+			(xy 220.98 119.38) (xy 220.98 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59e85f4f-2762-4df5-a287-2bf71398587d")
+		(uuid "59c0c0a6-fdb9-49d1-ba98-49f40facdae9")
 	)
 	(wire
 		(pts
@@ -6615,16 +6605,6 @@
 			(type default)
 		)
 		(uuid "69e8bb48-7787-4575-8e19-66eecb29d057")
-	)
-	(wire
-		(pts
-			(xy 243.84 67.31) (xy 251.46 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d21c9d2-1d51-4da7-a87b-aab33b7a0950")
 	)
 	(wire
 		(pts
@@ -6728,16 +6708,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 74.93) (xy 251.46 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7766e722-e73a-4c5d-b3c5-d3ce22a533d3")
-	)
-	(wire
-		(pts
 			(xy 214.63 39.37) (xy 214.63 45.72)
 		)
 		(stroke
@@ -6838,26 +6808,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 69.85) (xy 251.46 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94d2edca-7496-4258-a338-4503e0eb7ece")
-	)
-	(wire
-		(pts
-			(xy 243.84 64.77) (xy 251.46 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "958243df-316b-4c25-bb3c-005cff74d241")
-	)
-	(wire
-		(pts
 			(xy 58.42 27.94) (xy 54.61 27.94)
 		)
 		(stroke
@@ -6865,26 +6815,6 @@
 			(type default)
 		)
 		(uuid "9a38e6b5-758c-4053-acd6-a6d7c6924169")
-	)
-	(wire
-		(pts
-			(xy 243.84 72.39) (xy 251.46 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9acf6c32-08ae-4b5f-aae6-4a0fbce06ab0")
-	)
-	(wire
-		(pts
-			(xy 181.61 91.44) (xy 203.2 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e242e10-6c88-4407-8800-3b006c7c1210")
 	)
 	(wire
 		(pts
@@ -6935,6 +6865,16 @@
 			(type default)
 		)
 		(uuid "a1dec540-b394-441b-a78c-d1693a4bab38")
+	)
+	(wire
+		(pts
+			(xy 181.61 91.44) (xy 203.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2983ddc-4a94-4609-b9bc-3cac02762902")
 	)
 	(wire
 		(pts
@@ -7178,16 +7118,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 119.38) (xy 220.98 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dee1dbe8-bda0-416a-96d4-c7bbd643a064")
-	)
-	(wire
-		(pts
 			(xy 43.18 176.53) (xy 45.72 176.53)
 		)
 		(stroke
@@ -7228,6 +7158,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 96.52) (xy 203.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e20c2de1-2f74-427b-b54c-1aba13903ed4")
+	)
+	(wire
+		(pts
 			(xy 205.74 59.69) (xy 218.44 59.69)
 		)
 		(stroke
@@ -7235,16 +7175,6 @@
 			(type default)
 		)
 		(uuid "e2848c04-b44e-4c5b-9a21-1298dc9723e2")
-	)
-	(wire
-		(pts
-			(xy 243.84 62.23) (xy 251.46 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3445c76-7f2f-4ca0-a217-beda9e05aa32")
 	)
 	(wire
 		(pts
@@ -7278,13 +7208,13 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 57.15) (xy 251.46 57.15)
+			(xy 205.74 119.38) (xy 220.98 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eed2338f-1e6d-4df7-8a1c-f42e8670dd13")
+		(uuid "eeeb7f87-5056-4b3c-9d38-a69e709b8e94")
 	)
 	(wire
 		(pts
@@ -7386,6 +7316,28 @@
 		)
 		(uuid "55a2c75f-6d41-4ea7-bb30-af7090ee825e")
 	)
+	(global_label "SD3"
+		(shape input)
+		(at 243.84 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00013501-25ee-4c44-bb22-e71d2d7c6209")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.5142 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC_9"
 		(shape input)
 		(at 101.6 30.48 180)
@@ -7452,6 +7404,28 @@
 			)
 		)
 	)
+	(global_label "SC1"
+		(shape input)
+		(at 261.62 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0816fb6c-353b-4d90-b5fe-8b32b97d8afd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.9458 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SP_ANA"
 		(shape input)
 		(at 146.05 41.91 270)
@@ -7474,6 +7448,50 @@
 			)
 		)
 	)
+	(global_label "SD0"
+		(shape input)
+		(at 243.84 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bf8c017-d9b7-4074-8509-33176fd09a46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.5142 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD0"
+		(shape input)
+		(at 261.62 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c74bd66-8a02-49ae-ae24-69afdbbc8638")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.9458 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 205.74 59.69 180)
@@ -7487,6 +7505,28 @@
 		(uuid "1065ec5e-fce1-48ef-82b8-e2ce1a6e14d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 199.1867 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SC0"
+		(shape input)
+		(at 261.62 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1681a380-22e0-4394-8ead-691c9b72779b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.9458 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,6 +7778,50 @@
 			)
 		)
 	)
+	(global_label "SD1"
+		(shape input)
+		(at 261.62 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3fde9c3e-4ee9-4ad0-81fb-74b742f59d3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.9458 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SC3"
+		(shape input)
+		(at 243.84 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43a59e45-ec44-4109-a951-c47227d8cb8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.5142 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RTS"
 		(shape input)
 		(at 109.22 127 0)
@@ -7804,6 +7888,28 @@
 			)
 		)
 	)
+	(global_label "SC2"
+		(shape input)
+		(at 261.62 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5247d4fe-b39d-4080-aece-122b5b3261d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.9458 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OTX"
 		(shape input)
 		(at 147.32 114.3 180)
@@ -7817,6 +7923,28 @@
 		(uuid "52b383fb-d6e4-4cb4-9b1d-f02a353a2958")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.8272 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SC3"
+		(shape input)
+		(at 261.62 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57cf8286-9bfa-4309-bf5d-6c418605e4cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.9458 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8037,6 +8165,28 @@
 		(uuid "73fbf5b6-6024-4318-901b-beccdbd367cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 166.37 44.0048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SC0"
+		(shape input)
+		(at 243.84 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7dba157b-aa5c-492e-a58f-8876216fc0d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.5142 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8332,6 +8482,28 @@
 			)
 		)
 	)
+	(global_label "SD2"
+		(shape input)
+		(at 243.84 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae659ca7-242f-4765-b7b7-87a87c99dc04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.5142 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_G"
 		(shape input)
 		(at 185.42 121.92 0)
@@ -8372,6 +8544,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SC2"
+		(shape input)
+		(at 243.84 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bff7443c-1b60-4781-ad74-29cdd26105b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.5142 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8420,6 +8614,50 @@
 			)
 		)
 	)
+	(global_label "SC1"
+		(shape input)
+		(at 243.84 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d10d242b-5a5f-48d3-ba81-d99e1143511c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.5142 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD1"
+		(shape input)
+		(at 243.84 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7d45d43-ef40-46f2-9f07-842f02d10315")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.5142 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_B"
 		(shape input)
 		(at 185.42 124.46 0)
@@ -8438,6 +8676,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD2"
+		(shape input)
+		(at 261.62 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0fa2040-a148-448b-a810-983e788ed04e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.9458 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD3"
+		(shape input)
+		(at 261.62 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6bc0d4e-8fb1-4e9d-99b9-476b3f9d7b2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.9458 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8492,7 +8774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 259.842 140.97 90)
 			(effects
 				(font
@@ -8511,6 +8793,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 261.62 140.97 0)
 			(effects
 				(font
@@ -8562,7 +8853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 152.0952 67.31 0)
 			(effects
 				(font
@@ -8581,6 +8872,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 151.13 63.5 0)
 			(effects
 				(font
@@ -8696,7 +8996,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-4P_1x04_P2.54mm_Horizontal"
 			(at 132.08 127 0)
 			(effects
 				(font
@@ -8715,6 +9015,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 132.08 127 0)
 			(effects
 				(font
@@ -8799,6 +9108,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f83d5f89-3ce2-4033-9a1e-01cbc1d66cbe")
 		)
@@ -8842,7 +9160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 136.652 68.58 90)
 			(effects
 				(font
@@ -8869,6 +9187,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 138.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d13e449-ba3a-4537-9dc7-d01fe59f1dca")
 		)
@@ -8879,6 +9206,85 @@
 			(project ""
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 205.74 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fb4a430-ece3-4225-b001-6e1213d8dec5")
+		(property "Reference" "C3"
+			(at 209.55 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 209.55 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 206.7052 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4825cb75-00cf-4072-b878-8985ac5c838a")
+		)
+		(pin "2"
+			(uuid "ee2798e8-cfa2-4343-bf20-e8ce7ee7c305")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8933,6 +9339,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 55.88 114.3 0)
 			(effects
 				(font
@@ -9036,16 +9451,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 106.68 30.48 0)
+		(at 106.68 33.02 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "151ef3c1-9dd0-4099-b709-3373881274b8")
 		(property "Reference" "J6"
-			(at 109.22 30.4799 0)
+			(at 109.22 33.0201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9054,7 +9469,7 @@
 			)
 		)
 		(property "Value" "9v OUT"
-			(at 109.22 33.0199 0)
+			(at 109.22 30.4801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9062,8 +9477,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.68 30.48 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 106.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9072,7 +9487,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 30.48 0)
+			(at 106.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9081,7 +9496,16 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 106.68 30.48 0)
+			(at 106.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 106.68 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9328,7 +9752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 177.038 90)
 			(effects
 				(font
@@ -9347,6 +9771,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 140.97 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 140.97 175.26 0)
 			(effects
 				(font
@@ -9489,6 +9922,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a47a047d-9991-4300-b920-acd458f853cd")
 		)
@@ -9509,7 +9951,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x08")
-		(at 256.54 64.77 0)
+		(at 266.7 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9518,7 +9960,7 @@
 		(fields_autoplaced yes)
 		(uuid "2da67117-e913-4dc7-9e9e-236013b7046d")
 		(property "Reference" "J3"
-			(at 259.08 65.4049 0)
+			(at 269.24 65.4049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,7 +9969,7 @@
 			)
 		)
 		(property "Value" "I2C"
-			(at 259.08 67.31 0)
+			(at 269.24 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,8 +9977,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 256.54 64.77 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-8P_1x08_P2.54mm_Horizontal"
+			(at 266.7 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,7 +9987,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 64.77 0)
+			(at 266.7 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9554,7 +9996,16 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 256.54 64.77 0)
+			(at 266.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 266.7 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9688,7 +10139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 216.408 49.53 90)
 			(effects
 				(font
@@ -9707,6 +10158,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 214.63 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 214.63 49.53 0)
 			(effects
 				(font
@@ -9783,6 +10243,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 38.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "baf6260c-18d8-4bfe-af2c-1dd1f880e118")
 		)
@@ -9837,7 +10306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 220.218 49.53 90)
 			(effects
 				(font
@@ -9864,6 +10333,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 218.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac6c22ea-a2bd-47d3-ac26-ca994f706c16")
 		)
@@ -9881,7 +10359,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 208.28 93.98 0)
+		(at 208.28 96.52 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9889,7 +10368,7 @@
 		(dnp no)
 		(uuid "451c9289-68e6-4ba8-9171-e3432239439e")
 		(property "Reference" "J5"
-			(at 209.55 93.726 0)
+			(at 209.55 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9898,7 +10377,7 @@
 			)
 		)
 		(property "Value" "ANALOG_IN"
-			(at 209.55 96.266 0)
+			(at 209.55 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,8 +10385,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 208.28 93.98 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-4P_1x04_P2.54mm_Horizontal"
+			(at 208.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9916,7 +10395,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 93.98 0)
+			(at 208.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9925,7 +10404,16 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 208.28 93.98 0)
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 208.28 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10112,7 +10600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 156.718 90)
 			(effects
 				(font
@@ -10131,6 +10619,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 140.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 140.97 154.94 0)
 			(effects
 				(font
@@ -10182,7 +10679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 259.842 125.73 90)
 			(effects
 				(font
@@ -10201,6 +10698,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 261.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 261.62 125.73 0)
 			(effects
 				(font
@@ -10270,6 +10776,15 @@
 			)
 		)
 		(property "Description" "Low voltage 8-channel I2C switch with reset, TSSOP-24"
+			(at 233.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 233.68 74.93 0)
 			(effects
 				(font
@@ -10387,7 +10902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.3952 83.82 0)
 			(effects
 				(font
@@ -10414,6 +10929,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d9ff376-821d-46ad-b3cc-0f663db1349a")
 		)
@@ -10431,16 +10955,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 107.95 54.61 0)
+		(at 107.95 57.15 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6382a079-3c6a-4ec1-b07e-dbd47e7eb4c8")
 		(property "Reference" "J8"
-			(at 110.49 54.6099 0)
+			(at 110.49 57.1501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10973,7 @@
 			)
 		)
 		(property "Value" "3.3v OUT"
-			(at 110.49 57.1499 0)
+			(at 110.49 54.6101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,8 +10981,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 107.95 54.61 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10467,7 +10991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 54.61 0)
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10476,7 +11000,16 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 107.95 54.61 0)
+			(at 107.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10527,7 +11060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 202.8952 46.99 0)
 			(effects
 				(font
@@ -10546,6 +11079,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 201.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 201.93 43.18 0)
 			(effects
 				(font
@@ -10622,6 +11164,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1e1d1f7-dea9-451c-b0aa-ef07ce029268")
 		)
@@ -10664,7 +11215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 35.2552 57.15 0)
 			(effects
 				(font
@@ -10691,6 +11242,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e0692ed-d24d-4525-aebb-d9aa97690db8")
 		)
@@ -10708,16 +11268,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 106.68 43.18 0)
+		(at 106.68 45.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6fe5ba14-3059-46d6-bf04-4d8bdc7d21b6")
 		(property "Reference" "J7"
-			(at 109.22 43.1799 0)
+			(at 109.22 45.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10726,7 +11286,7 @@
 			)
 		)
 		(property "Value" "5v OUT"
-			(at 109.22 45.7199 0)
+			(at 109.22 43.1801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10734,8 +11294,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.68 43.18 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+			(at 106.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10744,7 +11304,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 43.18 0)
+			(at 106.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10753,7 +11313,16 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 106.68 43.18 0)
+			(at 106.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 106.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10957,6 +11526,15 @@
 		)
 		(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
 			(at 89.916 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 91.44 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11510,7 +12088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 278.13 132.08 0)
 			(effects
 				(font
@@ -11529,6 +12107,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 278.13 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 278.13 132.08 0)
 			(effects
 				(font
@@ -11599,6 +12186,15 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 166.37 106.68 0)
 			(effects
 				(font
@@ -11758,7 +12354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 49.53 163.068 90)
 			(effects
 				(font
@@ -11777,6 +12373,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 49.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 49.53 161.29 0)
 			(effects
 				(font
@@ -11891,7 +12496,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 166.878 90)
 			(effects
 				(font
@@ -11910,6 +12515,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 140.97 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 140.97 165.1 0)
 			(effects
 				(font
@@ -12133,6 +12747,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 205.74 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b23a5908-7ade-4e6f-985a-960491e1e058")
+		(property "Reference" "#PWR031"
+			(at 205.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "759618b0-5c6a-4c06-ba4a-2d57680be154")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:2N3904")
 		(at 58.42 161.29 0)
 		(unit 1)
@@ -12151,7 +12831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3904"
+		(property "Value" "MMBT3904LT1G"
 			(at 63.5 162.5599 0)
 			(effects
 				(font
@@ -12160,7 +12840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 63.5 163.195 0)
 			(effects
 				(font
@@ -12171,7 +12851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MMBT3904LT1G_C81464.pdf"
 			(at 58.42 161.29 0)
 			(effects
 				(font
@@ -12181,7 +12861,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 58.42 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 58.42 161.29 0)
 			(effects
 				(font
@@ -12293,7 +12982,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3906"
+		(property "Value" "MMBT3906LT1G"
 			(at 63.5 177.7999 0)
 			(effects
 				(font
@@ -12302,7 +12991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 63.5 178.435 0)
 			(effects
 				(font
@@ -12313,7 +13002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810301518_onsemi-MMBT3906LT1G_C53444.pdf"
 			(at 58.42 176.53 0)
 			(effects
 				(font
@@ -12323,7 +13012,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+			(at 58.42 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 58.42 176.53 0)
 			(effects
 				(font
@@ -12376,7 +13074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 214.63 71.628 90)
 			(effects
 				(font
@@ -12395,6 +13093,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 214.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 214.63 69.85 0)
 			(effects
 				(font
@@ -12575,7 +13282,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 49.53 178.308 90)
 			(effects
 				(font
@@ -12594,6 +13301,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 49.53 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 49.53 176.53 0)
 			(effects
 				(font
@@ -12672,6 +13388,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 238.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00b90275-5a4e-45e7-afd8-2eb72459d4a7")
 		)
@@ -12742,6 +13467,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 220.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2bb2c30-6a4d-4cd0-9373-3e2b9159de66")
 		)
@@ -12803,7 +13537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 259.842 133.35 90)
 			(effects
 				(font
@@ -12822,6 +13556,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 261.62 133.35 0)
 			(effects
 				(font
@@ -12890,6 +13633,15 @@
 			)
 		)
 		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
+			(at 156.21 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 156.21 165.1 0)
 			(effects
 				(font
@@ -13019,7 +13771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 79.7052 100.33 0)
 			(effects
 				(font
@@ -13038,6 +13790,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -13088,7 +13849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 57.15 0)
 			(effects
 				(font
@@ -13107,6 +13868,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 57.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -13223,7 +13993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 151.13 33.02 0)
 			(effects
 				(font
@@ -13242,6 +14012,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 151.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 151.13 33.02 0)
 			(effects
 				(font
