@@ -6237,12 +6237,6 @@
 		(uuid "233b76a4-8acc-4f27-a1c9-988ad274f788")
 	)
 	(junction
-		(at 127 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27ed09b8-b68d-424b-a59a-832488b0d9ed")
-	)
-	(junction
 		(at 55.88 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6271,12 +6265,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "642ad831-3427-451d-ba37-a420c4be0446")
-	)
-	(junction
-		(at 163.83 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "667ed642-bdd1-4a0c-ae36-a263dcdb1964")
 	)
 	(junction
 		(at 238.76 137.16)
@@ -6321,6 +6309,12 @@
 		(uuid "9f2ec1a0-2e39-4448-a8fe-58932d2bdca4")
 	)
 	(junction
+		(at 220.98 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a97b1b08-a435-48ea-bab7-43a0640264a0")
+	)
+	(junction
 		(at 55.88 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6337,18 +6331,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c093f562-8a9c-4902-b288-3d743aa6890f")
-	)
-	(junction
-		(at 163.83 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c682e3e3-d0e3-403d-9ba9-8cfefab89fe1")
-	)
-	(junction
-		(at 127 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f62767e3-2bd8-4313-ab03-776748bcd917")
 	)
 	(junction
 		(at 223.52 87.63)
@@ -6496,16 +6478,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 181.61) (xy 148.59 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b5e2e0f-4163-4870-844a-2a0cd57a9544")
-	)
-	(wire
-		(pts
 			(xy 238.76 137.16) (xy 238.76 135.89)
 		)
 		(stroke
@@ -6513,16 +6485,6 @@
 			(type default)
 		)
 		(uuid "1179a4a8-8065-45bd-8f98-c30a6539b7f5")
-	)
-	(wire
-		(pts
-			(xy 111.76 167.64) (xy 116.84 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12411255-c69c-4d00-989d-f1f874291c48")
 	)
 	(wire
 		(pts
@@ -6553,16 +6515,6 @@
 			(type default)
 		)
 		(uuid "1e5c9f64-8a47-4891-b599-c051e21ba278")
-	)
-	(wire
-		(pts
-			(xy 163.83 166.37) (xy 163.83 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f175b4b-0ace-49b1-acd3-f14abb2de83a")
 	)
 	(wire
 		(pts
@@ -6616,6 +6568,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 109.22) (xy 151.13 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279ef79a-e977-429b-a8e6-28f9821cc209")
+	)
+	(wire
+		(pts
 			(xy 233.68 35.56) (xy 233.68 39.37)
 		)
 		(stroke
@@ -6623,6 +6585,16 @@
 			(type default)
 		)
 		(uuid "290afc13-37bd-4afe-a5c4-e6fae81260d7")
+	)
+	(wire
+		(pts
+			(xy 124.46 172.72) (xy 140.97 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298f9755-09fe-4239-9e1a-2d7298d4d8f0")
 	)
 	(wire
 		(pts
@@ -6636,13 +6608,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 182.88) (xy 111.76 177.8)
+			(xy 124.46 177.8) (xy 153.67 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cbc4ec4-f2b9-4c3c-8445-cf80f59f1408")
+		(uuid "2af976b4-901a-483f-be61-62c45ce798fd")
 	)
 	(wire
 		(pts
@@ -6666,16 +6638,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 176.53) (xy 153.67 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "354fbc9b-8848-42bd-97c9-2fde6a6b4a7e")
-	)
-	(wire
-		(pts
 			(xy 214.63 57.15) (xy 223.52 57.15)
 		)
 		(stroke
@@ -6683,16 +6645,6 @@
 			(type default)
 		)
 		(uuid "35c3b0ba-2ab2-4544-88b6-ad9b8754c641")
-	)
-	(wire
-		(pts
-			(xy 110.49 172.72) (xy 116.84 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b6c57e1-99c6-4951-b7f4-38addeff8676")
 	)
 	(wire
 		(pts
@@ -6746,16 +6698,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 181.61) (xy 148.59 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a0b9405-80b1-49ad-a8b2-9ac219604438")
-	)
-	(wire
-		(pts
 			(xy 261.62 137.16) (xy 238.76 137.16)
 		)
 		(stroke
@@ -6803,16 +6745,6 @@
 			(type default)
 		)
 		(uuid "571cec62-d619-4f39-8a1b-0994f1144c26")
-	)
-	(wire
-		(pts
-			(xy 147.32 161.29) (xy 148.59 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58143fc5-18f3-44bb-af04-7413f464e89e")
 	)
 	(wire
 		(pts
@@ -6876,13 +6808,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 172.72) (xy 127 177.8)
+			(xy 124.46 167.64) (xy 128.27 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6027e61c-863c-478c-ba96-7b46bacfca89")
+		(uuid "5e6c7e35-6bf9-44aa-a77b-f28c67525446")
 	)
 	(wire
 		(pts
@@ -6916,6 +6848,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 118.11) (xy 220.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d5c615-d6d9-4923-b7d0-56a66cfa46e6")
+	)
+	(wire
+		(pts
 			(xy 204.47 138.43) (xy 210.82 138.43)
 		)
 		(stroke
@@ -6943,16 +6885,6 @@
 			(type default)
 		)
 		(uuid "7112eb49-19b8-4122-89bb-943e86b4c4e9")
-	)
-	(wire
-		(pts
-			(xy 127 177.8) (xy 127 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71f0f4ac-4794-42a2-ab57-6c970a4b4ab4")
 	)
 	(wire
 		(pts
@@ -7046,16 +6978,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 176.53) (xy 163.83 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78d16969-1057-4ac8-b6fc-27bfaa04dcb3")
-	)
-	(wire
-		(pts
 			(xy 35.56 83.82) (xy 55.88 83.82)
 		)
 		(stroke
@@ -7076,6 +6998,26 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 81.28) (xy 181.61 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c4ea75-3798-4943-bc5a-cc2efca83365")
+	)
+	(wire
+		(pts
+			(xy 205.74 119.38) (xy 220.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858b0a75-4498-4554-88eb-4c8c059256cc")
+	)
+	(wire
+		(pts
 			(xy 199.39 143.51) (xy 210.82 143.51)
 		)
 		(stroke
@@ -7093,26 +7035,6 @@
 			(type default)
 		)
 		(uuid "8a16c4de-6b55-4c8c-b338-71c9e4d69666")
-	)
-	(wire
-		(pts
-			(xy 147.32 171.45) (xy 153.67 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a4fd49b-e864-4b66-90c9-daadf02267fb")
-	)
-	(wire
-		(pts
-			(xy 111.76 177.8) (xy 116.84 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a59ce32-ec46-4ceb-b180-e77865b4e843")
 	)
 	(wire
 		(pts
@@ -7246,16 +7168,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 167.64) (xy 127 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5ea56e1-13cc-46d1-bac8-da663e5b76f3")
-	)
-	(wire
-		(pts
 			(xy 218.44 69.85) (xy 223.52 69.85)
 		)
 		(stroke
@@ -7283,16 +7195,6 @@
 			(type default)
 		)
 		(uuid "b36019e4-f1eb-44dc-abdf-13494c067f50")
-	)
-	(wire
-		(pts
-			(xy 181.61 81.28) (xy 185.42 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3aac0c4-34cb-40a8-b694-9e40c1f26fcc")
 	)
 	(wire
 		(pts
@@ -7386,26 +7288,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 182.88) (xy 111.76 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c053b852-a832-44b7-a14f-4a32578bb4d2")
-	)
-	(wire
-		(pts
-			(xy 148.59 161.29) (xy 148.59 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c18cc30e-b9db-4f9a-8156-42ff204c983f")
-	)
-	(wire
-		(pts
 			(xy 53.34 49.53) (xy 57.15 49.53)
 		)
 		(stroke
@@ -7446,16 +7328,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 99.06) (xy 185.42 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d568a579-49d4-4d0e-aa5e-455a4ea7e32e")
-	)
-	(wire
-		(pts
 			(xy 55.88 83.82) (xy 55.88 92.71)
 		)
 		(stroke
@@ -7463,16 +7335,6 @@
 			(type default)
 		)
 		(uuid "d7a6288f-0cf3-4d65-9a0e-7b0ab01cb46f")
-	)
-	(wire
-		(pts
-			(xy 148.59 166.37) (xy 153.67 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7eae490-2934-4c43-922c-0d7b7ebd36d5")
 	)
 	(wire
 		(pts
@@ -7496,7 +7358,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 171.45) (xy 163.83 176.53)
+			(xy 175.26 209.55) (xy 175.26 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7606,16 +7468,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 162.56) (xy 111.76 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9ae5bf5-6588-4d75-a657-3d058ed7f0a4")
-	)
-	(wire
-		(pts
 			(xy 91.44 92.71) (xy 91.44 101.6)
 		)
 		(stroke
@@ -7623,16 +7475,6 @@
 			(type default)
 		)
 		(uuid "ea1e70f0-b755-4f29-84a7-9b0a104f1126")
-	)
-	(wire
-		(pts
-			(xy 205.74 119.38) (xy 220.98 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeeb7f87-5056-4b3c-9d38-a69e709b8e94")
 	)
 	(wire
 		(pts
@@ -7716,23 +7558,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 162.56) (xy 111.76 162.56)
+			(xy 185.42 99.06) (xy 181.61 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe1b9eaf-d6fc-4e9b-a4cb-5f933f427885")
-	)
-	(wire
-		(pts
-			(xy 147.32 109.22) (xy 151.13 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff58e1a1-1ec9-4c92-a098-74cfdcdfe5ca")
+		(uuid "fcc215da-9bca-4fe3-8d35-f5d9f5a360ce")
 	)
 	(wire
 		(pts
@@ -7930,6 +7762,28 @@
 			)
 		)
 	)
+	(global_label "VCC_5"
+		(shape input)
+		(at 96.52 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f996e0c-18e5-4139-9fdc-cda2d54ded1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.7291 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 205.74 59.69 180)
@@ -7998,22 +7852,22 @@
 	)
 	(global_label "LED_B"
 		(shape input)
-		(at 102.87 162.56 180)
+		(at 133.35 152.4 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1d1c8c5c-3e83-4c14-b2e2-45c20affd32d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2001 162.56 0)
+			(at 133.35 143.7301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8042,7 +7896,7 @@
 	)
 	(global_label "VCC_3.3"
 		(shape input)
-		(at 220.98 119.38 90)
+		(at 220.98 118.11 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8052,7 +7906,7 @@
 		)
 		(uuid "22c00e69-10d2-46dc-ac1e-15194d2af5d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 108.7748 90)
+			(at 220.98 107.5048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8108,22 +7962,22 @@
 	)
 	(global_label "LED_G"
 		(shape input)
-		(at 102.87 182.88 180)
+		(at 158.75 162.56 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2d2750f6-93a9-485e-bfcb-d22b626be890")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2001 182.88 0)
+			(at 158.75 153.8901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8326,28 +8180,6 @@
 			)
 		)
 	)
-	(global_label "LED_R"
-		(shape input)
-		(at 139.7 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4857ea6d-61be-417f-8773-06d175539268")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.0301 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ORX"
 		(shape input)
 		(at 139.7 129.54 0)
@@ -8480,9 +8312,9 @@
 			)
 		)
 	)
-	(global_label "LED_G"
+	(global_label "VCC_5"
 		(shape input)
-		(at 139.7 181.61 180)
+		(at 96.52 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8490,31 +8322,9 @@
 			)
 			(justify right)
 		)
-		(uuid "69e7cd38-3e20-47e1-a617-603aa8a880ba")
+		(uuid "654c609f-ab06-4d24-b46f-472f9cb34c26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.0301 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_B"
-		(shape input)
-		(at 139.7 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6c48186e-8de7-43b8-b7b9-838b48e56186")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.0301 161.29 0)
+			(at 87.7291 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +8424,7 @@
 	)
 	(global_label "LED_R"
 		(shape input)
-		(at 185.42 99.06 0)
+		(at 185.42 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8624,7 +8434,7 @@
 		)
 		(uuid "730c2700-ac28-4006-b37d-1120bb43e901")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.0899 99.06 0)
+			(at 194.0899 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8922,22 +8732,22 @@
 	)
 	(global_label "LED_R"
 		(shape input)
-		(at 102.87 172.72 180)
+		(at 146.05 157.48 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "a87e0ded-b996-49d9-8a5d-baea690ac56e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.2001 172.72 0)
+			(at 146.05 148.8101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9010,22 +8820,22 @@
 	)
 	(global_label "LED_G"
 		(shape input)
-		(at 147.32 109.22 180)
+		(at 185.42 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b75149e0-0059-48f9-adce-eac021518f49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.6501 109.22 0)
+			(at 194.0899 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9164,22 +8974,22 @@
 	)
 	(global_label "LED_B"
 		(shape input)
-		(at 185.42 81.28 0)
+		(at 147.32 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "dcd52a37-a263-4edb-8bd4-5db7a569e907")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.0899 81.28 0)
+			(at 138.6501 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9197,6 +9007,28 @@
 		(uuid "e0fa2040-a148-448b-a810-983e788ed04e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 254.9458 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_5"
+		(shape input)
+		(at 96.52 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5f0da1a-a830-4f32-a7a5-c583c1c63c24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.7291 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9330,6 +9162,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 146.05 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "023442f7-ae2e-439f-968a-1031921ac4dc")
+		(property "Reference" "R2"
+			(at 148.59 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 149.098 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 144.272 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 146.05 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99f6e35d-7adb-4679-a2b3-8e7bb5fad613")
+		)
+		(pin "2"
+			(uuid "b914efbe-c681-4ce6-9e95-164b20e345fa")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 151.13 63.5 0)
 		(unit 1)
@@ -9403,6 +9311,82 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06679dcf-b834-420a-9abb-ae2f94640977")
+		(property "Reference" "R14"
+			(at 100.33 174.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "70"
+			(at 100.33 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.33 174.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 100.33 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddec974a-4eb2-44bc-a4ea-1235568e04b3")
+		)
+		(pin "1"
+			(uuid "6c01dc87-a250-4de3-9bd2-7247b2fc91c3")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9954,82 +9938,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 106.68 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14bff94e-b0da-4617-a0e3-d30c05c7234a")
-		(property "Reference" "R2"
-			(at 106.68 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 106.68 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 106.68 174.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 106.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 106.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc643be9-8975-4921-b09f-4df703abd9c7")
-		)
-		(pin "2"
-			(uuid "e58868f6-02ea-44fd-9d60-d140a72d92d4")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 106.68 33.02 0)
 		(mirror x)
@@ -10308,82 +10216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 143.51 181.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f4f4646-767c-4823-b773-316c42de544e")
-		(property "Reference" "R15"
-			(at 143.51 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 143.51 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 183.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 143.51 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6898f14d-d47d-46bc-ad74-2305c9c7ae5a")
-		)
-		(pin "2"
-			(uuid "0926e173-357c-4b5b-9615-09131d55b125")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 39.37 127 0)
 		(unit 1)
@@ -10444,6 +10276,71 @@
 			(project ""
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25f789f2-1dde-4d24-9ff9-48dd138cd4cc")
+		(property "Reference" "#PWR039"
+			(at 151.13 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec17fb75-d9eb-4e84-9958-6f038a61dde9")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10860,33 +10757,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 106.68 162.56 90)
+		(lib_id "power:GND")
+		(at 163.83 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3ddf4f51-34bb-4e0a-a512-8783ed6780e1")
-		(property "Reference" "R1"
-			(at 106.68 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 106.68 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 106.68 164.338 90)
+		(uuid "3d41cd6e-1ee7-4f92-9b39-bccb2105daae")
+		(property "Reference" "#PWR036"
+			(at 163.83 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10894,8 +10775,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 106.68 162.56 0)
+		(property "Value" "GND"
+			(at 163.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10903,8 +10792,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 106.68 162.56 0)
+		(property "Datasheet" ""
+			(at 163.83 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10912,8 +10801,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 106.68 162.56 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10922,15 +10811,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cea4b806-c912-43db-8cd3-35c537d76390")
-		)
-		(pin "2"
-			(uuid "14926acf-5113-4ff5-b213-ed5ec64cf1c2")
+			(uuid "53bedf3d-e99b-4aef-bdbb-20baa6746152")
 		)
 		(instances
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "R1")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11009,6 +10895,148 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "404a6752-29e9-4008-abde-335b97d31824")
+		(property "Reference" "#PWR040"
+			(at 138.43 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88fd4413-20c5-4ea4-9782-d946be89e06a")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44811fd4-1990-4be5-8a25-3e1012ee3833")
+		(property "Reference" "R13"
+			(at 100.33 169.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "70"
+			(at 100.33 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.33 169.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 100.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e83b4bd7-bebe-48e6-8b23-3e4137d9cddd")
+		)
+		(pin "1"
+			(uuid "8d687aaf-2cef-454b-ade9-d3820305cde7")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11167,7 +11195,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 181.61 0)
+		(at 175.26 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11176,7 +11204,7 @@
 		(fields_autoplaced yes)
 		(uuid "49092926-61f9-42fc-9067-adb572e4b5c3")
 		(property "Reference" "#PWR021"
-			(at 163.83 187.96 0)
+			(at 175.26 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11185,7 +11213,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 186.69 0)
+			(at 175.26 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11193,7 +11221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 181.61 0)
+			(at 175.26 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11202,7 +11230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 181.61 0)
+			(at 175.26 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11211,7 +11239,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 181.61 0)
+			(at 175.26 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11362,83 +11390,6 @@
 			(project ""
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 161.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54db48ab-b29a-4bb1-9878-72fea5894c87")
-		(property "Reference" "R13"
-			(at 143.51 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 143.51 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 163.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 143.51 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edc77565-9483-4ba9-ae42-89d0e2420b34")
-		)
-		(pin "2"
-			(uuid "46db5d88-4fb5-4cf1-88c3-fc02a56d45c8")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11748,7 +11699,7 @@
 	)
 	(symbol
 		(lib_id "LED:SMLVN6RGB")
-		(at 121.92 172.72 0)
+		(at 109.22 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11757,7 +11708,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f4445dc-09a0-4164-be72-b5f79f330028")
 		(property "Reference" "D1"
-			(at 121.92 158.75 0)
+			(at 109.22 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,7 +11716,7 @@
 			)
 		)
 		(property "Value" "SMLVN6RGB"
-			(at 121.92 161.29 0)
+			(at 109.22 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11773,7 +11724,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 121.92 181.61 0)
+			(at 109.22 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11782,7 +11733,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 121.92 173.99 0)
+			(at 109.22 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11791,7 +11742,7 @@
 			)
 		)
 		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 121.92 172.72 0)
+			(at 109.22 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11800,7 +11751,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 121.92 172.72 0)
+			(at 109.22 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12228,6 +12179,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 158.75 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70c9d7fd-d13b-4af8-899f-767361f3d513")
+		(property "Reference" "R3"
+			(at 161.29 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 161.798 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.972 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 158.75 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6448a52-81bd-4bc5-bdc3-051467ce0ef4")
+		)
+		(pin "2"
+			(uuid "2e52cad8-b048-4455-ba53-8d2081a40d95")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72b75642-a874-42dc-856f-b342d6a64673")
+		(property "Reference" "R1"
+			(at 135.89 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 136.398 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 131.572 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 133.35 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5206064e-8ca7-48c5-9bd0-31071563576a")
+		)
+		(pin "2"
+			(uuid "19c16dd4-6106-461f-94ee-e8745877d9f3")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 138.43 83.82 0)
 		(unit 1)
@@ -12483,72 +12586,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85851ead-c22f-4904-9cfb-0da68af0bd50")
-		(property "Reference" "#PWR036"
-			(at 127 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2e1fa1b-e7cd-45ce-a320-b91ccacd4843")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 34.29 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12674,6 +12711,91 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 146.05 170.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f3930f8-8297-404d-9279-7f48e49924cb")
+		(property "Reference" "Q4"
+			(at 147.32 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904LT1G"
+			(at 152.908 166.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 147.955 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MMBT3904LT1G_C81464.pdf"
+			(at 146.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 146.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 146.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "763830c1-dff2-4ce7-925d-31469c599e87")
+		)
+		(pin "2"
+			(uuid "9d0d4b0a-9cf9-4427-bec3-02e9aaf63188")
+		)
+		(pin "3"
+			(uuid "85a531fb-5c44-4557-a00d-9f9cd7928fca")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -13218,6 +13340,167 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 158.75 175.26 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a425dba4-fe02-4ffc-916d-3d8fe268a6b4")
+		(property "Reference" "Q5"
+			(at 157.4799 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904LT1G"
+			(at 166.878 171.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 160.655 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MMBT3904LT1G_C81464.pdf"
+			(at 158.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 158.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 158.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f4c4119-5a6a-4e60-be3c-f2a759acb847")
+		)
+		(pin "2"
+			(uuid "2f1b5665-85b6-42a7-b137-8911fbdd21fc")
+		)
+		(pin "3"
+			(uuid "cd411a48-5e08-4a53-9e91-66320076416b")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a455cb7a-ca38-451f-9216-17ff0a5ab65d")
+		(property "Reference" "R15"
+			(at 100.33 180.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "70"
+			(at 100.076 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.33 179.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 100.33 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff073235-72c6-49ac-97cd-0a69b5204971")
+		)
+		(pin "1"
+			(uuid "1d0f7da4-c5b1-4a69-8aba-c3dcb00a8a08")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_Module:ESP32-WROOM-32")
 		(at 166.37 106.68 0)
 		(unit 1)
@@ -13550,82 +13833,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 143.51 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab81bc9f-4143-4c07-9894-756db1b2d836")
-		(property "Reference" "R14"
-			(at 143.51 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 143.51 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.51 173.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 143.51 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5af410b-26c2-477a-9a3e-2095894babde")
-		)
-		(pin "2"
-			(uuid "98e50d25-8aa0-40ed-9dea-41306cd5d0db")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 137.16 121.92 90)
 		(unit 1)
@@ -13687,82 +13894,6 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 182.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af1ffc69-fbc9-4190-8e82-c2e46050b1d6")
-		(property "Reference" "R3"
-			(at 106.68 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 106.68 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 106.68 184.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 106.68 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 106.68 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "628c1592-9430-4a90-95a7-7a89c70ef69e")
-		)
-		(pin "2"
-			(uuid "4ba1b97b-584b-4442-98d2-d3e8672ae33b")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14836,7 +14967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 259.842 133.35 90)
 			(effects
 				(font
@@ -14882,6 +15013,91 @@
 			(project ""
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 133.35 165.1 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e222c3ac-455e-4558-8504-f85ace7a6d81")
+		(property "Reference" "Q3"
+			(at 134.366 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904LT1G"
+			(at 139.954 161.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 135.255 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MMBT3904LT1G_C81464.pdf"
+			(at 133.35 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 133.35 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 133.35 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25e0a563-8639-49ce-b3c4-6f8777601fe6")
+		)
+		(pin "2"
+			(uuid "b67e22ee-6aad-4e2e-9a4f-a16cbf7ba2a9")
+		)
+		(pin "3"
+			(uuid "9ca75f5d-4270-4401-b128-ab2bea45b3ad")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -14955,7 +15171,7 @@
 	)
 	(symbol
 		(lib_id "LED:SMLVN6RGB")
-		(at 158.75 171.45 0)
+		(at 119.38 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14964,7 +15180,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6d1a710-a22c-4677-9f4e-fe39f3638571")
 		(property "Reference" "D2"
-			(at 158.75 157.48 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14972,7 +15188,7 @@
 			)
 		)
 		(property "Value" "SMLVN6RGB"
-			(at 158.75 160.02 0)
+			(at 119.38 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14980,7 +15196,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 158.75 180.34 0)
+			(at 119.38 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14989,7 +15205,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 158.75 172.72 0)
+			(at 119.38 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14998,7 +15214,7 @@
 			)
 		)
 		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 158.75 171.45 0)
+			(at 119.38 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15007,7 +15223,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 158.75 171.45 0)
+			(at 119.38 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

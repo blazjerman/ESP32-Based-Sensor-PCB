@@ -896,6 +896,12 @@
 		(color 0 0 0 0)
 		(uuid "cc5b8fdc-136e-472d-93f5-a8ea1486feac")
 	)
+	(junction
+		(at 147.32 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e42f76fb-eaa3-443f-aac6-d1e269d9914f")
+	)
 	(wire
 		(pts
 			(xy 116.84 82.55) (xy 116.84 93.98)
@@ -925,6 +931,16 @@
 			(type default)
 		)
 		(uuid "4130c95d-979b-4e53-b016-c7602879df29")
+	)
+	(wire
+		(pts
+			(xy 147.32 99.06) (xy 156.21 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eb98672-12cc-4f52-b07e-c1ca3a2befdd")
 	)
 	(wire
 		(pts
@@ -1008,7 +1024,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 99.06) (xy 156.21 99.06)
+			(xy 132.08 99.06) (xy 147.32 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1171,6 +1187,72 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37/08b287c6-4977-464e-bd9a-c8b8a0d84aac"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b2ed7e3-810f-4185-927c-8b12503fb421")
+		(property "Reference" "#PWR038"
+			(at 147.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49475574-613c-496d-85ba-917d47215f26")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37/08b287c6-4977-464e-bd9a-c8b8a0d84aac"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1414,6 +1496,85 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 147.32 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ec645bb-e276-41b5-be14-74c9b5831cbf")
+		(property "Reference" "R18"
+			(at 149.86 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 149.86 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 145.542 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2fe08fb-d89f-4669-b5e7-c5b56605b71a")
+		)
+		(pin "1"
+			(uuid "b7ac9c70-0b97-4aab-8e71-aa91c8b7e88d")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37/08b287c6-4977-464e-bd9a-c8b8a0d84aac"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 156.21 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1423,7 +1584,7 @@
 		(fields_autoplaced yes)
 		(uuid "65f2e6ea-a086-4a3b-b518-a913a919c176")
 		(property "Reference" "R17"
-			(at 160.02 101.5999 0)
+			(at 158.75 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,8 +1592,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 160.02 104.1399 0)
+		(property "Value" "10k"
+			(at 158.75 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +1742,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab9826f3-abef-4fa0-8a52-334d35351366")
 		(property "Reference" "R16"
-			(at 160.02 90.1699 0)
+			(at 158.75 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,8 +1750,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "31k"
-			(at 160.02 92.7099 0)
+		(property "Value" "70k"
+			(at 158.75 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
