@@ -5919,196 +5919,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:2N3906"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N3906"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "PNP Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N3906_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N3906_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -6207,12 +6017,6 @@
 		)
 	)
 	(junction
-		(at 151.13 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "082720d5-30e6-43b7-8bba-accb2393d5c0")
-	)
-	(junction
 		(at 35.56 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6222,7 +6026,7 @@
 		(at 238.76 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "18e38dc3-b91b-49fb-861a-862e57139432")
+		(uuid "17f963b7-2083-40cc-8ee6-6ad58d06f61e")
 	)
 	(junction
 		(at 214.63 39.37)
@@ -6259,6 +6063,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4694fc14-a246-4f1a-a93b-00b28e3e2ea2")
+	)
+	(junction
+		(at 125.73 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "539a748f-34d7-4aec-b9a2-df31e81c5831")
+	)
+	(junction
+		(at 157.48 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58e242ba-3fe7-40ff-959f-4daf11553bc1")
 	)
 	(junction
 		(at 261.62 129.54)
@@ -6331,6 +6147,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c093f562-8a9c-4902-b288-3d743aa6890f")
+	)
+	(junction
+		(at 147.32 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9bac870-4f7e-4ef8-9931-1bae7bca7772")
 	)
 	(junction
 		(at 223.52 87.63)
@@ -6718,6 +6540,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 59.69) (xy 166.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df574c0-b4dc-42ae-89fe-4fd26ee1b9ba")
+	)
+	(wire
+		(pts
 			(xy 139.7 129.54) (xy 137.16 129.54)
 		)
 		(stroke
@@ -6725,6 +6557,16 @@
 			(type default)
 		)
 		(uuid "4e422b43-6437-4af1-8fd7-21fda805d1be")
+	)
+	(wire
+		(pts
+			(xy 147.32 59.69) (xy 157.48 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e63719a-742a-40a4-b6ed-705f401d5ff2")
 	)
 	(wire
 		(pts
@@ -6808,7 +6650,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 59.69) (xy 151.13 59.69)
+			(xy 138.43 59.69) (xy 147.32 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7098,6 +6940,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 76.2) (xy 138.43 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a592ae-8dbc-4c47-9b91-3ceb52a7bdc5")
+	)
+	(wire
+		(pts
 			(xy 58.42 27.94) (xy 54.61 27.94)
 		)
 		(stroke
@@ -7265,16 +7117,6 @@
 			(type default)
 		)
 		(uuid "bcc53568-a841-4838-9a75-2d1560b3b784")
-	)
-	(wire
-		(pts
-			(xy 151.13 59.69) (xy 166.37 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd342225-d41d-41ac-99f6-5a12cdc5080d")
 	)
 	(wire
 		(pts
@@ -7478,7 +7320,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 76.2) (xy 138.43 76.2)
+			(xy 124.46 76.2) (xy 125.73 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8916,7 +8758,7 @@
 	)
 	(global_label "EN"
 		(shape input)
-		(at 135.89 76.2 180)
+		(at 124.46 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8926,7 +8768,7 @@
 		)
 		(uuid "c2e64586-a173-4c00-961d-c92f585c7f6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.4253 76.2 0)
+			(at 118.9953 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9269,16 +9111,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 63.5 0)
+		(at 157.48 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "05852b65-ceb3-4813-9155-1746374b9c52")
 		(property "Reference" "C6"
-			(at 154.94 62.2299 0)
+			(at 159.766 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,7 +9128,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 154.94 64.7699 0)
+			(at 159.766 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9296,7 +9137,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 152.0952 67.31 0)
+			(at 158.4452 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9305,7 +9146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 63.5 0)
+			(at 157.48 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +9155,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 151.13 63.5 0)
+			(at 157.48 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,7 +9164,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 151.13 63.5 0)
+			(at 157.48 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9573,7 +9414,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ7.0CA")
-		(at 238.76 125.73 90)
+		(at 238.76 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9587,7 +9428,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SMAJ7.0CA"
@@ -9596,11 +9437,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 243.84 125.73 0)
+			(at 233.68 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,6 +11346,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 48.26 173.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bde769c-7b44-4bcd-9272-28e1e0d104e4")
+		(property "Reference" "Q2"
+			(at 53.34 175.2601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904LT1G"
+			(at 53.34 172.7201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 53.34 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MMBT3904LT1G_C81464.pdf"
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5c97324-0f17-49fd-8a0e-821ee6d7a751")
+		)
+		(pin "2"
+			(uuid "40489d48-dcc1-4a73-9691-f383dc1f7807")
+		)
+		(pin "3"
+			(uuid "2deafc71-5af5-49f2-984f-2f6ed97b74ae")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_Expansion:TCA9548APWR")
 		(at 233.68 74.93 0)
 		(unit 1)
@@ -12832,16 +12758,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 67.31 0)
+		(at 157.48 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "90ef68a1-ea4b-41ed-a86a-1ec98e99e42b")
 		(property "Reference" "#PWR016"
-			(at 151.13 73.66 0)
+			(at 157.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12850,7 +12775,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 72.39 0)
+			(at 157.48 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12858,7 +12783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 67.31 0)
+			(at 157.48 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12867,7 +12792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 67.31 0)
+			(at 157.48 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12876,7 +12801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 67.31 0)
+			(at 157.48 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13303,6 +13228,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 147.32 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2297257-a571-4647-9250-05357c7aed03")
+		(property "Reference" "#PWR042"
+			(at 147.32 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abecb152-2cd1-466b-b056-b33aa9342d13")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 165.1 29.21 270)
 		(unit 1)
@@ -13363,6 +13353,72 @@
 			(project ""
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a391ca98-238b-4aa7-bf68-7e3739e0e20a")
+		(property "Reference" "#PWR041"
+			(at 125.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dde4af1-cc50-49e1-b237-5a4579194e0a")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -14212,6 +14268,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 125.73 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7b1a0c2-9849-4cf3-b248-20c89eceaba7")
+		(property "Reference" "C10"
+			(at 129.54 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 129.54 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 126.6952 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 125.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67ffa5f1-ecd8-492e-9f69-aaa4ea3572c5")
+		)
+		(pin "2"
+			(uuid "0652bf6c-c02c-459f-ac31-1bb6c0081c39")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 45.72 0)
 		(unit 1)
@@ -14272,91 +14407,6 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3906")
-		(at 48.26 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbc07e82-f72c-4b91-aa5e-30bb450df744")
-		(property "Reference" "Q2"
-			(at 53.34 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3906LT1G"
-			(at 53.34 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 53.34 175.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810301518_onsemi-MMBT3906LT1G_C53444.pdf"
-			(at 48.26 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
-			(at 48.26 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 48.26 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7d60ee5-590e-49a8-8442-93fd4a85fc1f")
-		)
-		(pin "3"
-			(uuid "3fd1ac89-9386-454a-a219-81139bdd1cc3")
-		)
-		(pin "2"
-			(uuid "fd43cc3b-a5bb-4deb-ae51-bddc7f16f7dc")
-		)
-		(instances
-			(project ""
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -15726,6 +15776,84 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 147.32 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9d924ec-cb63-4568-af64-536d34ac031f")
+		(property "Reference" "C13"
+			(at 149.606 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 149.606 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 148.2852 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a192eb89-8978-4784-a697-5bfe21d79080")
+		)
+		(pin "2"
+			(uuid "cb2c3853-006f-43cd-9593-d01455504d5c")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "C13")
 					(unit 1)
 				)
 			)
