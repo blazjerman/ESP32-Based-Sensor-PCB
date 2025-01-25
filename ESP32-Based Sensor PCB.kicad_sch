@@ -5919,6 +5919,275 @@
 				)
 			)
 		)
+		(symbol "VEML7700-TR:VEML7700-TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "VEML7700-TR"
+				(at -7.62 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "VEML7700-TR:XDCR_VEML7700-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/VEML7700-TR/Vishay+Semiconductor+Opto+Division/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/VEML7700-TR/Vishay+Semiconductor+Opto+Division/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "VEML7700-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Optical Sensor Ambient 545nm I2C 4-SMD, J-Lead\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "VEML7700-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "VEML7700-TR_0_0"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input clock
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -6017,6 +6286,12 @@
 		)
 	)
 	(junction
+		(at 252.73 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "144caf4a-26f7-46e3-b6d8-7fd05fb3bb0c")
+	)
+	(junction
 		(at 35.56 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6029,10 +6304,22 @@
 		(uuid "17f963b7-2083-40cc-8ee6-6ad58d06f61e")
 	)
 	(junction
+		(at 278.13 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ceffef9-4d62-4da2-b150-1ae460407367")
+	)
+	(junction
 		(at 214.63 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1db2dc8a-8326-4dc8-b04e-8be1cd410123")
+	)
+	(junction
+		(at 252.73 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28833a4b-f7d4-4784-99b2-57f94024df21")
 	)
 	(junction
 		(at 57.15 49.53)
@@ -6105,6 +6392,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ce344c5-4524-41dc-b217-5cba6c014699")
+	)
+	(junction
+		(at 278.13 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e8446d4-93b6-41d4-b102-276c556c6e7f")
 	)
 	(junction
 		(at 88.9 92.71)
@@ -6237,10 +6530,6 @@
 		(uuid "8b0885f8-c01c-4209-a77a-de28467e84e5")
 	)
 	(no_connect
-		(at 243.84 95.25)
-		(uuid "904d7e01-57f1-4abf-9c83-e37667be2b62")
-	)
-	(no_connect
 		(at 148.59 38.1)
 		(uuid "969c2cb8-3b96-4b96-a80b-53404a67c130")
 	)
@@ -6281,10 +6570,6 @@
 		(uuid "cae50904-5cb8-44dc-9049-ddabfe321ce9")
 	)
 	(no_connect
-		(at 243.84 92.71)
-		(uuid "d3607dd3-ef8e-47f4-b5ad-a69eabc64a7d")
-	)
-	(no_connect
 		(at 151.13 116.84)
 		(uuid "d52e167d-9f89-43e2-a6be-83b8de4a2469")
 	)
@@ -6313,6 +6598,16 @@
 			(type default)
 		)
 		(uuid "084327ae-9f96-4ca4-bf06-93805bfdb768")
+	)
+	(wire
+		(pts
+			(xy 278.13 87.63) (xy 278.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ff996d-cfc7-4dae-a0a0-5b1cad1ef085")
 	)
 	(wire
 		(pts
@@ -6363,16 +6658,6 @@
 			(type default)
 		)
 		(uuid "1e5c9f64-8a47-4891-b599-c051e21ba278")
-	)
-	(wire
-		(pts
-			(xy 45.72 114.3) (xy 40.64 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f45c93c-d95e-4283-8f94-e507be9ca883")
 	)
 	(wire
 		(pts
@@ -6706,6 +6991,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 116.84) (xy 45.72 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60034598-b152-463e-ad51-43e86745275a")
+	)
+	(wire
+		(pts
 			(xy 185.42 111.76) (xy 181.61 111.76)
 		)
 		(stroke
@@ -6906,13 +7201,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 116.84) (xy 40.64 116.84)
+			(xy 243.84 92.71) (xy 252.73 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "838da782-8039-4309-83df-ae11e8bbed2c")
+		(uuid "82acb67b-d8a6-41f5-a9a4-e846f1ea7e7d")
 	)
 	(wire
 		(pts
@@ -7003,6 +7298,16 @@
 			(type default)
 		)
 		(uuid "95a592ae-8dbc-4c47-9b91-3ceb52a7bdc5")
+	)
+	(wire
+		(pts
+			(xy 243.84 95.25) (xy 252.73 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995a82c0-7826-481d-8343-4510a0b2c0d7")
 	)
 	(wire
 		(pts
@@ -7116,6 +7421,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 114.3) (xy 45.72 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf43234-4e5f-4e73-a9f3-261da8812953")
+	)
+	(wire
+		(pts
 			(xy 106.68 109.22) (xy 101.6 109.22)
 		)
 		(stroke
@@ -7206,6 +7521,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 97.79) (xy 278.13 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d77193-a9bd-49fe-b246-eb4f6fa3010a")
+	)
+	(wire
+		(pts
 			(xy 138.43 76.2) (xy 151.13 76.2)
 		)
 		(stroke
@@ -7223,6 +7548,16 @@
 			(type default)
 		)
 		(uuid "cd90f71d-1931-4d24-951b-bb1e0404ea04")
+	)
+	(wire
+		(pts
+			(xy 278.13 90.17) (xy 278.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda07a85-952b-412b-85ff-fd6e6147e83c")
 	)
 	(wire
 		(pts
@@ -8030,6 +8365,28 @@
 			)
 		)
 	)
+	(global_label "VCC_3.3"
+		(shape input)
+		(at 252.73 102.87 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a29ebe4-36ee-47e5-b659-32f5344c3316")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.73 113.4752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EN"
 		(shape input)
 		(at 50.8 153.67 90)
@@ -8734,6 +9091,28 @@
 			)
 		)
 	)
+	(global_label "VCC_3.3"
+		(shape input)
+		(at 278.13 85.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad921ed1-897e-4e26-a698-d33502ebf982")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.13 74.4848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD2"
 		(shape input)
 		(at 243.84 69.85 0)
@@ -8901,6 +9280,28 @@
 		(uuid "d7d45d43-ef40-46f2-9f07-842f02d10315")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 250.5142 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_3.3"
+		(shape input)
+		(at 252.73 85.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbda69b4-06a7-48ec-a10b-e25effbd956e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.73 74.4848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10152,6 +10553,289 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 278.13 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c3f3892-ec96-49c3-bf6c-4a571bef237c")
+		(property "Reference" "C15"
+			(at 279.146 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 278.892 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 279.0952 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 278.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 278.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c41c3df-d552-435e-88e8-afc02bfc0f9a")
+		)
+		(pin "2"
+			(uuid "9873ae9e-627f-48d9-b1d4-17bc04cc65e2")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VEML7700-TR:VEML7700-TR")
+		(at 265.43 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1da05d60-8d9a-4b82-9de5-551e0a050e4f")
+		(property "Reference" "U7"
+			(at 265.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VEML7700-TR"
+			(at 265.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VEML7700-TR:XDCR_VEML7700-TR"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3 mm"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/VEML7700-TR/Vishay+Semiconductor+Opto+Division/view-part/?ref=eda"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.6"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/VEML7700-TR/Vishay+Semiconductor+Opto+Division/view-part/?ref=snap"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "VEML7700-TR"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Optical Sensor Ambient 545nm I2C 4-SMD, J-Lead\n                        \n"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Vishay"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "VEML7700-TR"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "aa8dd506-0ee0-42d2-bf17-81d0c4e74e5a")
+		)
+		(pin "2"
+			(uuid "9ed4cfba-6b96-4fe4-ab7f-14e6f381fbed")
+		)
+		(pin "1"
+			(uuid "4ebf1367-89c6-4327-8085-44db5e2e7a4b")
+		)
+		(pin "4"
+			(uuid "5426941c-8d27-4315-a94c-d984658d5ff3")
+		)
+		(instances
+			(project ""
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 127 0)
 		(unit 1)
@@ -10686,6 +11370,84 @@
 			(project ""
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 252.73 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a75d861-ae26-40f4-8f88-772eae848d2f")
+		(property "Reference" "R20"
+			(at 247.396 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 247.65 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 254.508 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e47928e5-da3f-4711-9752-8ccf98f5511b")
+		)
+		(pin "2"
+			(uuid "60c78446-81b6-425c-a3a2-2d89a43f8afd")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -12600,6 +13362,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 252.73 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82117950-4008-4823-84b0-120ef5690382")
+		(property "Reference" "R19"
+			(at 247.396 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 247.65 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 254.508 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 252.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d27ea93-d441-41e6-946f-8ec6b14049b2")
+		)
+		(pin "2"
+			(uuid "4e3eed7b-42b9-4c78-b47c-a718365e42c2")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 29.21 127 0)
 		(unit 1)
@@ -13639,6 +14479,71 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4a185c7-31d3-4563-9e86-c310440e3fa2")
+		(property "Reference" "#PWR043"
+			(at 278.13 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "167b9b0a-c56d-4cff-8e08-a3dba2fa2cab")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
