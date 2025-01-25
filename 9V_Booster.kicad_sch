@@ -1827,7 +1827,7 @@
 				)
 			)
 		)
-		(property "Value" "22µH"
+		(property "Value" "10µH"
 			(at 124.46 80.01 90)
 			(effects
 				(font
@@ -1844,7 +1844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-LQH5BPZ4R7NT0L/C703747"
 			(at 124.46 82.55 0)
 			(effects
 				(font
@@ -1871,7 +1871,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "LQH5BPZ4R7NT0L"
 			(at 124.46 82.55 0)
 			(effects
 				(font
