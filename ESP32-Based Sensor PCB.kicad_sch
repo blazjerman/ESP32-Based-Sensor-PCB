@@ -3827,47 +3827,42 @@
 				)
 			)
 		)
-		(symbol "LED:SMLVN6RGB"
+		(symbol "LTST-G563EGBW:LTST-G563EGBW"
 			(pin_names
-				(offset 0) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 12.7 0)
+				(at -5.08 13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "SMLVN6RGB"
-				(at 0 10.16 0)
+			(property "Value" "LTST-G563EGBW"
+				(at -5.08 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-				(at 0 -8.89 0)
+			(property "Footprint" "LTST-G563EGBW:LED_LTST-G563EGBW"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3876,7 +3871,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LED RGB Diode"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3885,45 +3880,130 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LED*ROHM*SMLVN6*"
+			(property "MF" "Lite-On Electronics"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "SMLVN6RGB_0_0"
-				(text "B"
-					(at 1.905 3.81 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-				)
-				(text "G"
-					(at 1.905 -6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "R"
-					(at 1.905 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+					(justify bottom)
+					(hide yes)
 				)
 			)
-			(symbol "SMLVN6RGB_0_1"
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LTST-G563EGBW/Lite-On/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-G563EGBW/Lite-On/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "LTST-G563EGBW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Red, Green, Blue (RGB) 623nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2.2V Red, 3.3V Green, 3.3V Blue 6-SMD, J-Lead\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Lite-On Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-G563EGBW_0_0"
 				(rectangle
-					(start -2.794 8.382)
-					(end 2.794 -7.62)
+					(start -5.08 -12.7)
+					(end 5.08 12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3932,125 +4012,9 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -1.27 -1.27)
-					(end -1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end -1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end -1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 6.35)
-					(end -1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy -1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -6.35)
+						(xy -1.27 -9.144) (xy 1.27 -7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -4062,19 +4026,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
+						(xy -1.27 -7.62) (xy -5.08 -7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -4086,31 +4038,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 5.08) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 1.27 3.81)
+						(xy -1.27 -7.62) (xy -1.27 -9.144)
 					)
 					(stroke
 						(width 0.254)
@@ -4122,31 +4050,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 1.27 3.81) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35) (xy 1.27 -5.08) (xy -1.27 -3.81)
+						(xy -1.27 -6.096) (xy -1.27 -7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -4158,7 +4062,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+						(xy -1.27 -1.524) (xy 1.27 0)
 					)
 					(stroke
 						(width 0.254)
@@ -4170,7 +4074,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81) (xy 1.27 5.08) (xy -1.27 6.35)
+						(xy -1.27 0) (xy -5.08 0)
 					)
 					(stroke
 						(width 0.254)
@@ -4182,10 +4086,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.81) (xy -1.524 -2.286) (xy -0.762 -2.286) (xy -1.524 -2.286) (xy -1.524 -3.048)
+						(xy -1.27 0) (xy -1.27 -1.524)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4194,10 +4098,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy -1.524 2.794) (xy -0.762 2.794) (xy -1.524 2.794) (xy -1.524 2.032)
+						(xy -1.27 1.524) (xy -1.27 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4206,10 +4110,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 6.35) (xy -1.524 7.874) (xy -0.762 7.874) (xy -1.524 7.874) (xy -1.524 7.112)
+						(xy -1.27 6.096) (xy 1.27 7.62)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4218,10 +4122,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 -3.81) (xy -0.508 -2.286) (xy 0.254 -2.286) (xy -0.508 -2.286) (xy -0.508 -3.048)
+						(xy -1.27 7.62) (xy -5.08 7.62)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4230,10 +4134,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 1.27) (xy -0.508 2.794) (xy 0.254 2.794) (xy -0.508 2.794) (xy -0.508 2.032)
+						(xy -1.27 7.62) (xy -1.27 6.096)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4242,122 +4146,435 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 6.35) (xy -0.508 7.874) (xy 0.254 7.874) (xy -0.508 7.874) (xy -0.508 7.112)
+						(xy -1.27 9.144) (xy -1.27 7.62)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "SMLVN6RGB_1_1"
+				(polyline
+					(pts
+						(xy 0 -4.572) (xy -0.889 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.048) (xy -0.889 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.668) (xy -0.889 9.652)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 -5.207) (xy 0 -6.223)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 2.413) (xy 0 1.397)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 10.033) (xy 0 9.017)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy -1.27 -6.096)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 1.27 -9.144)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.096) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.524) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy -1.27 9.144)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 1.27 6.096)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 9.144) (xy 1.27 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.318) (xy 0.254 -4.826) (xy 0.635 -3.81) (xy -0.254 -4.318)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 3.302) (xy 0.254 2.794) (xy 0.635 3.81) (xy -0.254 3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 10.922) (xy 0.254 10.414) (xy 0.635 11.43) (xy -0.254 10.922)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -4.953) (xy 1.143 -5.461) (xy 1.524 -4.445) (xy 0.635 -4.953)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.667) (xy 1.143 2.159) (xy 1.524 3.175) (xy 0.635 2.667)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 10.287) (xy 1.143 9.779) (xy 1.524 10.795) (xy 0.635 10.287)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(text "BLUE"
+					(at -1.905 -10.668 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "GREEN"
+					(at -2.159 -3.048 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "RED"
+					(at -1.524 4.572 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(justify left bottom)
+					)
+				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at 7.62 -7.62 180)
 					(length 2.54)
-					(name "BA"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "RA"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 7.62 180)
 					(length 2.54)
-					(name "GA"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at -7.62 7.62 0)
 					(length 2.54)
-					(name "GK"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "RK"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
+					(at -7.62 -7.62 0)
 					(length 2.54)
-					(name "BK"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -6693,13 +6910,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 167.64) (xy 99.06 167.64)
+			(xy 106.68 161.29) (xy 111.76 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "084327ae-9f96-4ca4-bf06-93805bfdb768")
+		(uuid "03b13787-f553-4ef0-8da4-9af655ae8644")
 	)
 	(wire
 		(pts
@@ -6730,26 +6947,6 @@
 			(type default)
 		)
 		(uuid "1acd6c37-1440-4f43-a46a-dbaaa6d3e8ea")
-	)
-	(wire
-		(pts
-			(xy 111.76 172.72) (xy 109.22 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ca3be7b-dc1f-4930-b55e-1fef371933f6")
-	)
-	(wire
-		(pts
-			(xy 96.52 172.72) (xy 99.06 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1df7c54c-2283-4ed0-afc3-0f825b0166c5")
 	)
 	(wire
 		(pts
@@ -6833,7 +7030,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 172.72) (xy 140.97 172.72)
+			(xy 127 168.91) (xy 146.05 168.91)
 		)
 		(stroke
 			(width 0)
@@ -6853,7 +7050,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 177.8) (xy 153.67 177.8)
+			(xy 127 176.53) (xy 158.75 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6890,6 +7087,16 @@
 			(type default)
 		)
 		(uuid "35c3b0ba-2ab2-4544-88b6-ad9b8754c641")
+	)
+	(wire
+		(pts
+			(xy 106.68 168.91) (xy 111.76 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddb2230-88b2-459a-81d2-3c1d270b6483")
 	)
 	(wire
 		(pts
@@ -7113,7 +7320,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 167.64) (xy 128.27 167.64)
+			(xy 127 161.29) (xy 133.35 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7223,6 +7430,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 176.53) (xy 111.76 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7244f769-34d0-4fe7-a513-164898420af7")
+	)
+	(wire
+		(pts
 			(xy 199.39 138.43) (xy 204.47 138.43)
 		)
 		(stroke
@@ -7310,16 +7527,6 @@
 			(type default)
 		)
 		(uuid "788de660-edba-4788-9d8a-d2c6b4ec6fba")
-	)
-	(wire
-		(pts
-			(xy 111.76 177.8) (xy 109.22 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d1d4b2a-0726-4414-bf2e-208634a43242")
 	)
 	(wire
 		(pts
@@ -7773,16 +7980,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 167.64) (xy 109.22 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b7377e-a57c-4518-964e-e1434c931d8f")
-	)
-	(wire
-		(pts
 			(xy 205.74 57.15) (xy 214.63 57.15)
 		)
 		(stroke
@@ -7863,16 +8060,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 177.8) (xy 99.06 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb3441c8-670a-4b11-a1b4-b03850dfcd29")
-	)
-	(wire
-		(pts
 			(xy 214.63 39.37) (xy 218.44 39.37)
 		)
 		(stroke
@@ -7883,7 +8070,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 167.64) (xy 88.9 167.64)
+			(xy 81.28 161.29) (xy 83.82 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7893,7 +8080,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 177.8) (xy 88.9 177.8)
+			(xy 81.28 176.53) (xy 83.82 176.53)
 		)
 		(stroke
 			(width 0)
@@ -7933,7 +8120,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 172.72) (xy 88.9 172.72)
+			(xy 81.28 168.91) (xy 83.82 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8000,6 +8187,28 @@
 			)
 		)
 		(uuid "55a2c75f-6d41-4ea7-bb30-af7090ee825e")
+	)
+	(label "B"
+		(at 233.68 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a338e63-b7fb-4c4a-aef6-bf2ccf21b201")
+	)
+	(label "A"
+		(at 233.68 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d97de45-f104-4adb-a86c-866c98cb0f1e")
 	)
 	(label "D_0+"
 		(at 40.64 114.3 0)
@@ -8223,7 +8432,7 @@
 	)
 	(global_label "VCC_5"
 		(shape input)
-		(at 86.36 177.8 180)
+		(at 81.28 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8233,7 +8442,7 @@
 		)
 		(uuid "0f996e0c-18e5-4139-9fdc-cda2d54ded1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.5691 177.8 0)
+			(at 72.4891 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8311,7 +8520,7 @@
 	)
 	(global_label "LED_B"
 		(shape input)
-		(at 133.35 152.4 90)
+		(at 138.43 146.05 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8321,7 +8530,7 @@
 		)
 		(uuid "1d1c8c5c-3e83-4c14-b2e2-45c20affd32d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 143.7301 90)
+			(at 138.43 137.3801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8421,7 +8630,7 @@
 	)
 	(global_label "LED_G"
 		(shape input)
-		(at 158.75 162.56 90)
+		(at 163.83 161.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8431,7 +8640,7 @@
 		)
 		(uuid "2d2750f6-93a9-485e-bfcb-d22b626be890")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.75 153.8901 90)
+			(at 163.83 152.6201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8795,7 +9004,7 @@
 	)
 	(global_label "VCC_5"
 		(shape input)
-		(at 86.36 167.64 180)
+		(at 81.28 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8805,7 +9014,7 @@
 		)
 		(uuid "654c609f-ab06-4d24-b46f-472f9cb34c26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.5691 167.64 0)
+			(at 72.4891 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +9422,7 @@
 	)
 	(global_label "LED_R"
 		(shape input)
-		(at 146.05 157.48 90)
+		(at 151.13 153.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9223,7 +9432,7 @@
 		)
 		(uuid "a87e0ded-b996-49d9-8a5d-baea690ac56e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.05 148.8101 90)
+			(at 151.13 145.0001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9543,7 +9752,7 @@
 	)
 	(global_label "VCC_5"
 		(shape input)
-		(at 86.36 172.72 180)
+		(at 81.28 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9553,7 +9762,7 @@
 		)
 		(uuid "e5f0da1a-a830-4f32-a7a5-c583c1c63c24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.5691 172.72 0)
+			(at 72.4891 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9644,7 +9853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-TNPW0603680RBEEA/C2079059"
 			(at 261.62 140.97 0)
 			(effects
 				(font
@@ -9662,7 +9871,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2079059"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 261.62 140.97 0)
 			(effects
 				(font
@@ -9688,7 +9906,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 161.29 0)
+		(at 151.13 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9696,7 +9914,7 @@
 		(dnp no)
 		(uuid "023442f7-ae2e-439f-968a-1031921ac4dc")
 		(property "Reference" "R2"
-			(at 148.59 162.814 0)
+			(at 153.67 159.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9704,7 +9922,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 149.098 160.782 0)
+			(at 154.178 156.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,7 +9930,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 144.272 161.29 90)
+			(at 149.352 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,8 +9938,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 146.05 161.29 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+			(at 151.13 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9730,7 +9948,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 161.29 0)
+			(at 151.13 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,8 +9956,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 146.05 161.29 0)
+		(property "LCSC" "C844918"
+			(at 151.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 151.13 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,6 +9984,225 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LTST-G563EGBW:LTST-G563EGBW")
+		(at 99.06 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04603d54-620f-4ae7-bd96-d0f080c589ca")
+		(property "Reference" "D6"
+			(at 99.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-G563EGBW"
+			(at 99.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LTST-G563EGBW:LED_LTST-G563EGBW"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/liteon-LTSTG563EGBW/C913089"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Lite-On Electronics"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LTST-G563EGBW/Lite-On/view-part/?ref=eda"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "C"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-G563EGBW/Lite-On/view-part/?ref=snap"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LTST-G563EGBW"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Red, Green, Blue (RGB) 623nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2.2V Red, 3.3V Green, 3.3V Blue 6-SMD, J-Lead\n                        \n"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C913089"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "54c773c7-c737-4413-8250-b5ac08d46e1a")
+		)
+		(pin "2"
+			(uuid "e6df8380-9543-4b62-a4db-448028c1b3a8")
+		)
+		(pin "1"
+			(uuid "f33981de-9526-4b8f-8628-ecfecb064fc3")
+		)
+		(pin "6"
+			(uuid "fb48dd93-94dd-4156-891b-7c0f664bcd30")
+		)
+		(pin "5"
+			(uuid "8f3b1b15-973b-4c6d-84a3-2589ef9eb6d1")
+		)
+		(pin "4"
+			(uuid "4b657273-76d8-448e-b80e-b01a09e57d6c")
+		)
+		(instances
+			(project ""
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -9798,7 +10244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 157.48 63.5 0)
 			(effects
 				(font
@@ -9816,7 +10262,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 157.48 63.5 0)
 			(effects
 				(font
@@ -9842,7 +10297,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 172.72 90)
+		(at 87.63 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9850,7 +10305,7 @@
 		(dnp no)
 		(uuid "06679dcf-b834-420a-9abb-ae2f94640977")
 		(property "Reference" "R14"
-			(at 92.71 170.688 90)
+			(at 87.63 166.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9858,7 +10313,7 @@
 			)
 		)
 		(property "Value" "70"
-			(at 92.71 172.72 90)
+			(at 87.63 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9866,7 +10321,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 92.71 174.498 90)
+			(at 87.63 170.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9875,7 +10330,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 172.72 0)
+			(at 87.63 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9884,7 +10339,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 172.72 0)
+			(at 87.63 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9893,7 +10348,16 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 92.71 172.72 0)
+			(at 87.63 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 87.63 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10044,6 +10508,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 132.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3846cfad-c6c1-4872-bcff-49d8de9b0acf")
 		)
@@ -10102,7 +10575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Brightking-SMAJ70CA/C309905"
 			(at 238.76 125.73 0)
 			(effects
 				(font
@@ -10120,7 +10593,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C309905"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 238.76 125.73 0)
 			(effects
 				(font
@@ -10181,7 +10663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
 			(at 138.43 63.5 0)
 			(effects
 				(font
@@ -10199,7 +10681,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844918"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 138.43 63.5 0)
 			(effects
 				(font
@@ -10260,7 +10751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 205.74 123.19 0)
 			(effects
 				(font
@@ -10278,7 +10769,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
+			(at 205.74 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 205.74 123.19 0)
 			(effects
 				(font
@@ -10321,7 +10821,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USBLC6-2SC6"
+		(property "Value" "USBLC6-2SC6-ES"
 			(at 54.356 123.952 0)
 			(effects
 				(font
@@ -10341,7 +10841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Elecsuper-USBLC6_2SC6ES/C5180249"
 			(at 49.53 122.555 0)
 			(effects
 				(font
@@ -10360,7 +10860,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5180249"
+			(at 50.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 50.8 114.3 0)
 			(effects
 				(font
@@ -10517,6 +11026,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 106.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 106.68 33.02 0)
 			(effects
 				(font
@@ -10775,7 +11293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 278.13 93.98 0)
 			(effects
 				(font
@@ -10793,7 +11311,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
+			(at 278.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 278.13 93.98 0)
 			(effects
 				(font
@@ -10853,7 +11380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/parts/componentSearch?searchTxt=VEML7700-TR"
 			(at 265.43 95.25 0)
 			(effects
 				(font
@@ -11001,6 +11528,24 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C504893"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "aa8dd506-0ee0-42d2-bf17-81d0c4e74e5a")
 		)
@@ -11090,7 +11635,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 172.72 0)
+		(at 156.21 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11098,7 +11643,7 @@
 		(dnp no)
 		(uuid "25f789f2-1dde-4d24-9ff9-48dd138cd4cc")
 		(property "Reference" "#PWR039"
-			(at 151.13 179.07 0)
+			(at 156.21 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11107,7 +11652,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 176.276 0)
+			(at 156.21 172.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11115,7 +11660,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 172.72 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11124,7 +11669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 172.72 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11133,7 +11678,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 172.72 0)
+			(at 156.21 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11188,7 +11733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Advanced_MonolithicSystems-AMS1117_33/C6186"
 			(at 48.26 55.88 0)
 			(effects
 				(font
@@ -11206,7 +11751,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6186"
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 45.72 49.53 0)
 			(effects
 				(font
@@ -11280,6 +11834,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 245.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 245.11 24.13 0)
 			(effects
 				(font
@@ -11430,6 +11993,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 266.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "03a846a5-7bf4-436a-965d-1532164bfe7f")
 		)
@@ -11564,7 +12136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
 			(at 214.63 49.53 0)
 			(effects
 				(font
@@ -11582,7 +12154,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844918"
+			(at 214.63 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 214.63 49.53 0)
 			(effects
 				(font
@@ -11641,7 +12222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Molex-473460001/C132560"
 			(at 36.83 115.57 0)
 			(effects
 				(font
@@ -11659,7 +12240,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C132560"
+			(at 33.02 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 33.02 114.3 0)
 			(effects
 				(font
@@ -11731,7 +12321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
 			(at 252.73 99.06 0)
 			(effects
 				(font
@@ -11749,7 +12339,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844918"
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 252.73 99.06 0)
 			(effects
 				(font
@@ -11775,7 +12374,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 177.8 0)
+		(at 168.91 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11783,7 +12382,7 @@
 		(dnp no)
 		(uuid "3d41cd6e-1ee7-4f92-9b39-bccb2105daae")
 		(property "Reference" "#PWR036"
-			(at 163.83 184.15 0)
+			(at 168.91 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11792,7 +12391,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 181.61 0)
+			(at 168.91 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11800,7 +12399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 177.8 0)
+			(at 168.91 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11809,7 +12408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 177.8 0)
+			(at 168.91 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11818,7 +12417,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 177.8 0)
+			(at 168.91 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11874,7 +12473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
 			(at 218.44 49.53 0)
 			(effects
 				(font
@@ -11892,7 +12491,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844918"
+			(at 218.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 218.44 49.53 0)
 			(effects
 				(font
@@ -11918,7 +12526,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 167.64 0)
+		(at 143.51 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11926,7 +12534,7 @@
 		(dnp no)
 		(uuid "404a6752-29e9-4008-abde-335b97d31824")
 		(property "Reference" "#PWR040"
-			(at 138.43 173.99 0)
+			(at 143.51 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11935,7 +12543,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 171.45 0)
+			(at 143.51 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11943,7 +12551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 167.64 0)
+			(at 143.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11952,7 +12560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 167.64 0)
+			(at 143.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11961,7 +12569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 167.64 0)
+			(at 143.51 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11983,7 +12591,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 167.64 90)
+		(at 87.63 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11991,7 +12599,7 @@
 		(dnp no)
 		(uuid "44811fd4-1990-4be5-8a25-3e1012ee3833")
 		(property "Reference" "R13"
-			(at 92.71 165.608 90)
+			(at 87.63 159.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +12607,7 @@
 			)
 		)
 		(property "Value" "70"
-			(at 92.71 167.64 90)
+			(at 87.63 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12007,7 +12615,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 92.71 169.418 90)
+			(at 87.63 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12016,7 +12624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 167.64 0)
+			(at 87.63 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12025,7 +12633,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 167.64 0)
+			(at 87.63 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12034,7 +12642,16 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 92.71 167.64 0)
+			(at 87.63 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 87.63 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12113,6 +12730,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 208.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 208.28 96.52 0)
 			(effects
 				(font
@@ -12301,7 +12927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
 			(at 31.4452 91.44 0)
 			(effects
 				(font
@@ -12310,7 +12936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Panasonic-EEEFT1C221AP/C178588"
 			(at 30.48 87.63 0)
 			(effects
 				(font
@@ -12320,6 +12946,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 30.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 30.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C178588"
 			(at 30.48 87.63 0)
 			(effects
 				(font
@@ -12380,7 +13024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-TNPW0603680RBEEA/C2079059"
 			(at 261.62 125.73 0)
 			(effects
 				(font
@@ -12398,7 +13042,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2079059"
+			(at 261.62 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 261.62 125.73 0)
 			(effects
 				(font
@@ -12526,7 +13179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MMBT3904LT1G_C81464.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
 			(at 48.26 173.99 0)
 			(effects
 				(font
@@ -12545,7 +13198,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C81464"
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 48.26 173.99 0)
 			(effects
 				(font
@@ -12608,7 +13270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tca9548a.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/TexasInstruments-TCA9548APWR/C130026"
 			(at 234.95 68.58 0)
 			(effects
 				(font
@@ -12626,7 +13288,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C130026"
+			(at 233.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 233.68 74.93 0)
 			(effects
 				(font
@@ -12753,7 +13424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 138.43 80.01 0)
 			(effects
 				(font
@@ -12771,7 +13442,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 138.43 80.01 0)
 			(effects
 				(font
@@ -12790,94 +13470,6 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 104.14 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f4445dc-09a0-4164-be72-b5f79f330028")
-		(property "Reference" "D1"
-			(at 104.14 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMLVN6RGB"
-			(at 104.14 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 104.14 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 104.14 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 104.14 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 104.14 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "546a8324-517c-4191-9460-b15662e3c429")
-		)
-		(pin "6"
-			(uuid "319763c5-9e04-4196-a54f-020c8b24e3c8")
-		)
-		(pin "4"
-			(uuid "50c30185-ccab-4183-83dd-2e59ecf4da51")
-		)
-		(pin "5"
-			(uuid "b899c2f0-e183-4ba9-84ee-86f31a2f64a9")
-		)
-		(pin "2"
-			(uuid "658d2e50-114c-4343-a22f-872b0765aa05")
-		)
-		(pin "3"
-			(uuid "33e659d5-ff51-496c-8509-2adfc57056c9")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12947,6 +13539,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 107.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bf3a375-238c-42b6-b407-f2e561dbc553")
 		)
@@ -12999,7 +13600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 201.93 43.18 0)
 			(effects
 				(font
@@ -13017,7 +13618,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
+			(at 201.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 201.93 43.18 0)
 			(effects
 				(font
@@ -13058,7 +13668,7 @@
 				)
 			)
 		)
-		(property "Value" "1A"
+		(property "Value" "750mA"
 			(at 47.3964 96.52 90)
 			(effects
 				(font
@@ -13076,7 +13686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/parts/componentSearch?searchTxt=SMD0805B075TF"
 			(at 50.8 96.52 0)
 			(effects
 				(font
@@ -13094,7 +13704,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C269105"
+			(at 50.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 50.8 96.52 0)
 			(effects
 				(font
@@ -13145,7 +13764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 35.2552 57.15 0)
 			(effects
 				(font
@@ -13154,7 +13773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/99399-CL21A226MOQNNNE/C98190"
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -13172,7 +13791,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98190"
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -13243,6 +13871,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 260.35 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 260.35 24.13 0)
 			(effects
 				(font
@@ -13327,6 +13964,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 106.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "daadf3f2-4408-4d2a-acb6-841748a25255")
 		)
@@ -13344,7 +13990,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 166.37 0)
+		(at 163.83 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13352,7 +13998,7 @@
 		(dnp no)
 		(uuid "70c9d7fd-d13b-4af8-899f-767361f3d513")
 		(property "Reference" "R3"
-			(at 161.29 167.894 0)
+			(at 166.37 166.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13360,7 +14006,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 161.798 165.862 0)
+			(at 166.878 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13368,7 +14014,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 156.972 166.37 90)
+			(at 162.052 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13376,8 +14022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 158.75 166.37 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+			(at 163.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13386,7 +14032,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 166.37 0)
+			(at 163.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13394,8 +14040,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 158.75 166.37 0)
+		(property "LCSC" "C844918"
+			(at 163.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 163.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13420,7 +14075,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 156.21 0)
+		(at 138.43 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13428,7 +14083,7 @@
 		(dnp no)
 		(uuid "72b75642-a874-42dc-856f-b342d6a64673")
 		(property "Reference" "R1"
-			(at 135.89 157.734 0)
+			(at 140.97 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13436,7 +14091,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 136.398 155.702 0)
+			(at 141.478 149.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13444,7 +14099,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 131.572 156.21 90)
+			(at 136.652 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13452,8 +14107,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 133.35 156.21 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+			(at 138.43 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13462,7 +14117,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 156.21 0)
+			(at 138.43 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13470,8 +14125,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 133.35 156.21 0)
+		(property "LCSC" "C844918"
+			(at 138.43 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 138.43 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,7 +14328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/wch_jiangsu_Qin_heng-CH340C/C7464026"
 			(at 84.836 83.566 0)
 			(effects
 				(font
@@ -13682,7 +14346,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "CH340C"
+			(at 91.44 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 91.44 116.84 0)
 			(effects
 				(font
@@ -13850,7 +14523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
 			(at 252.73 88.9 0)
 			(effects
 				(font
@@ -13868,7 +14541,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844918"
+			(at 252.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 252.73 88.9 0)
 			(effects
 				(font
@@ -13939,6 +14621,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 267.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 267.97 24.13 0)
 			(effects
 				(font
@@ -14093,7 +14784,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 146.05 170.18 90)
+		(at 151.13 166.37 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14102,7 +14793,7 @@
 		(dnp no)
 		(uuid "8f3930f8-8297-404d-9279-7f48e49924cb")
 		(property "Reference" "Q4"
-			(at 147.32 175.26 90)
+			(at 152.4 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14111,7 +14802,7 @@
 			)
 		)
 		(property "Value" "MMBT3904LT1G"
-			(at 152.908 166.624 90)
+			(at 159.766 162.814 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14120,7 +14811,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 147.955 175.26 0)
+			(at 153.035 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14130,8 +14821,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MMBT3904LT1G_C81464.pdf"
-			(at 146.05 170.18 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14141,7 +14832,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 146.05 170.18 0)
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14149,8 +14840,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 146.05 170.18 0)
+		(property "LCSC" "C81464"
+			(at 151.13 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 151.13 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14623,6 +15323,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 252.73 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "194fb7a7-97e1-4c28-8e52-74f985ba1626")
 		)
@@ -14690,6 +15399,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 278.13 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 278.13 132.08 0)
 			(effects
 				(font
@@ -14832,6 +15550,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "090bec99-1bb7-49d4-ab24-139f09ec7089")
 		)
@@ -14912,7 +15639,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 158.75 175.26 90)
+		(at 163.83 173.99 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14921,7 +15648,7 @@
 		(dnp no)
 		(uuid "a425dba4-fe02-4ffc-916d-3d8fe268a6b4")
 		(property "Reference" "Q5"
-			(at 157.4799 180.34 90)
+			(at 162.5599 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14930,7 +15657,7 @@
 			)
 		)
 		(property "Value" "MMBT3904LT1G"
-			(at 166.878 171.958 90)
+			(at 173.736 170.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14939,7 +15666,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 160.655 180.34 0)
+			(at 165.735 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14949,8 +15676,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MMBT3904LT1G_C81464.pdf"
-			(at 158.75 175.26 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
+			(at 163.83 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14960,7 +15687,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 158.75 175.26 0)
+			(at 163.83 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14968,8 +15695,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 158.75 175.26 0)
+		(property "LCSC" "C81464"
+			(at 163.83 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 163.83 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14997,7 +15733,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 177.8 90)
+		(at 87.63 176.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15005,7 +15741,7 @@
 		(dnp no)
 		(uuid "a455cb7a-ca38-451f-9216-17ff0a5ab65d")
 		(property "Reference" "R15"
-			(at 92.71 175.768 90)
+			(at 87.63 174.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15013,7 +15749,7 @@
 			)
 		)
 		(property "Value" "70"
-			(at 92.456 177.8 90)
+			(at 87.376 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15021,7 +15757,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 92.71 179.578 90)
+			(at 87.63 178.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15030,7 +15766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 177.8 0)
+			(at 87.63 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15039,7 +15775,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 177.8 0)
+			(at 87.63 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15048,7 +15784,16 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 92.71 177.8 0)
+			(at 87.63 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 87.63 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15173,7 +15918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/EspressifSystems-ESP32_WROOM_32DN4/C473012"
 			(at 158.75 105.41 0)
 			(effects
 				(font
@@ -15191,7 +15936,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C473012"
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 166.37 106.68 0)
 			(effects
 				(font
@@ -15360,7 +16114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
 			(at 39.37 158.75 0)
 			(effects
 				(font
@@ -15378,7 +16132,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844918"
+			(at 39.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 39.37 158.75 0)
 			(effects
 				(font
@@ -15770,7 +16533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MMBT3904LT1G_C81464.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
 			(at 48.26 158.75 0)
 			(effects
 				(font
@@ -15789,7 +16552,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C81464"
+			(at 48.26 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 48.26 158.75 0)
 			(effects
 				(font
@@ -15853,7 +16625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -15871,7 +16643,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
+			(at 125.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -15996,7 +16777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
 			(at 214.63 69.85 0)
 			(effects
 				(font
@@ -16014,7 +16795,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844918"
+			(at 214.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 214.63 69.85 0)
 			(effects
 				(font
@@ -16075,7 +16865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 104.14 96.52 0)
 			(effects
 				(font
@@ -16093,7 +16883,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
+			(at 104.14 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 104.14 96.52 0)
 			(effects
 				(font
@@ -16249,6 +17048,225 @@
 		)
 	)
 	(symbol
+		(lib_id "LTST-G563EGBW:LTST-G563EGBW")
+		(at 119.38 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d11eb5e7-f075-4177-8ad2-cd9f406aaca3")
+		(property "Reference" "D7"
+			(at 119.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-G563EGBW"
+			(at 119.38 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LTST-G563EGBW:LED_LTST-G563EGBW"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/liteon-LTSTG563EGBW/C913089"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Lite-On Electronics"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LTST-G563EGBW/Lite-On/view-part/?ref=eda"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "C"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-G563EGBW/Lite-On/view-part/?ref=snap"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LTST-G563EGBW"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Red, Green, Blue (RGB) 623nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2.2V Red, 3.3V Green, 3.3V Blue 6-SMD, J-Lead\n                        \n"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C913089"
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5d805350-f3ee-4b74-a170-5e7cd275350f")
+		)
+		(pin "2"
+			(uuid "262b8506-00d2-4274-a6b1-b56a3648f2d6")
+		)
+		(pin "1"
+			(uuid "0bde0ce6-e6c7-484f-b089-0b99938bdfbc")
+		)
+		(pin "6"
+			(uuid "3e53c64f-9399-458b-9c08-6bbe8fa681b3")
+		)
+		(pin "5"
+			(uuid "52dc307c-33d5-4cf5-b963-ed797f1ccfeb")
+		)
+		(pin "4"
+			(uuid "0bc1efbb-0273-4f6c-bd06-afd17bd5af9c")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 57.15 0)
 		(unit 1)
@@ -16348,7 +17366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
 			(at 39.37 173.99 0)
 			(effects
 				(font
@@ -16366,7 +17384,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844918"
+			(at 39.37 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 39.37 173.99 0)
 			(effects
 				(font
@@ -16427,7 +17454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Brightking-SMAJ70CA/C309905"
 			(at 238.76 140.97 0)
 			(effects
 				(font
@@ -16445,7 +17472,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C309905"
+			(at 238.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 238.76 140.97 0)
 			(effects
 				(font
@@ -16554,7 +17590,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX3485"
+		(property "Value" "MAX3485EESA+T"
 			(at 223.1741 123.19 0)
 			(effects
 				(font
@@ -16572,7 +17608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/10478-MAX3485EESAT/C9943"
 			(at 220.98 137.16 0)
 			(effects
 				(font
@@ -16590,7 +17626,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C9943"
+			(at 220.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 220.98 138.43 0)
 			(effects
 				(font
@@ -16669,7 +17714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805120RFKEAHP/C844392"
 			(at 261.62 133.35 0)
 			(effects
 				(font
@@ -16687,7 +17732,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844392"
+			(at 261.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 261.62 133.35 0)
 			(effects
 				(font
@@ -16713,7 +17767,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 133.35 165.1 90)
+		(at 138.43 158.75 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16722,7 +17776,7 @@
 		(dnp no)
 		(uuid "e222c3ac-455e-4558-8504-f85ace7a6d81")
 		(property "Reference" "Q3"
-			(at 134.366 170.18 90)
+			(at 139.446 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16731,7 +17785,7 @@
 			)
 		)
 		(property "Value" "MMBT3904LT1G"
-			(at 139.954 161.544 90)
+			(at 146.812 155.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16740,7 +17794,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 135.255 170.18 0)
+			(at 140.335 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16750,8 +17804,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_onsemi-MMBT3904LT1G_C81464.pdf"
-			(at 133.35 165.1 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
+			(at 138.43 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16761,7 +17815,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 133.35 165.1 0)
+			(at 138.43 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16769,8 +17823,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 133.35 165.1 0)
+		(property "LCSC" "C81464"
+			(at 138.43 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 138.43 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16850,6 +17913,15 @@
 				(hide yes)
 			)
 		)
+		(property "Value_1" ""
+			(at 170.18 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49de28c4-075a-49d4-af76-e2f8a081824e")
 		)
@@ -16857,95 +17929,6 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SMLVN6RGB")
-		(at 116.84 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6d1a710-a22c-4677-9f4e-fe39f3638571")
-		(property "Reference" "D2"
-			(at 116.84 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMLVN6RGB"
-			(at 116.84 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_ROHM_SMLVN6"
-			(at 116.84 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rohm.com/datasheet/SMLVN6RGB1U"
-			(at 116.84 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
-			(at 116.84 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 116.84 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d704a4b-c89b-4408-a4fe-19fd40a0cfeb")
-		)
-		(pin "6"
-			(uuid "ed9c0b13-8784-47a8-9804-870772d330c3")
-		)
-		(pin "4"
-			(uuid "7be986d3-e71f-411f-8d46-1f47e36a8b49")
-		)
-		(pin "5"
-			(uuid "dc5945bb-c1af-42f5-9e38-915bcc0684a5")
-		)
-		(pin "2"
-			(uuid "506b85a6-f5d5-4e2c-aafc-e35334efaa77")
-		)
-		(pin "3"
-			(uuid "61ea7645-48d5-4d1e-8161-cfbda4049899")
-		)
-		(instances
-			(project ""
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -17054,7 +18037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -17072,7 +18055,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -17123,7 +18115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 58.1152 57.15 0)
 			(effects
 				(font
@@ -17132,7 +18124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/99399-CL21A226MOQNNNE/C98190"
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -17150,7 +18142,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98190"
+			(at 57.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -17211,7 +18212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
 			(at 62.23 105.41 0)
 			(effects
 				(font
@@ -17229,7 +18230,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 62.23 105.41 0)
 			(effects
 				(font
@@ -17372,6 +18382,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 151.13 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 151.13 33.02 0)
 			(effects
 				(font
@@ -17566,7 +18585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 148.2852 67.31 0)
 			(effects
 				(font
@@ -17575,7 +18594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/99399-CL21A226MOQNNNE/C98190"
 			(at 147.32 63.5 0)
 			(effects
 				(font
@@ -17593,7 +18612,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98190"
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 147.32 63.5 0)
 			(effects
 				(font

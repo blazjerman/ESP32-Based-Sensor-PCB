@@ -407,7 +407,7 @@
 				)
 			)
 		)
-		(symbol "LQH5BPB4R7NT0L:LQH5BPB4R7NT0L"
+		(symbol "LQH3NPN6R8MMEL:LQH3NPN6R8MMEL"
 			(pin_names
 				(offset 1.016)
 			)
@@ -423,7 +423,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "LQH5BPB4R7NT0L"
+			(property "Value" "LQH3NPN6R8MMEL"
 				(at -10.16 5.08 0)
 				(effects
 					(font
@@ -432,7 +432,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "LQH5BPB4R7NT0L:IND_LQH5BPB4R7NT0L"
+			(property "Footprint" "LQH3NPN6R8MMEL:IND_LQH3NPN6R8MMEL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -470,7 +470,7 @@
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "2.2 mm"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -500,7 +500,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LQH5BPB4R7NT0L/Murata/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/LQH3NPN6R8MMEL/Murata/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -530,7 +530,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LQH5BPB4R7NT0L/Murata/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LQH3NPN6R8MMEL/Murata/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -540,7 +540,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "LQH5BPB4R7NT0L"
+			(property "MP" "LQH3NPN6R8MMEL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -550,7 +550,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            Inductor with Inductance: 4.7uH Tol. +/-30%, Package: 2020 (5050)\n                        \n"
+			(property "Description_1" "\n                        \n                            6.8 µH Shielded Drum Core, Wirewound Inductor 900 mA 168mOhm Max 1212 (3030 Metric)\n                        \n"
 				(at 0 0 0)
 				(effects
 					(font
@@ -580,7 +580,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LQH5BPB4R7NT0L_0_0"
+			(symbol "LQH3NPN6R8MMEL_0_0"
 				(arc
 					(start -2.54 0)
 					(mid -3.81 1.2645)
@@ -982,22 +982,22 @@
 		)
 	)
 	(junction
-		(at 111.76 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f33ac8b-84cc-4552-bfcc-1c2a0dd153a6")
-	)
-	(junction
 		(at 137.16 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ad53716-a9c1-4bdf-9b4a-54fa6fe64305")
+		(uuid "40f0ba63-5e43-4e2e-9642-270c2cf5f924")
 	)
 	(junction
 		(at 116.84 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4280df1f-50b9-4b68-80ed-1661480f1aa9")
+	)
+	(junction
+		(at 111.76 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ed89406-8ce0-4221-9ab1-3d3176367377")
 	)
 	(junction
 		(at 156.21 82.55)
@@ -1022,12 +1022,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbe149af-d4ab-40ba-9d2f-e4e194dcf6da")
-	)
-	(junction
-		(at 147.32 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e42f76fb-eaa3-443f-aac6-d1e269d9914f")
 	)
 	(wire
 		(pts
@@ -1061,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 99.06) (xy 156.21 99.06)
+			(xy 132.08 99.06) (xy 156.21 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1168,16 +1162,6 @@
 			(type default)
 		)
 		(uuid "a5d21191-5a08-4bce-9751-8fc42a2ed03e")
-	)
-	(wire
-		(pts
-			(xy 132.08 99.06) (xy 147.32 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfa8c9a0-a593-4323-bd6f-c2976cfd582d")
 	)
 	(wire
 		(pts
@@ -1320,261 +1304,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LQH5BPB4R7NT0L:LQH5BPB4R7NT0L")
-		(at 124.46 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fb970ec-2c8e-4bcb-8ffc-1b49a3570644")
-		(property "Reference" "L1"
-			(at 124.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uH"
-			(at 124.46 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LQH5BPB4R7NT0L:IND_LQH5BPB4R7NT0L"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Murata"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.2 mm"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "NONSTANDARD"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LQH5BPB4R7NT0L/Murata/view-part/?ref=eda"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LQH5BPB4R7NT0L/Murata/view-part/?ref=snap"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "LQH5BPB4R7NT0L"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Inductor with Inductance: 4.7uH Tol. +/-30%, Package: 2020 (5050)\n                        \n"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Murata"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3fa082b4-99e9-411b-861a-a1899ee32671")
-		)
-		(pin "1"
-			(uuid "2ef799fd-8b45-456e-a2d4-4bb77b65d08a")
-		)
-		(instances
-			(project ""
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37/08b287c6-4977-464e-bd9a-c8b8a0d84aac"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b2ed7e3-810f-4185-927c-8b12503fb421")
-		(property "Reference" "#PWR038"
-			(at 147.32 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49475574-613c-496d-85ba-917d47215f26")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37/08b287c6-4977-464e-bd9a-c8b8a0d84aac"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 170.18 88.9 0)
 		(unit 1)
@@ -1602,7 +1331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 171.1452 92.71 0)
 			(effects
 				(font
@@ -1611,7 +1340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/99399-CL21A226MOQNNNE/C98190"
 			(at 170.18 88.9 0)
 			(effects
 				(font
@@ -1629,7 +1358,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98190"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 170.18 88.9 0)
 			(effects
 				(font
@@ -1756,7 +1494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+		(property "Datasheet" "https://jlcpcb.com/parts/componentSearch?searchTxt=MT3608"
 			(at 118.11 85.09 0)
 			(effects
 				(font
@@ -1774,7 +1512,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C84817"
+			(at 124.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 124.46 96.52 0)
 			(effects
 				(font
@@ -1811,35 +1558,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 147.32 102.87 0)
+		(lib_id "LQH3NPN6R8MMEL:LQH3NPN6R8MMEL")
+		(at 124.46 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5ec645bb-e276-41b5-be14-74c9b5831cbf")
-		(property "Reference" "R18"
-			(at 149.86 101.5999 0)
+		(uuid "63f2b5b7-e218-4f0c-8b14-5194acb9d1be")
+		(property "Reference" "L1"
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 149.86 104.1399 0)
+		(property "Value" "6.8uH"
+			(at 124.46 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 145.542 102.87 90)
+		(property "Footprint" "LQH3NPN6R8MMEL:IND_LQH3NPN6R8MMEL"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,8 +1602,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 147.32 102.87 0)
+		(property "Description" ""
+			(at 124.46 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,34 +1611,136 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 147.32 102.87 0)
+		(property "MF" "Murata"
+			(at 124.46 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 147.32 102.87 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.5mm"
+			(at 124.46 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "e2fe08fb-d89f-4669-b5e7-c5b56605b71a")
+		(property "Package" "NONSTANDARD"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LQH3NPN6R8MMEL/Murata/view-part/?ref=eda"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LQH3NPN6R8MMEL/Murata/view-part/?ref=snap"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LQH3NPN6R8MMEL"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            6.8 µH Shielded Drum Core, Wirewound Inductor 900 mA 168mOhm Max 1212 (3030 Metric)\n                        \n"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "b7ac9c70-0b97-4aab-8e71-aa91c8b7e88d")
+			(uuid "59bef593-a99b-4118-a909-ce5cccae134b")
+		)
+		(pin "2"
+			(uuid "6171ca52-1d14-4a68-a9c0-ef463a24c6f9")
 		)
 		(instances
-			(project "ESP32-Based Sensor PCB"
+			(project ""
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37/08b287c6-4977-464e-bd9a-c8b8a0d84aac"
-					(reference "R18")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -1926,7 +1783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -1944,7 +1801,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844918"
+			(at 156.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 156.21 102.87 0)
 			(effects
 				(font
@@ -1996,7 +1862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 96.2152 92.71 0)
 			(effects
 				(font
@@ -2005,7 +1871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/99399-CL21A226MOQNNNE/C98190"
 			(at 95.25 88.9 0)
 			(effects
 				(font
@@ -2023,7 +1889,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98190"
+			(at 95.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 95.25 88.9 0)
 			(effects
 				(font
@@ -2066,7 +1941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "70k"
+		(property "Value" "140k"
 			(at 158.75 92.7099 0)
 			(effects
 				(font
@@ -2084,7 +1959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603140KFKEA/C844526"
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -2102,7 +1977,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844526"
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -2180,6 +2064,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
 			(at 142.24 82.55 0)
 			(effects
 				(font

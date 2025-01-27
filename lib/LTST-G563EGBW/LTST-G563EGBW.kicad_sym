@@ -1,0 +1,256 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "LTST-G563EGBW" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -5.08 13.462 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "LTST-G563EGBW" (id 1) (at -5.08 -15.24 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "LTST-G563EGBW:LED_LTST-G563EGBW" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Lite-On Electronics" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "1.6mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/LTST-G563EGBW/Lite-On/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "C" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-G563EGBW/Lite-On/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "LTST-G563EGBW" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Red, Green, Blue (RGB) 623nm Red, 525nm Green, 470nm Blue LED Indication - Discrete 2.2V Red, 3.3V Green, 3.3V Blue 6-SMD, J-Lead\n                        \n" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Lite-On Inc." (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "LTST-G563EGBW_0_0"
+      (polyline
+        (pts (xy -1.27 9.144) (xy -1.27 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 7.62) (xy -1.27 6.096)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 6.096) (xy 1.27 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 7.62) (xy -1.27 9.144)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 9.144) (xy 1.27 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 7.62) (xy 1.27 6.096)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 1.524) (xy -1.27 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 0.0) (xy -1.27 -1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -1.524) (xy 1.27 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 0.0) (xy -1.27 1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 1.524) (xy 1.27 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 0.0) (xy 1.27 -1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -6.096) (xy -1.27 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -7.62) (xy -1.27 -9.144)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -9.144) (xy 1.27 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -7.62) (xy -1.27 -6.096)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -6.096) (xy 1.27 -7.62)) (stroke (width 0.254))
+      )
+      (text "RED" (at -1.524 4.572 0)
+        (effects (font (size 1.016 1.016)) (justify bottom left))
+      )
+      (text "GREEN" (at -2.159 -3.048 0)
+        (effects (font (size 1.016 1.016)) (justify bottom left))
+      )
+      (text "BLUE" (at -1.905 -10.668 0)
+        (effects (font (size 1.016 1.016)) (justify bottom left))
+      )
+      (polyline
+        (pts (xy 1.27 -7.62) (xy 1.27 -9.144)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -4.572) (xy -0.889 -5.588)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy -0.254 -4.318)
+          (xy 0.254 -4.826)
+          (xy 0.635 -3.81)
+          (xy -0.254 -4.318)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 0.889 -5.207) (xy 0.0 -6.223)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 0.635 -4.953)
+          (xy 1.143 -5.461)
+          (xy 1.524 -4.445)
+          (xy 0.635 -4.953)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 0.0 3.048) (xy -0.889 2.032)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy -0.254 3.302)
+          (xy 0.254 2.794)
+          (xy 0.635 3.81)
+          (xy -0.254 3.302)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 0.889 2.413) (xy 0.0 1.397)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 0.635 2.667)
+          (xy 1.143 2.159)
+          (xy 1.524 3.175)
+          (xy 0.635 2.667)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 0.0 10.668) (xy -0.889 9.652)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy -0.254 10.922)
+          (xy 0.254 10.414)
+          (xy 0.635 11.43)
+          (xy -0.254 10.922)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 0.889 10.033) (xy 0.0 9.017)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts
+          (xy 0.635 10.287)
+          (xy 1.143 9.779)
+          (xy 1.524 10.795)
+          (xy 0.635 10.287)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -1.27 7.62) (xy -5.08 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 7.62) (xy 5.08 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 0.0) (xy -5.08 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 0.0) (xy 5.08 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -7.62) (xy -5.08 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -7.62) (xy 5.08 -7.62)) (stroke (width 0.254))
+      )
+      (rectangle (start -5.08 -12.7) (end 5.08 12.7)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at 7.62 7.62 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 7.62 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -7.62 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 -7.62 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
