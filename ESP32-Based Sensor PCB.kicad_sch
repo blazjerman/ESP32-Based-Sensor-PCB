@@ -5,6 +5,214 @@
 	(uuid "a479f37a-16b5-4c7f-a386-cf874951af37")
 	(paper "A4")
 	(lib_symbols
+		(symbol "2N3904_1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q1"
+				(at 5.08 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MMBT3904LT1G"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at -14.986 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
+				(at -20.066 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+				(at -10.16 -22.098 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C81464"
+				(at -6.096 -5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value_1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N3904_1_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N3904_1_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -6048,196 +6256,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:2N3904"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N3904"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?92*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N3904_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N3904_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "VEML7700-TR:VEML7700-TR"
 			(pin_names
 				(offset 1.016)
@@ -6713,7 +6731,7 @@
 		(uuid "85931ed8-ef9a-432e-9ebd-75b1fde92099")
 	)
 	(junction
-		(at 204.47 138.43)
+		(at 208.28 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88a7407e-a421-46a4-86df-65b1f92450ad")
@@ -7080,6 +7098,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 161.29) (xy 101.6 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fd2146-92ee-47a0-8f4b-8fd88e0831e4")
+	)
+	(wire
+		(pts
 			(xy 185.42 106.68) (xy 181.61 106.68)
 		)
 		(stroke
@@ -7370,7 +7398,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 138.43) (xy 210.82 138.43)
+			(xy 208.28 138.43) (xy 210.82 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7420,7 +7448,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 138.43) (xy 204.47 138.43)
+			(xy 199.39 138.43) (xy 208.28 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7517,16 +7545,6 @@
 			(type default)
 		)
 		(uuid "80df0762-e725-4913-9151-5b5dfbf71807")
-	)
-	(wire
-		(pts
-			(xy 185.42 81.28) (xy 181.61 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84c4ea75-3798-4943-bc5a-cc2efca83365")
 	)
 	(wire
 		(pts
@@ -7670,7 +7688,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 135.89) (xy 210.82 135.89)
+			(xy 208.28 135.89) (xy 210.82 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7850,6 +7868,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 81.28) (xy 185.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c80df8a7-6a6a-4b34-8ae8-93c082ff6def")
+	)
+	(wire
+		(pts
 			(xy 218.44 53.34) (xy 218.44 59.69)
 		)
 		(stroke
@@ -7867,6 +7895,16 @@
 			(type default)
 		)
 		(uuid "cda07a85-952b-412b-85ff-fd6e6147e83c")
+	)
+	(wire
+		(pts
+			(xy 181.61 99.06) (xy 185.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d108d548-bfe9-48c8-9c7d-83158a4a0fa6")
 	)
 	(wire
 		(pts
@@ -7920,7 +7958,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 161.29) (xy 111.76 161.29)
+			(xy 109.22 161.29) (xy 111.76 161.29)
 		)
 		(stroke
 			(width 0)
@@ -8000,7 +8038,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 168.91) (xy 111.76 168.91)
+			(xy 109.22 168.91) (xy 111.76 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8020,7 +8058,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 138.43) (xy 204.47 135.89)
+			(xy 208.28 138.43) (xy 208.28 135.89)
 		)
 		(stroke
 			(width 0)
@@ -8060,17 +8098,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 161.29) (xy 100.33 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1b2deea-e333-4cc8-a24d-e37022032766")
-	)
-	(wire
-		(pts
-			(xy 97.79 176.53) (xy 100.33 176.53)
+			(xy 99.06 176.53) (xy 101.6 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8080,7 +8108,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 176.53) (xy 111.76 176.53)
+			(xy 109.22 176.53) (xy 111.76 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8120,7 +8148,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 168.91) (xy 100.33 168.91)
+			(xy 99.06 168.91) (xy 101.6 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8157,16 +8185,6 @@
 			(type default)
 		)
 		(uuid "f979a5a6-7b2a-45b6-9faf-1d0dc049283e")
-	)
-	(wire
-		(pts
-			(xy 185.42 99.06) (xy 181.61 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcc215da-9bca-4fe3-8d35-f5d9f5a360ce")
 	)
 	(wire
 		(pts
@@ -8432,7 +8450,7 @@
 	)
 	(global_label "VCC_5"
 		(shape input)
-		(at 97.79 176.53 180)
+		(at 99.06 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8442,7 +8460,7 @@
 		)
 		(uuid "0f996e0c-18e5-4139-9fdc-cda2d54ded1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9991 176.53 0)
+			(at 90.2691 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8538,7 @@
 	)
 	(global_label "LED_B"
 		(shape input)
-		(at 138.43 146.05 90)
+		(at 163.83 161.29 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8530,7 +8548,7 @@
 		)
 		(uuid "1d1c8c5c-3e83-4c14-b2e2-45c20affd32d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 137.3801 90)
+			(at 163.83 152.6201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,7 +8648,7 @@
 	)
 	(global_label "LED_G"
 		(shape input)
-		(at 163.83 161.29 90)
+		(at 151.13 153.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8640,7 +8658,7 @@
 		)
 		(uuid "2d2750f6-93a9-485e-bfcb-d22b626be890")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.83 152.6201 90)
+			(at 151.13 145.0001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9004,7 +9022,7 @@
 	)
 	(global_label "VCC_5"
 		(shape input)
-		(at 97.79 161.29 180)
+		(at 99.06 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9014,7 +9032,7 @@
 		)
 		(uuid "654c609f-ab06-4d24-b46f-472f9cb34c26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9991 161.29 0)
+			(at 90.2691 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9114,7 +9132,7 @@
 	)
 	(global_label "LED_R"
 		(shape input)
-		(at 185.42 81.28 0)
+		(at 185.42 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9124,7 +9142,7 @@
 		)
 		(uuid "730c2700-ac28-4006-b37d-1120bb43e901")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.0899 81.28 0)
+			(at 194.0899 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9422,7 +9440,7 @@
 	)
 	(global_label "LED_R"
 		(shape input)
-		(at 151.13 153.67 90)
+		(at 138.43 146.05 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9432,7 +9450,7 @@
 		)
 		(uuid "a87e0ded-b996-49d9-8a5d-baea690ac56e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 145.0001 90)
+			(at 138.43 137.3801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,7 +9550,7 @@
 	)
 	(global_label "LED_G"
 		(shape input)
-		(at 185.42 99.06 0)
+		(at 185.42 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9542,7 +9560,7 @@
 		)
 		(uuid "b75149e0-0059-48f9-adce-eac021518f49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.0899 99.06 0)
+			(at 194.0899 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9752,7 +9770,7 @@
 	)
 	(global_label "VCC_5"
 		(shape input)
-		(at 97.79 168.91 180)
+		(at 99.06 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9762,7 +9780,7 @@
 		)
 		(uuid "e5f0da1a-a830-4f32-a7a5-c583c1c63c24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9991 168.91 0)
+			(at 90.2691 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10078,7 +10096,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 168.91 90)
+		(at 105.41 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10086,23 +10104,23 @@
 		(dnp no)
 		(uuid "06679dcf-b834-420a-9abb-ae2f94640977")
 		(property "Reference" "R14"
-			(at 104.14 166.878 90)
+			(at 105.41 166.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "154"
-			(at 104.14 168.91 90)
+		(property "Value" "120"
+			(at 105.41 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 104.14 170.688 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 105.41 170.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10110,8 +10128,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603154RFKEA/C4283567"
-			(at 104.14 168.91 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805120RFKEAHP/C844392"
+			(at 105.41 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,7 +10138,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 168.91 0)
+			(at 105.41 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10128,8 +10146,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4283567"
-			(at 104.14 168.91 0)
+		(property "LCSC" "C844392"
+			(at 105.41 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,7 +10156,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 104.14 168.91 0)
+			(at 105.41 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11349,6 +11367,101 @@
 		)
 	)
 	(symbol
+		(lib_name "2N3904_1")
+		(lib_id "Transistor_BJT:2N3904")
+		(at 48.26 173.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e558b88-470a-4728-95b7-6f846c50eef9")
+		(property "Reference" "Q2"
+			(at 53.34 175.2601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3904LT1G"
+			(at 53.34 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 33.274 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
+			(at 28.194 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 38.1 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81464"
+			(at 42.164 168.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2aef15b-820a-430b-b3f0-8b1693336538")
+		)
+		(pin "2"
+			(uuid "120febe7-3c9b-4491-b5a9-256f7ef46958")
+		)
+		(pin "3"
+			(uuid "5bde5aa9-651d-4a4d-881e-960f9b67ffc0")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 34.29 127 0)
 		(unit 1)
@@ -12372,7 +12485,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 161.29 90)
+		(at 105.41 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12380,23 +12493,23 @@
 		(dnp no)
 		(uuid "44811fd4-1990-4be5-8a25-3e1012ee3833")
 		(property "Reference" "R13"
-			(at 104.14 159.258 90)
+			(at 105.41 159.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "154"
-			(at 104.14 161.29 90)
+		(property "Value" "120"
+			(at 105.41 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 104.14 163.068 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 105.41 163.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12404,8 +12517,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603154RFKEA/C4283567"
-			(at 104.14 161.29 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805120RFKEAHP/C844392"
+			(at 105.41 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12414,7 +12527,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 161.29 0)
+			(at 105.41 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12422,8 +12535,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4283567"
-			(at 104.14 161.29 0)
+		(property "LCSC" "C844392"
+			(at 105.41 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,7 +12545,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 104.14 161.29 0)
+			(at 105.41 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12857,6 +12970,99 @@
 		)
 	)
 	(symbol
+		(lib_name "2N3904_1")
+		(lib_id "Transistor_BJT:2N3904")
+		(at 163.83 173.99 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57a1f8cf-864c-401a-b34f-8774080667d5")
+		(property "Reference" "Q5"
+			(at 163.83 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT3904LT1G"
+			(at 163.83 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 180.086 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
+			(at 184.404 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 185.928 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81464"
+			(at 169.418 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 163.83 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c6d12b2-9eb4-4904-8b13-b29b6af08fbb")
+		)
+		(pin "2"
+			(uuid "722c1355-d5cc-4e34-9066-92605035002c")
+		)
+		(pin "3"
+			(uuid "b68e18cc-172b-4790-a4fe-3c190a1f82b9")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 109.22 0)
 		(unit 1)
@@ -12916,100 +13122,6 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 48.26 173.99 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5bde769c-7b44-4bcd-9272-28e1e0d104e4")
-		(property "Reference" "Q2"
-			(at 53.34 173.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904LT1G"
-			(at 53.34 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 53.34 172.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
-			(at 48.26 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 48.26 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C81464"
-			(at 48.26 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value_1" ""
-			(at 48.26 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5c97324-0f17-49fd-8a0e-821ee6d7a751")
-		)
-		(pin "2"
-			(uuid "40489d48-dcc1-4a73-9691-f383dc1f7807")
-		)
-		(pin "3"
-			(uuid "2deafc71-5af5-49f2-984f-2f6ed97b74ae")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -14564,100 +14676,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 151.13 166.37 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f3930f8-8297-404d-9279-7f48e49924cb")
-		(property "Reference" "Q4"
-			(at 152.4 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904LT1G"
-			(at 159.766 162.814 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 153.035 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
-			(at 151.13 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 151.13 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C81464"
-			(at 151.13 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value_1" ""
-			(at 151.13 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "763830c1-dff2-4ce7-925d-31469c599e87")
-		)
-		(pin "2"
-			(uuid "9d0d4b0a-9cf9-4427-bec3-02e9aaf63188")
-		)
-		(pin "3"
-			(uuid "85a531fb-5c44-4557-a00d-9f9cd7928fca")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 157.48 67.31 0)
 		(unit 1)
@@ -14717,6 +14735,99 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2N3904_1")
+		(lib_id "Transistor_BJT:2N3904")
+		(at 138.43 158.75 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91131a8b-4a79-4085-84c6-cd7c1df6c35d")
+		(property "Reference" "Q3"
+			(at 138.43 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT3904LT1G"
+			(at 138.43 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 154.686 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
+			(at 159.004 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 160.528 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81464"
+			(at 144.018 152.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 138.43 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fe347d9-512c-4dc1-a361-70bff784e574")
+		)
+		(pin "2"
+			(uuid "66766976-0ecb-49a0-af57-5db17a233db3")
+		)
+		(pin "3"
+			(uuid "8acc1f80-1e72-4b8d-92b4-a0b818d144ff")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -15419,102 +15530,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 163.83 173.99 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a425dba4-fe02-4ffc-916d-3d8fe268a6b4")
-		(property "Reference" "Q5"
-			(at 162.5599 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904LT1G"
-			(at 173.736 170.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 165.735 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
-			(at 163.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 163.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C81464"
-			(at 163.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value_1" ""
-			(at 163.83 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f4c4119-5a6a-4e60-be3c-f2a759acb847")
-		)
-		(pin "2"
-			(uuid "2f1b5665-85b6-42a7-b137-8911fbdd21fc")
-		)
-		(pin "3"
-			(uuid "cd411a48-5e08-4a53-9e91-66320076416b")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 104.14 176.53 90)
+		(at 105.41 176.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15522,23 +15539,23 @@
 		(dnp no)
 		(uuid "a455cb7a-ca38-451f-9216-17ff0a5ab65d")
 		(property "Reference" "R15"
-			(at 104.14 174.498 90)
+			(at 105.41 174.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "154"
-			(at 103.886 176.53 90)
+		(property "Value" "120"
+			(at 105.156 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 104.14 178.308 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 105.41 178.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15546,8 +15563,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603154RFKEA/C4283567"
-			(at 104.14 176.53 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805120RFKEAHP/C844392"
+			(at 105.41 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15556,7 +15573,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 176.53 0)
+			(at 105.41 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15564,8 +15581,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4283567"
-			(at 104.14 176.53 0)
+		(property "LCSC" "C844392"
+			(at 105.41 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15574,7 +15591,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 104.14 176.53 0)
+			(at 105.41 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16276,6 +16293,7 @@
 		)
 	)
 	(symbol
+		(lib_name "2N3904_1")
 		(lib_id "Transistor_BJT:2N3904")
 		(at 48.26 158.75 0)
 		(unit 1)
@@ -16295,7 +16313,7 @@
 			)
 		)
 		(property "Value" "MMBT3904LT1G"
-			(at 53.34 160.0199 0)
+			(at 53.34 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16304,7 +16322,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 53.34 160.655 0)
+			(at 33.274 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16315,7 +16333,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
-			(at 48.26 158.75 0)
+			(at 28.194 179.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16325,7 +16343,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 48.26 158.75 0)
+			(at 38.1 180.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16334,7 +16352,7 @@
 			)
 		)
 		(property "LCSC" "C81464"
-			(at 48.26 158.75 0)
+			(at 42.164 164.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16758,6 +16776,99 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "2N3904_1")
+		(lib_id "Transistor_BJT:2N3904")
+		(at 151.13 166.37 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8a829f3-e83d-4d01-a90f-b170fe71aebc")
+		(property "Reference" "Q4"
+			(at 151.13 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT3904LT1G"
+			(at 151.13 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 167.386 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
+			(at 171.704 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 173.228 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81464"
+			(at 156.718 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 151.13 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6598310a-a443-49d1-8ae4-bdce73a949e4")
+		)
+		(pin "2"
+			(uuid "3c57d32a-8ff7-45dd-b0c9-0e8e9ea6e75c")
+		)
+		(pin "3"
+			(uuid "e9db60e3-3b0b-476b-893b-d1d23b52bce0")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -17541,100 +17652,6 @@
 			(project ""
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 138.43 158.75 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e222c3ac-455e-4558-8504-f85ace7a6d81")
-		(property "Reference" "Q3"
-			(at 139.446 163.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT3904LT1G"
-			(at 146.812 155.194 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 140.335 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
-			(at 138.43 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
-			(at 138.43 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C81464"
-			(at 138.43 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value_1" ""
-			(at 138.43 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25e0a563-8639-49ce-b3c4-6f8777601fe6")
-		)
-		(pin "2"
-			(uuid "b67e22ee-6aad-4e2e-9a4f-a16cbf7ba2a9")
-		)
-		(pin "3"
-			(uuid "9ca75f5d-4270-4401-b128-ab2bea45b3ad")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
