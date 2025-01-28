@@ -9507,7 +9507,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603140KFKEA/C844526"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603205KFKEA/C4141412"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9533,7 +9533,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844526"
+		(property "LCSC" "C4141412"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12358,7 +12358,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-TNPW0603680RBEEA/C2079059"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603680RFKEA/C844802"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12384,7 +12384,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2079059"
+		(property "LCSC" "C844802"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12916,7 +12916,7 @@
 				)
 			)
 		)
-		(property "Value" "160"
+		(property "Value" "154"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "cb631c40-a334-4e9c-82e8-8f42076e027b")
@@ -12940,7 +12940,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603154RFKEA/C4283567"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12966,7 +12966,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4283567"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13394,7 +13394,7 @@
 				)
 			)
 		)
-		(property "Value" "160"
+		(property "Value" "154"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9bf45c54-54cb-4767-8a1f-5d37f4d99c32")
@@ -13418,7 +13418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603154RFKEA/C4283567"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13444,7 +13444,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4283567"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13633,7 +13633,7 @@
 				)
 			)
 		)
-		(property "Value" "160"
+		(property "Value" "154"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3d837782-5191-4c6f-b710-06dff0971817")
@@ -13657,7 +13657,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603154RFKEA/C4283567"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13683,7 +13683,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4283567"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14613,7 +14613,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-TNPW0603680RBEEA/C2079059"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603680RFKEA/C844802"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14639,7 +14639,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2079059"
+		(property "LCSC" "C844802"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16500,7 +16500,7 @@
 			(roundrect_rratio 0.25)
 			(net 35 "Net-(U8-SW)")
 			(pinfunction "SW")
-			(pintype "power_in")
+			(pintype "input")
 			(uuid "d5df3298-b568-44e2-b48c-bdcfe2d4e6a1")
 		)
 		(pad "2" smd roundrect
@@ -18488,7 +18488,7 @@
 				)
 			)
 		)
-		(property "Value" "rs485"
+		(property "Value" "rs_485"
 			(at 1.27 -4.1 90)
 			(layer "F.SilkS")
 			(uuid "7979c0b0-c576-4808-858f-e6b1a8ecc54c")

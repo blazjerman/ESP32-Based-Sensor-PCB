@@ -553,22 +553,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 7.62 0)
+			(property "Reference" "U8"
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "TLV61046ADB"
-				(at 0 7.62 0)
+				(at 0 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
@@ -582,7 +580,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv61046a.pdf"
+			(property "Datasheet" "https://jlcpcb.com/partdetail/TexasInstruments-TLV61046ADBVR/C464815"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -592,6 +590,15 @@
 				)
 			)
 			(property "Description" "28-V Output Voltage Boost Converter with Power Diode and Isolation Switch, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "TLV61046ADBVR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -632,7 +639,7 @@
 				)
 			)
 			(symbol "TLV61046ADB_1_1"
-				(pin power_in line
+				(pin input line
 					(at 7.62 5.08 180)
 					(length 2.54)
 					(name "SW"
@@ -1796,7 +1803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603140KFKEA/C844526"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603205KFKEA/C4141412"
 			(at 142.24 101.6 0)
 			(effects
 				(font
@@ -1814,7 +1821,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844526"
+		(property "LCSC" "C4141412"
 			(at 142.24 101.6 0)
 			(effects
 				(font

@@ -9853,7 +9853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-TNPW0603680RBEEA/C2079059"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603680RFKEA/C844802"
 			(at 261.62 140.97 0)
 			(effects
 				(font
@@ -9871,7 +9871,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2079059"
+		(property "LCSC" "C844802"
 			(at 261.62 140.97 0)
 			(effects
 				(font
@@ -10093,7 +10093,7 @@
 				)
 			)
 		)
-		(property "Value" "160"
+		(property "Value" "154"
 			(at 104.14 168.91 90)
 			(effects
 				(font
@@ -10110,7 +10110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603154RFKEA/C4283567"
 			(at 104.14 168.91 0)
 			(effects
 				(font
@@ -10128,7 +10128,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4283567"
 			(at 104.14 168.91 0)
 			(effects
 				(font
@@ -12387,7 +12387,7 @@
 				)
 			)
 		)
-		(property "Value" "160"
+		(property "Value" "154"
 			(at 104.14 161.29 90)
 			(effects
 				(font
@@ -12404,7 +12404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603154RFKEA/C4283567"
 			(at 104.14 161.29 0)
 			(effects
 				(font
@@ -12422,7 +12422,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4283567"
 			(at 104.14 161.29 0)
 			(effects
 				(font
@@ -12805,7 +12805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-TNPW0603680RBEEA/C2079059"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603680RFKEA/C844802"
 			(at 261.62 125.73 0)
 			(effects
 				(font
@@ -12823,7 +12823,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2079059"
+		(property "LCSC" "C844802"
 			(at 261.62 125.73 0)
 			(effects
 				(font
@@ -15143,7 +15143,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "rs485"
+		(property "Value" "rs_485"
 			(at 280.67 134.62 0)
 			(effects
 				(font
@@ -15529,7 +15529,7 @@
 				)
 			)
 		)
-		(property "Value" "160"
+		(property "Value" "154"
 			(at 103.886 176.53 90)
 			(effects
 				(font
@@ -15546,7 +15546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603154RFKEA/C4283567"
 			(at 104.14 176.53 0)
 			(effects
 				(font
@@ -15564,7 +15564,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4283567"
 			(at 104.14 176.53 0)
 			(effects
 				(font
