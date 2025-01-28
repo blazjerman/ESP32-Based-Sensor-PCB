@@ -643,6 +643,12 @@
           "label": "Check_prices",
           "name": "Check_prices",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Value_0",
+          "name": "Value_0",
+          "show": false
         }
       ],
       "filter_string": "",

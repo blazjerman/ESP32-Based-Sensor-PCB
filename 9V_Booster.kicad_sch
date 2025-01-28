@@ -1410,7 +1410,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8uH"
+		(property "Value" "LQH3NPN6R8MMEL"
 			(at 124.46 83.82 0)
 			(effects
 				(font
@@ -1566,7 +1566,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "LQH3NPN6R8MMEL"
+		(property "LCSC" "C703775"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_0" "900mA 6.8_uH ±20% 1.04A 140mΩ SMD,3x3mm"
 			(at 124.46 87.63 0)
 			(effects
 				(font
@@ -1872,7 +1881,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV61046ADB"
+		(property "Value" "TLV61046ADBVR"
 			(at 124.46 91.44 0)
 			(effects
 				(font
@@ -1909,7 +1918,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "TLV61046ADBVR"
+		(property "LCSC" "C464815"
 			(at 124.46 100.33 0)
 			(effects
 				(font

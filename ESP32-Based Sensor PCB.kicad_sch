@@ -17389,7 +17389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/10478-MAX3485EESAT/C9943"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hgsemi-MAX3485ECMMTR/C5310819"
 			(at 220.98 137.16 0)
 			(effects
 				(font
@@ -17407,7 +17407,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C9943"
+		(property "LCSC" "C5310819"
 			(at 220.98 138.43 0)
 			(effects
 				(font
