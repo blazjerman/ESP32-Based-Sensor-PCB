@@ -15666,7 +15666,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at -0.025 -1.45 360)
+			(at -0.025 -1.45 0)
 			(layer "F.SilkS")
 			(uuid "a6deab97-3e56-4fc5-a447-057254631e27")
 			(effects
@@ -15677,7 +15677,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e18db644-a02d-4969-a423-ebc51d71e0b3")
 			(effects
@@ -15858,7 +15858,7 @@
 			(uuid "30bdace4-5129-4e78-8282-f5b422d17d0b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "703da436-04e6-45b8-8f1e-6c355d3ac6f4")
 			(effects
@@ -23050,7 +23050,7 @@
 		(uuid "1aa37f9e-c5c2-4348-bb1c-2d62a33612c7")
 	)
 	(via
-		(at 95.13 127.86)
+		(at 94.675 127.4)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -23059,7 +23059,7 @@
 		(uuid "1b8d6c0e-653a-4848-ac00-f12f59e9cf21")
 	)
 	(via
-		(at 129.85 87.85)
+		(at 129.75 87.85)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -23243,7 +23243,7 @@
 		(uuid "51d67084-f102-4e1f-8194-74474a3f2250")
 	)
 	(via
-		(at 129.85 91)
+		(at 129.75 91)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -23554,7 +23554,7 @@
 		(uuid "e8b9daca-e2e9-472c-865a-0202ff14f3d6")
 	)
 	(via
-		(at 110.0375 120.8)
+		(at 109.8 120.8)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -25672,14 +25672,6 @@
 		(uuid "03924c6b-445b-49a1-aaf0-37c4f9f9edaf")
 	)
 	(segment
-		(start 103.238235 119)
-		(end 104.725 119)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 67)
-		(uuid "0523c1d3-7dd7-4599-9bc0-688b43019ab5")
-	)
-	(segment
 		(start 139.355 85.255)
 		(end 139.355 85.34)
 		(width 0.2)
@@ -25694,6 +25686,14 @@
 		(layer "F.Cu")
 		(net 67)
 		(uuid "0821190a-c189-4f61-8dab-3b4f9c93d35a")
+	)
+	(segment
+		(start 105.725 118)
+		(end 111.844816 118)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 67)
+		(uuid "0d2fe795-c3d4-433b-959f-b4cf16a3aac3")
 	)
 	(segment
 		(start 140.795 136.075)
@@ -25712,6 +25712,14 @@
 		(uuid "1675e38d-e7ed-4fe0-b41a-bd800c94014c")
 	)
 	(segment
+		(start 104.725 119)
+		(end 105.725 118)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 67)
+		(uuid "23dba4f8-9e7c-4ca2-818d-746d4ab25dfd")
+	)
+	(segment
 		(start 132.515 104.115)
 		(end 132.515 109.26)
 		(width 0.5)
@@ -25726,6 +25734,14 @@
 		(layer "F.Cu")
 		(net 67)
 		(uuid "2fa25c5c-505c-4e65-a49f-8eca99cd1995")
+	)
+	(segment
+		(start 103.1 112.2)
+		(end 103.1 118.25)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 67)
+		(uuid "3276723c-6d21-489b-8967-56cb583dc184")
 	)
 	(segment
 		(start 127.45 81.05)
@@ -25768,14 +25784,6 @@
 		(uuid "48d1388b-b4e5-4989-8240-b18f6f051c46")
 	)
 	(segment
-		(start 103.1 118.861765)
-		(end 103.238235 119)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 67)
-		(uuid "4ae6eb51-ea05-474a-8aca-801a8e74e412")
-	)
-	(segment
 		(start 135.55 139.631128)
 		(end 135.55 139.875)
 		(width 0.2)
@@ -25784,20 +25792,20 @@
 		(uuid "4d86bdcb-c1a3-4d33-880b-04a0aa423fdc")
 	)
 	(segment
+		(start 103.1 118.25)
+		(end 103.85 119)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 67)
+		(uuid "4dc21a00-dac0-421b-9b9d-8a2801c361cf")
+	)
+	(segment
 		(start 129.15 139.875)
 		(end 128.05 140.975)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 67)
 		(uuid "5635d152-1a05-4a2a-a7c5-6e2873aa1272")
-	)
-	(segment
-		(start 103.1 112.2)
-		(end 103.1 118.861765)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 67)
-		(uuid "66481ead-00f2-43d1-bff1-f4c907cad047")
 	)
 	(segment
 		(start 139.106128 136.075)
@@ -25912,20 +25920,20 @@
 		(uuid "912ef311-0a3c-4c12-9356-54c61f605e99")
 	)
 	(segment
-		(start 105.725 118)
-		(end 111.844816 118)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 67)
-		(uuid "966038c7-921b-4a0d-b67c-8f5202ed7368")
-	)
-	(segment
 		(start 140.1 112.66)
 		(end 142.4 114.96)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 67)
 		(uuid "996f7d99-38b3-41ce-9e7b-b3793db16b78")
+	)
+	(segment
+		(start 103.85 119)
+		(end 104.725 119)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 67)
+		(uuid "9f82aaf0-d84a-43f5-8d33-f6fb372186f5")
 	)
 	(segment
 		(start 105.3375 75.915)
@@ -25990,14 +25998,6 @@
 		(layer "F.Cu")
 		(net 67)
 		(uuid "ce430324-c05d-4008-9f31-965beb7d5b5d")
-	)
-	(segment
-		(start 104.725 119)
-		(end 105.725 118)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 67)
-		(uuid "ceeaedce-03be-4be9-9d4e-36fa02e48744")
 	)
 	(segment
 		(start 128.19 142.81974)
