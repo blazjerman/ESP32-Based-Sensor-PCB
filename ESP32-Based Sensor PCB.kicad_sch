@@ -10043,7 +10043,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "100"
 			(at 105.41 168.91 90)
 			(effects
 				(font
@@ -10060,7 +10060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603120RFKEA/C844736"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603100RFKEAC/C844724"
 			(at 105.41 168.91 0)
 			(effects
 				(font
@@ -10078,7 +10078,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844736"
+		(property "LCSC" "C844724"
 			(at 105.41 168.91 0)
 			(effects
 				(font
@@ -12431,7 +12431,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "150"
 			(at 105.41 161.29 90)
 			(effects
 				(font
@@ -12448,7 +12448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603120RFKEA/C844736"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603150RFKEA/C844741"
 			(at 105.41 161.29 0)
 			(effects
 				(font
@@ -12466,7 +12466,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844736"
+		(property "LCSC" "C844741"
 			(at 105.41 161.29 0)
 			(effects
 				(font
@@ -15477,7 +15477,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "100"
 			(at 105.156 176.53 90)
 			(effects
 				(font
@@ -15494,7 +15494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603120RFKEA/C844736"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603100RFKEAC/C844724"
 			(at 105.41 176.53 0)
 			(effects
 				(font
@@ -15512,7 +15512,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844736"
+		(property "LCSC" "C844724"
 			(at 105.41 176.53 0)
 			(effects
 				(font
