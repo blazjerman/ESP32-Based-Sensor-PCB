@@ -4,4 +4,5 @@
   (lib (name "LQH5BPB4R7NT0L")(type "KiCad")(uri "${KIPRJMOD}/lib/LQH5BPB4R7NT0L")(options "")(descr ""))
   (lib (name "LTST-G563EGBW")(type "KiCad")(uri "${KIPRJMOD}/lib/LTST-G563EGBW")(options "")(descr ""))
   (lib (name "LQH3NPN6R8MMEL")(type "KiCad")(uri "${KIPRJMOD}/lib/LQH3NPN6R8MMEL")(options "")(descr ""))
+  (lib (name "TEMT6000X01")(type "KiCad")(uri "${KIPRJMOD}/lib/TEMT6000X01")(options "")(descr ""))
 )
