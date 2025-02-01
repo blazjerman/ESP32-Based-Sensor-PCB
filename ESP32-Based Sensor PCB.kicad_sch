@@ -7058,6 +7058,12 @@
 		(uuid "14b524cb-a7a3-46ce-8a05-1cc319fbefa3")
 	)
 	(junction
+		(at 137.16 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "159fe519-42f8-4040-b583-df2b6c60f889")
+	)
+	(junction
 		(at 246.38 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7160,6 +7166,12 @@
 		(uuid "85931ed8-ef9a-432e-9ebd-75b1fde92099")
 	)
 	(junction
+		(at 137.16 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f515576-afb9-4796-a78d-a3fcedcdf352")
+	)
+	(junction
 		(at 34.29 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7230,12 +7242,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9a23b6a-9b58-44e2-9b2a-fa24a1bc0551")
-	)
-	(junction
-		(at 189.23 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd9859e1-cfb9-4052-af79-355d9033fa25")
 	)
 	(no_connect
 		(at 243.84 85.09)
@@ -7469,7 +7475,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 147.32) (xy 194.31 146.05)
+			(xy 137.16 109.22) (xy 137.16 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7556,16 +7562,6 @@
 			(type default)
 		)
 		(uuid "3aabf4d3-9d6d-4f2e-a5f3-f1bb487f321c")
-	)
-	(wire
-		(pts
-			(xy 194.31 157.48) (xy 189.23 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ae1442b-5e94-47be-abbc-3e0e8ecc9ac8")
 	)
 	(wire
 		(pts
@@ -7809,6 +7805,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 109.22) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6154690f-b559-4225-8e0a-b1c2cd0b803b")
+	)
+	(wire
+		(pts
 			(xy 246.38 129.54) (xy 238.76 129.54)
 		)
 		(stroke
@@ -7886,6 +7892,16 @@
 			(type default)
 		)
 		(uuid "6a52a9a4-4635-4861-8ca8-c6fa92aeba46")
+	)
+	(wire
+		(pts
+			(xy 190.5 132.08) (xy 190.5 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae30ce5-2fa2-4405-9f19-80263886e491")
 	)
 	(wire
 		(pts
@@ -8069,16 +8085,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 157.48) (xy 181.61 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "928f05e7-5df7-446a-ac87-3dbacc59fe98")
-	)
-	(wire
-		(pts
 			(xy 34.29 27.94) (xy 38.1 27.94)
 		)
 		(stroke
@@ -8176,16 +8182,6 @@
 			(type default)
 		)
 		(uuid "a468748c-0e14-4a00-9fc0-8f13c6a304eb")
-	)
-	(wire
-		(pts
-			(xy 189.23 124.46) (xy 181.61 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a559be7d-7db2-4401-9fed-95d7d554c031")
 	)
 	(wire
 		(pts
@@ -8319,6 +8315,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 124.46) (xy 181.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c194c9a4-938d-4737-bad6-0a063c5eb97c")
+	)
+	(wire
+		(pts
 			(xy 53.34 49.53) (xy 57.15 49.53)
 		)
 		(stroke
@@ -8386,16 +8392,6 @@
 			(type default)
 		)
 		(uuid "cda07a85-952b-412b-85ff-fd6e6147e83c")
-	)
-	(wire
-		(pts
-			(xy 189.23 124.46) (xy 189.23 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce9f218c-c7e9-4cbe-aa93-b2790f12dc6a")
 	)
 	(wire
 		(pts
@@ -8596,6 +8592,16 @@
 			(type default)
 		)
 		(uuid "eef7b416-7537-494d-b0b7-78fd07d2978f")
+	)
+	(wire
+		(pts
+			(xy 133.35 119.38) (xy 137.16 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2be1fcc-a153-4d4c-b55e-ea6e11ea2b45")
 	)
 	(wire
 		(pts
@@ -9391,7 +9397,7 @@
 	)
 	(global_label "VCC_5"
 		(shape input)
-		(at 194.31 146.05 90)
+		(at 137.16 107.95 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9401,7 +9407,7 @@
 		)
 		(uuid "4e6b7bc8-c053-4633-bde1-947f6d63c27f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 137.2591 90)
+			(at 137.16 99.1591 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9851,6 +9857,28 @@
 			)
 		)
 	)
+	(global_label "LIG_ANA"
+		(shape input)
+		(at 190.5 132.08 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a28f6030-7bea-41e5-bf9f-709677890591")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 142.4434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DI"
 		(shape input)
 		(at 207.01 143.51 180)
@@ -10269,6 +10297,28 @@
 			)
 		)
 	)
+	(global_label "LIG_ANA"
+		(shape input)
+		(at 133.35 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f830d089-e59d-46a4-a98d-331e3c8bed1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.9866 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 261.62 140.97 0)
@@ -10681,41 +10731,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 185.42 157.48 270)
+		(lib_id "Device:C")
+		(at 120.65 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0a7ffe7b-a258-4176-b1b3-45b799bf9451")
-		(property "Reference" "R21"
-			(at 185.42 160.02 90)
+		(uuid "0856e9d4-42ce-4b6e-b6aa-984d6d53de0d")
+		(property "Reference" "C16"
+			(at 115.062 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 185.42 162.052 90)
+		(property "Value" "0.1uF"
+			(at 114.808 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 185.42 155.702 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
-			(at 185.42 157.48 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 121.6152 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10723,8 +10766,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 185.42 157.48 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,8 +10775,17 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
-			(at 185.42 157.48 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10742,7 +10794,92 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 185.42 157.48 0)
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c212e57-601f-458d-a8e1-817a63016919")
+		)
+		(pin "2"
+			(uuid "758b855a-6c92-4f56-84a3-8c11d642d866")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a7ffe7b-a258-4176-b1b3-45b799bf9451")
+		(property "Reference" "R21"
+			(at 139.7 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 141.732 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 135.382 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C844918"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 137.16 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16908,16 +17045,15 @@
 	)
 	(symbol
 		(lib_id "TEMT6000X01:TEMT6000X01")
-		(at 191.77 152.4 0)
+		(at 134.62 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b77ce4e4-c787-4a49-9b04-d82b5414d741")
 		(property "Reference" "Q6"
-			(at 195.58 151.1045 0)
+			(at 136.652 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16926,7 +17062,7 @@
 			)
 		)
 		(property "Value" "TEMT6000X01"
-			(at 195.58 153.6445 0)
+			(at 136.652 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16935,7 +17071,7 @@
 			)
 		)
 		(property "Footprint" "TEMT6000X01:TRANS_TEMT6000X01"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16945,7 +17081,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/parts/componentSearch?searchTxt=TEMT6000X01"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16954,7 +17090,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16963,7 +17099,7 @@
 			)
 		)
 		(property "MF" "Vishay Semiconductor"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16973,7 +17109,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Phototransistors 570nm Top View 1206 (3216 Metric)\n                        \n"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16983,7 +17119,7 @@
 			)
 		)
 		(property "Package" "1206 Vishay"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16993,7 +17129,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17003,7 +17139,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TEMT6000X01/Vishay/view-part/?ref=eda"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17013,7 +17149,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17023,7 +17159,7 @@
 			)
 		)
 		(property "PARTREV" "1.9"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17033,7 +17169,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TEMT6000X01/Vishay/view-part/?ref=snap"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17043,7 +17179,7 @@
 			)
 		)
 		(property "MP" "TEMT6000X01"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17053,7 +17189,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17063,7 +17199,7 @@
 			)
 		)
 		(property "MANUFACTURER" "VISHAY"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17073,7 +17209,7 @@
 			)
 		)
 		(property "LCSC" "C94098"
-			(at 191.77 152.4 0)
+			(at 134.62 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17492,15 +17628,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 157.48 0)
+		(at 120.65 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c696a612-486a-4fdb-9ba7-6acff2e637c6")
-		(property "Reference" "#PWR038"
-			(at 177.8 163.83 0)
+		(uuid "c60cffa6-dbc2-4669-9c75-409de4d6c336")
+		(property "Reference" "#PWR048"
+			(at 120.65 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17509,7 +17645,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 161.29 0)
+			(at 120.65 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17517,7 +17653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 157.48 0)
+			(at 120.65 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17526,7 +17662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 157.48 0)
+			(at 120.65 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17535,7 +17671,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 157.48 0)
+			(at 120.65 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91cd82a0-572d-44dc-b805-8d6379d77209")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c696a612-486a-4fdb-9ba7-6acff2e637c6")
+		(property "Reference" "#PWR038"
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
