@@ -1922,7 +1922,7 @@
 			)
 		)
 		(property "Value" "220u"
-			(at 0 4.35 360)
+			(at 0 4.35 0)
 			(layer "F.Fab")
 			(uuid "5e9bb739-2941-48dd-a4f0-e658630e9098")
 			(effects
@@ -2334,7 +2334,7 @@
 			(uuid "07ef3551-32e3-4ca5-b7b7-b9241f18a8e6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0ea474cb-32a8-401b-b882-e37b28ee7caf")
 			(effects
