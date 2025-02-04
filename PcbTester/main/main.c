@@ -8,9 +8,16 @@
 #include "soc/gpio_reg.h"
 #include "esp_err.h"
 #include "esp_mac.h"
+#include "driver/ledc.h"
+#include "esp_random.h"
+
+
 
 
 #include "driver/i2c_master.h"
+
+
+#define TAG "APP"
 
 
 #define UART_BUF_SIZE 512
@@ -18,7 +25,15 @@
 
 #define I2C_SPEED 100000
 
-#define TAG "APP"
+
+
+
+
+
+// Define PWM parameters
+#define PWM_FREQUENCY 5000  // Frequency in Hz (5 kHz)
+#define PWM_RESOLUTION LEDC_TIMER_8_BIT  // 8-bit resolution (0-255)
+#define PWM_TIMER LEDC_TIMER_0  // Timer 0 (you can use other timers too)
 
 
 
@@ -56,7 +71,7 @@ static void uart_init(uart_port_t uart_num, int tx, int rx, int buffer_size) {
 }
 
 
-static i2c_master_bus_handle_t bus_handle = NULL;
+static i2c_master_bus_handle_t bus_handle;
 
 void init_i2c(i2c_port_t i2c_num) {
 
@@ -65,7 +80,7 @@ void init_i2c(i2c_port_t i2c_num) {
         .i2c_port = i2c_num,
         .scl_io_num = 22,
         .sda_io_num = 21,
-        .glitch_ignore_cnt = 7,
+        .glitch_ignore_cnt = 8,
         .flags.enable_internal_pullup = true,
     };
 
@@ -77,11 +92,62 @@ void init_i2c(i2c_port_t i2c_num) {
     
 }
 
+void pwm_init() {
+
+    ledc_channel_config_t pwm_channel_0 = {
+        .gpio_num = 32,
+        .speed_mode = LEDC_LOW_SPEED_MODE,
+        .channel = LEDC_CHANNEL_0,
+        .intr_type = LEDC_INTR_DISABLE,
+        .timer_sel = PWM_TIMER,
+        .duty = 0,
+        .hpoint = 0
+    };
+    ledc_channel_config(&pwm_channel_0);
+
+    ledc_channel_config_t pwm_channel_1 = {
+        .gpio_num = 33,
+        .speed_mode = LEDC_LOW_SPEED_MODE,
+        .channel = LEDC_CHANNEL_1,
+        .intr_type = LEDC_INTR_DISABLE,
+        .timer_sel = PWM_TIMER,
+        .duty = 0,
+        .hpoint = 0
+    };
+    ledc_channel_config(&pwm_channel_1);
+
+    ledc_channel_config_t pwm_channel_2 = {
+        .gpio_num = 2,
+        .speed_mode = LEDC_LOW_SPEED_MODE,
+        .channel = LEDC_CHANNEL_2,
+        .intr_type = LEDC_INTR_DISABLE,
+        .timer_sel = PWM_TIMER,
+        .duty = 0,
+        .hpoint = 0
+    };
+    ledc_channel_config(&pwm_channel_2);
+
+    ledc_timer_config_t pwm_timer = {
+        .speed_mode = LEDC_LOW_SPEED_MODE,
+        .timer_num = PWM_TIMER,
+        .duty_resolution = PWM_RESOLUTION,
+        .freq_hz = PWM_FREQUENCY,
+        .clk_cfg = LEDC_USE_APB_CLK
+    };
+    ledc_timer_config(&pwm_timer);
+
+    ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0);
+    ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_1);
+    ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_2);
+
+}
 
 bool check_slave_presence(uint8_t address) {
-    esp_err_t err = i2c_master_probe(bus_handle, address, I2C_ADDR_BIT_LEN_7);
+    esp_err_t err = i2c_master_probe(bus_handle, address, 100 / portTICK_PERIOD_MS);
     return err == ESP_OK;
 }
+
+
 
 
 void app_main()
@@ -96,13 +162,16 @@ void app_main()
     uart_init(UART_NUM_2, 25, 26, UART_BUF_SIZE);
 
     // I2C
-    init_i2c(0);
+    init_i2c(I2C_NUM_0);
 
-    int i = 0;
+    // PMW
+    pwm_init();
+
+    int count = 0;
 
     while (1) {
 
-        printf("\n\n\nLoop index: %d\n" , i++);
+        printf("\n\n\nLoop index: %d\n" , count++);
 
         // rs485
         char rs485Send[] = "sending from rs485\n";
@@ -123,15 +192,20 @@ void app_main()
         printf("Reciving UART: %s\n", uartRec);
 
         // I2C
-        for (size_t i = 0x08; i < 0x77; i++) {
-            if (check_slave_presence(i)) printf("Slave at adress %d exists.", i);
-        }
+        if (check_slave_presence(9)) printf("Slave at adress exists.");
+
+        
         
 
         // Pmw
-        
-        
+        ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0, esp_random() & 255);
+        ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_1, esp_random() & 255);
+        ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_2, esp_random() & 255);
 
+        ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0);
+        ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_1);
+        ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_2);
+        
         vTaskDelay(1000 / portTICK_PERIOD_MS);
     }
 }
