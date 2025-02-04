@@ -27,14 +27,59 @@
 
 
 
-
-
-
 // Define PWM parameters
-#define PWM_FREQUENCY 5000  // Frequency in Hz (5 kHz)
-#define PWM_RESOLUTION LEDC_TIMER_8_BIT  // 8-bit resolution (0-255)
-#define PWM_TIMER LEDC_TIMER_0  // Timer 0 (you can use other timers too)
+#define PWM_FREQUENCY 5000 
+#define PWM_RESOLUTION LEDC_TIMER_8_BIT
+#define PWM_TIMER LEDC_TIMER_0
 
+
+// Define analog read
+
+#define SENSORS_WIDTH_BIT ADC_WIDTH_BIT_12
+#define SENSOR_COUNT 6
+
+static const adc2_channel_t SENSORS_PINS[SENSOR_COUNT] = {
+    ADC2_CHANNEL_5,
+    ADC2_CHANNEL_6,
+    ADC2_CHANNEL_7,
+    ADC2_CHANNEL_4,
+    ADC2_CHANNEL_2,
+    ADC2_CHANNEL_0
+};
+
+
+
+
+static void init_analog() {
+    
+    if (adc1_config_width(SENSORS_WIDTH_BIT) != ESP_OK) {
+        ESP_LOGE(TAG, "Adc1_config_width failed.");
+        return;
+    }
+
+    for (int i = 0; i < SENSOR_COUNT; ++i) {
+        if (adc2_config_channel_atten(SENSORS_PINS[i], ADC_ATTEN_DB_0)  != ESP_OK) {
+            ESP_LOGE(TAG, "adc2_config_channel_atten failed pin %d.", SENSORS_PINS[i]);
+            return;
+        }
+    }
+}
+
+
+static void read_sensors() {
+    
+    for (int i = 0; i < SENSOR_COUNT; ++i) {
+        
+        int sensor_value;
+
+        esp_err_t r = adc2_get_raw(SENSORS_PINS[i], SENSORS_WIDTH_BIT, &sensor_value);
+
+        if ( r != ESP_OK ) ESP_LOGE(TAG, "ADC2 read error pin %d", i);
+        printf("Analog read index: %d value: %d \n", i, sensor_value);
+
+    }
+
+}
 
 
 static void uart_init(uart_port_t uart_num, int tx, int rx, int buffer_size) {
@@ -167,6 +212,9 @@ void app_main()
     // PMW
     pwm_init();
 
+    // Analog
+    init_analog();
+
     int count = 0;
 
     while (1) {
@@ -192,7 +240,7 @@ void app_main()
         printf("Reciving UART: %s\n", uartRec);
 
         // I2C
-        if (check_slave_presence(9)) printf("Slave at adress exists.");
+        if (check_slave_presence(9)) printf("Slave at adress exists.\n");
 
         
         
@@ -207,5 +255,8 @@ void app_main()
         ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_2);
         
         vTaskDelay(1000 / portTICK_PERIOD_MS);
+
+        // Analog
+        read_sensors();
     }
 }
