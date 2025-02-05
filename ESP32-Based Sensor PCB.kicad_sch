@@ -18513,7 +18513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Hgsemi-MAX3485ECMMTR/C5310819"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18840-MAX3485ESAT/C18148"
 			(at 228.6 137.16 0)
 			(effects
 				(font
@@ -18531,7 +18531,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5310819"
+		(property "LCSC" "C18148"
 			(at 228.6 138.43 0)
 			(effects
 				(font
