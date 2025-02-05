@@ -36,14 +36,10 @@
 // Define analog read
 
 #define SENSORS_WIDTH_BIT ADC_WIDTH_BIT_12
-#define SENSOR_COUNT 6
+#define SENSOR_COUNT 2
 
 static const adc2_channel_t SENSORS_PINS[SENSOR_COUNT] = {
-    ADC2_CHANNEL_5,
-    ADC2_CHANNEL_6,
     ADC2_CHANNEL_7,
-    ADC2_CHANNEL_4,
-    ADC2_CHANNEL_2,
     ADC2_CHANNEL_0
 };
 
@@ -58,7 +54,7 @@ static void init_analog() {
     }
 
     for (int i = 0; i < SENSOR_COUNT; ++i) {
-        if (adc2_config_channel_atten(SENSORS_PINS[i], ADC_ATTEN_DB_0)  != ESP_OK) {
+        if (adc2_config_channel_atten(SENSORS_PINS[i], ADC_ATTEN_DB_11)  != ESP_OK) {
             ESP_LOGE(TAG, "adc2_config_channel_atten failed pin %d.", SENSORS_PINS[i]);
             return;
         }
@@ -151,7 +147,7 @@ void pwm_init() {
     ledc_channel_config(&pwm_channel_0);
 
     ledc_channel_config_t pwm_channel_1 = {
-        .gpio_num = 33,
+        .gpio_num = 13,
         .speed_mode = LEDC_LOW_SPEED_MODE,
         .channel = LEDC_CHANNEL_1,
         .intr_type = LEDC_INTR_DISABLE,
@@ -204,7 +200,8 @@ void app_main()
     uart_init(UART_NUM_1, 17, 16, UART_BUF_SIZE);
 
     // UART port
-    uart_init(UART_NUM_2, 25, 26, UART_BUF_SIZE);
+    //uart_init(UART_NUM_2, 25, 26, UART_BUF_SIZE);
+    uart_init(UART_NUM_2, 14, 12, UART_BUF_SIZE);
 
     // I2C
     init_i2c(I2C_NUM_0);
