@@ -1245,6 +1245,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2b2e9c0-dad1-4350-9807-644b5fa0911b")
 		)
@@ -1584,6 +1593,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59bef593-a99b-4118-a909-ce5cccae134b")
 		)
@@ -1664,6 +1682,15 @@
 			)
 		)
 		(property "Value_1" ""
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -1760,6 +1787,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "001b567f-ddc5-4ae7-ad49-d4f780d38752")
 		)
@@ -1848,6 +1884,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64462c7a-02dc-424b-acf2-b49f55fdd271")
 		)
@@ -1919,6 +1964,15 @@
 			)
 		)
 		(property "LCSC" "C464815"
+			(at 124.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
 			(at 124.46 100.33 0)
 			(effects
 				(font
