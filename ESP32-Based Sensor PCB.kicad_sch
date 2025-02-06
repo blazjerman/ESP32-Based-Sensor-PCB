@@ -11198,7 +11198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Elecsuper-USBLC6_2SC6ES/C5180249"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Stmicroelectronics-USBLC62SC6/C7519"
 			(at 49.53 122.555 0)
 			(effects
 				(font
@@ -11217,7 +11217,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5180249"
+		(property "LCSC" "C7519"
 			(at 50.8 114.3 0)
 			(effects
 				(font
