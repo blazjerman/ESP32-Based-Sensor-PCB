@@ -7269,6 +7269,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 168.91) (xy 99.06 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098ece8c-3e36-4986-be96-ac65a948c6ae")
+	)
+	(wire
+		(pts
 			(xy 91.44 134.62) (xy 91.44 132.08)
 		)
 		(stroke
@@ -7476,16 +7486,6 @@
 			(type default)
 		)
 		(uuid "35c3b0ba-2ab2-4544-88b6-ad9b8754c641")
-	)
-	(wire
-		(pts
-			(xy 99.06 161.29) (xy 101.6 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39fd2146-92ee-47a0-8f4b-8fd88e0831e4")
 	)
 	(wire
 		(pts
@@ -8049,6 +8049,36 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 168.91) (xy 111.76 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1e8791-2176-411e-99d7-c553c0df73f7")
+	)
+	(wire
+		(pts
+			(xy 109.22 176.53) (xy 111.76 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03251d4-cd05-4fb0-85c5-baffac394b07")
+	)
+	(wire
+		(pts
+			(xy 101.6 176.53) (xy 99.06 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a051e99e-267c-4689-b3b1-f8f8a851f957")
+	)
+	(wire
+		(pts
 			(xy 205.74 76.2) (xy 201.93 76.2)
 		)
 		(stroke
@@ -8299,6 +8329,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 161.29) (xy 99.06 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a6b00f-f9d3-4d91-b41a-7674a17c3946")
+	)
+	(wire
+		(pts
 			(xy 34.29 158.75) (xy 34.29 168.91)
 		)
 		(stroke
@@ -8319,6 +8359,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 161.29) (xy 111.76 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62e84ac-3634-45d8-a5f9-ba7fa1896c09")
+	)
+	(wire
+		(pts
 			(xy 50.8 83.82) (xy 50.8 92.71)
 		)
 		(stroke
@@ -8336,16 +8386,6 @@
 			(type default)
 		)
 		(uuid "da6ea928-5db9-4e80-bc6e-e9ec48ec22c4")
-	)
-	(wire
-		(pts
-			(xy 109.22 161.29) (xy 111.76 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de36b22d-9f42-46f2-b6e0-fdb9a2fdf26d")
 	)
 	(wire
 		(pts
@@ -8419,16 +8459,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 168.91) (xy 111.76 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2c77920-4f42-4396-87e8-c258e7589d53")
-	)
-	(wire
-		(pts
 			(xy 35.56 163.83) (xy 35.56 173.99)
 		)
 		(stroke
@@ -8489,26 +8519,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 176.53) (xy 101.6 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f49dd580-f01a-4f70-a89c-dc3f2f031fb3")
-	)
-	(wire
-		(pts
-			(xy 109.22 176.53) (xy 111.76 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f544c781-9824-4e20-b8da-8bd7df459319")
-	)
-	(wire
-		(pts
 			(xy 34.29 158.75) (xy 33.02 158.75)
 		)
 		(stroke
@@ -8536,16 +8546,6 @@
 			(type default)
 		)
 		(uuid "f6701808-6574-4902-bbcd-8d6a6f9f6efa")
-	)
-	(wire
-		(pts
-			(xy 99.06 168.91) (xy 101.6 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f67ab9ee-564d-4d97-93e4-96153989cd12")
 	)
 	(wire
 		(pts
@@ -10513,100 +10513,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 105.41 168.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06679dcf-b834-420a-9abb-ae2f94640977")
-		(property "Reference" "R14"
-			(at 105.41 166.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 105.41 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 105.41 170.688 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603100RFKEAC/C844724"
-			(at 105.41 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 105.41 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C844724"
-			(at 105.41 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value_1" ""
-			(at 105.41 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 105.41 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ddec974a-4eb2-44bc-a4ea-1235568e04b3")
-		)
-		(pin "1"
-			(uuid "6c01dc87-a250-4de3-9bd2-7247b2fc91c3")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 50.8 127 0)
 		(unit 1)
@@ -11425,6 +11331,100 @@
 			(project ""
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1460d5df-5a78-4181-9110-ea2418295dd9")
+		(property "Reference" "R15"
+			(at 105.41 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 105.41 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 105.41 178.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805120RFKEAHP/C844392"
+			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C844392"
+			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdbb7dae-c10c-42ff-9167-8424fa4cfc9f")
+		)
+		(pin "1"
+			(uuid "259534df-213e-429f-aae4-293401ec82a4")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -12481,6 +12481,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 105.41 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d2ec0bf-f7c5-438a-af05-275592761cb3")
+		(property "Reference" "R13"
+			(at 105.41 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 105.41 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 105.41 163.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805120RFKEAHP/C844392"
+			(at 105.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C844392"
+			(at 105.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 105.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 105.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f767e912-37cf-46b5-9bd2-b12aa6688431")
+		)
+		(pin "1"
+			(uuid "679f4bf1-b784-42d3-82ef-2d85acbbedf5")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 245.11 26.67 0)
 		(unit 1)
@@ -13150,100 +13244,6 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 105.41 161.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44811fd4-1990-4be5-8a25-3e1012ee3833")
-		(property "Reference" "R13"
-			(at 105.41 159.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150"
-			(at 105.41 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 105.41 163.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603150RFKEA/C844741"
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C844741"
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value_1" ""
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e83b4bd7-bebe-48e6-8b23-3e4137d9cddd")
-		)
-		(pin "1"
-			(uuid "8d687aaf-2cef-454b-ade9-d3820305cde7")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -16213,100 +16213,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 105.41 176.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a455cb7a-ca38-451f-9216-17ff0a5ab65d")
-		(property "Reference" "R15"
-			(at 105.41 174.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 105.156 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 105.41 178.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603100RFKEAC/C844724"
-			(at 105.41 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 105.41 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C844724"
-			(at 105.41 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value_1" ""
-			(at 105.41 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 105.41 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ff073235-72c6-49ac-97cd-0a69b5204971")
-		)
-		(pin "1"
-			(uuid "1d0f7da4-c5b1-4a69-8aba-c3dcb00a8a08")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RF_Module:ESP32-WROOM-32")
 		(at 166.37 106.68 0)
 		(unit 1)
@@ -18586,6 +18492,100 @@
 			(project ""
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcab84a9-8490-4dba-8261-bb35811dc7fd")
+		(property "Reference" "R14"
+			(at 105.41 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 105.41 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 105.41 170.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805120RFKEAHP/C844392"
+			(at 105.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C844392"
+			(at 105.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 105.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 105.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "daa33cb9-4494-4ccc-b01a-6267dae70eec")
+		)
+		(pin "1"
+			(uuid "b398bb74-7b59-49e2-ab41-48b6b0ee3b4e")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "R14")
 					(unit 1)
 				)
 			)
