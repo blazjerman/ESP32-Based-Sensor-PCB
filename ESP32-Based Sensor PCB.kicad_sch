@@ -7279,6 +7279,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 78.74) (xy 181.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab4d6fd-0043-43e7-9604-3357d12d53c5")
+	)
+	(wire
+		(pts
 			(xy 91.44 134.62) (xy 91.44 132.08)
 		)
 		(stroke
@@ -7416,16 +7426,6 @@
 			(type default)
 		)
 		(uuid "29cfee53-4c5b-47a0-96f7-fa6cc4d47715")
-	)
-	(wire
-		(pts
-			(xy 185.42 78.74) (xy 181.61 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a8a603e-af67-4330-8110-8b4c28bd8951")
 	)
 	(wire
 		(pts
@@ -8179,6 +8179,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 83.82) (xy 181.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b782a709-a60f-4b62-8c89-ff86d961d53a")
+	)
+	(wire
+		(pts
 			(xy 233.68 39.37) (xy 233.68 52.07)
 		)
 		(stroke
@@ -8186,16 +8196,6 @@
 			(type default)
 		)
 		(uuid "b7badfd3-2ef6-4672-970f-e47c874cfdcc")
-	)
-	(wire
-		(pts
-			(xy 185.42 83.82) (xy 181.61 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baafab48-ddac-4808-a46b-c6430c77c090")
 	)
 	(wire
 		(pts
@@ -8995,7 +8995,7 @@
 	)
 	(global_label "URX"
 		(shape input)
-		(at 185.42 83.82 0)
+		(at 185.42 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9005,7 +9005,7 @@
 		)
 		(uuid "2b3733cf-e8c5-44ac-ad1b-da6ab0134555")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.2152 83.82 0)
+			(at 192.2152 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9655,7 +9655,7 @@
 	)
 	(global_label "UTX"
 		(shape input)
-		(at 185.42 78.74 0)
+		(at 185.42 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9665,7 +9665,7 @@
 		)
 		(uuid "90e87dd2-b7ef-4650-bd6b-093b563122cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.9128 78.74 0)
+			(at 191.9128 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
