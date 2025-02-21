@@ -7042,12 +7042,6 @@
 		(uuid "707da802-7b33-4a32-b70d-fc5512dbed5d")
 	)
 	(junction
-		(at 201.93 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7205861b-89a7-4ca6-81a0-ce2f69e11c84")
-	)
-	(junction
 		(at 246.38 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7579,16 +7573,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 76.2) (xy 181.61 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c688378-c2a8-41e8-ad79-f475fa8a24c5")
-	)
-	(wire
-		(pts
 			(xy 157.48 59.69) (xy 166.37 59.69)
 		)
 		(stroke
@@ -8079,7 +8063,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 76.2) (xy 201.93 76.2)
+			(xy 181.61 76.2) (xy 205.74 76.2)
 		)
 		(stroke
 			(width 0)
@@ -11897,103 +11881,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 201.93 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "212bc9ff-8007-454e-9b84-a117760656b9")
-		(property "Reference" "C15"
-			(at 205.74 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 205.74 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 202.8952 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
-			(at 201.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 201.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1591"
-			(at 201.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value_1" ""
-			(at 201.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 201.93 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83395c84-88e2-4d1a-b2f9-a64520f621c1")
-		)
-		(pin "2"
-			(uuid "b5287b3a-d8fb-49a4-9adc-d1c9756da7dd")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 130.81 29.21 0)
 		(unit 1)
@@ -14562,72 +14449,6 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 201.93 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "700e594a-16cd-4225-80dd-f0300f15532e")
-		(property "Reference" "#PWR043"
-			(at 201.93 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 201.93 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00592e6a-cc4a-4ec3-ac8a-e1c1ef2567d3")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
