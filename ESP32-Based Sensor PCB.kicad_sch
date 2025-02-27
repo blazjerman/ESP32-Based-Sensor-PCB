@@ -10675,7 +10675,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "10k"
 			(at 141.732 123.19 90)
 			(effects
 				(font
@@ -10692,7 +10692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603680RFKEA/C844802"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
 			(at 137.16 123.19 0)
 			(effects
 				(font
@@ -10710,7 +10710,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844802"
+		(property "LCSC" "C844918"
 			(at 137.16 123.19 0)
 			(effects
 				(font
@@ -14830,7 +14830,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "CH340C"
+		(property "LCSC" "C7464026"
 			(at 91.44 116.84 0)
 			(effects
 				(font
@@ -16870,7 +16870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/parts/componentSearch?searchTxt=TEMT6000X01"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-TEMT6000X01/C94098"
 			(at 134.62 114.3 0)
 			(effects
 				(font
