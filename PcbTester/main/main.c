@@ -54,7 +54,7 @@ static void init_analog() {
     }
 
     for (int i = 0; i < SENSOR_COUNT; ++i) {
-        if (adc2_config_channel_atten(SENSORS_PINS[i], ADC_ATTEN_DB_11)  != ESP_OK) {
+        if (adc2_config_channel_atten(SENSORS_PINS[i], ADC_ATTEN_DB_0)  != ESP_OK) {
             ESP_LOGE(TAG, "adc2_config_channel_atten failed pin %d.", SENSORS_PINS[i]);
             return;
         }
@@ -71,7 +71,8 @@ static void read_sensors() {
         esp_err_t r = adc2_get_raw(SENSORS_PINS[i], SENSORS_WIDTH_BIT, &sensor_value);
 
         if ( r != ESP_OK ) ESP_LOGE(TAG, "ADC2 read error pin %d", i);
-        printf("Analog read index: %d value: %d \n", i, sensor_value);
+        if (i != 0) printf("Analog read index: %d value: %d \n", i, sensor_value);
+        else printf("Light sensor: %d value: %d \n", i, sensor_value);
 
     }
 
@@ -243,17 +244,22 @@ void app_main()
         
 
         // Pmw
-        ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0, esp_random() & 255);
-        ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_1, esp_random() & 255);
-        ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_2, esp_random() & 255);
+        ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0, (esp_random() & 255) / 20);
+        ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_1, (esp_random() & 255) / 20);
+        ledc_set_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_2, (esp_random() & 255) / 20);
 
         ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0);
         ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_1);
         ledc_update_duty(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_2);
         
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
-
+        
         // Analog
         read_sensors();
+
+        printf("\n\n\n");
+        
+        vTaskDelay(300 / portTICK_PERIOD_MS);
+
+
     }
 }
