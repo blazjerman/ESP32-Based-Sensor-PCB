@@ -238,9 +238,9 @@ void app_main()
         printf("Reciving UART: %s\n", uartRec);
 
         // I2C
-        if (check_slave_presence(9)) printf("Slave at adress exists.\n");
-
-        
+        for (size_t address = 0x70; address < 0x71; address++) {
+            if (check_slave_presence(address)) printf("Slave at %d adress exists.\n", address);
+        }
         
 
         // Pmw
