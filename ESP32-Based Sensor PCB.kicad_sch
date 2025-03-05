@@ -7015,7 +7015,7 @@
 		(uuid "58e242ba-3fe7-40ff-959f-4daf11553bc1")
 	)
 	(junction
-		(at 246.38 137.16)
+		(at 248.92 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6663c431-a96f-4168-8d4b-080d32d09e09")
@@ -7045,7 +7045,7 @@
 		(uuid "7ce344c5-4524-41dc-b217-5cba6c014699")
 	)
 	(junction
-		(at 246.38 129.54)
+		(at 248.92 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83733d52-9501-48da-abf0-f8095aa91b15")
@@ -7099,13 +7099,13 @@
 		(uuid "e9bac870-4f7e-4ef8-9931-1bae7bca7772")
 	)
 	(junction
-		(at 261.62 137.16)
+		(at 264.16 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee7ea1dd-08e9-4bdf-b2f8-2016e7a6f3b1")
 	)
 	(junction
-		(at 261.62 129.54)
+		(at 264.16 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0dbda16-8758-48ec-9cae-8e1a1aa8cf42")
@@ -7280,7 +7280,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 135.89) (xy 241.3 135.89)
+			(xy 238.76 135.89) (xy 243.84 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7450,7 +7450,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 129.54) (xy 246.38 129.54)
+			(xy 243.84 129.54) (xy 248.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7640,7 +7640,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 129.54) (xy 246.38 129.54)
+			(xy 264.16 129.54) (xy 248.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7690,7 +7690,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 137.16) (xy 246.38 137.16)
+			(xy 243.84 137.16) (xy 248.92 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7830,7 +7830,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 130.81) (xy 241.3 129.54)
+			(xy 243.84 130.81) (xy 243.84 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7940,7 +7940,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 135.89) (xy 241.3 137.16)
+			(xy 243.84 135.89) (xy 243.84 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8000,7 +8000,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 137.16) (xy 246.38 137.16)
+			(xy 264.16 137.16) (xy 248.92 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8500,7 +8500,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 130.81) (xy 241.3 130.81)
+			(xy 238.76 130.81) (xy 243.84 130.81)
 		)
 		(stroke
 			(width 0)
@@ -8529,7 +8529,7 @@
 		(uuid "ff975f1a-81ea-4d78-a417-6b801eea69e9")
 	)
 	(label "RS-"
-		(at 241.3 137.16 0)
+		(at 243.84 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8539,7 +8539,7 @@
 		(uuid "0a338e63-b7fb-4c4a-aef6-bf2ccf21b201")
 	)
 	(label "RS+"
-		(at 241.3 129.54 0)
+		(at 243.84 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9710,7 +9710,7 @@
 	)
 	(global_label "VCC_3.3"
 		(shape input)
-		(at 261.62 121.92 90)
+		(at 264.16 121.92 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9720,7 +9720,7 @@
 		)
 		(uuid "9788c35d-66fb-4e44-adab-9159c7255010")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.62 111.3148 90)
+			(at 264.16 111.3148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10348,7 +10348,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 261.62 140.97 0)
+		(at 264.16 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10357,7 +10357,7 @@
 		(fields_autoplaced yes)
 		(uuid "02130a89-7a5d-4e34-8341-17643b198132")
 		(property "Reference" "R9"
-			(at 264.16 139.6999 0)
+			(at 266.7 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10366,7 +10366,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 264.16 142.2399 0)
+			(at 266.7 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10375,7 +10375,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 259.842 140.97 90)
+			(at 262.382 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10384,7 +10384,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603680RFKEA/C844802"
-			(at 261.62 140.97 0)
+			(at 264.16 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,7 +10393,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 261.62 140.97 0)
+			(at 264.16 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,7 +10402,7 @@
 			)
 		)
 		(property "LCSC" "C844802"
-			(at 261.62 140.97 0)
+			(at 264.16 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10411,7 +10411,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 261.62 140.97 0)
+			(at 264.16 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10420,7 +10420,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 261.62 140.97 0)
+			(at 264.16 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10718,7 +10718,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x08"
-			(at 257.048 53.086 0)
+			(at 257.048 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10978,7 +10978,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ7.0CA")
-		(at 246.38 125.73 270)
+		(at 248.92 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10987,7 +10987,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e5f2063-eab0-45f1-bf84-eddf3d98a321")
 		(property "Reference" "D3"
-			(at 248.92 124.4599 90)
+			(at 251.46 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,7 +10996,7 @@
 			)
 		)
 		(property "Value" "SMAJ7.0CA"
-			(at 248.92 126.9999 90)
+			(at 251.46 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11005,7 +11005,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 241.3 125.73 0)
+			(at 243.84 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11014,7 +11014,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/Brightking-SMAJ70CA/C309905"
-			(at 246.38 125.73 0)
+			(at 248.92 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11023,7 +11023,7 @@
 			)
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 7.0Vr, SMA(DO-214AC)"
-			(at 246.38 125.73 0)
+			(at 248.92 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,7 +11032,7 @@
 			)
 		)
 		(property "LCSC" "C309905"
-			(at 246.38 125.73 0)
+			(at 248.92 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11041,7 +11041,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 246.38 125.73 0)
+			(at 248.92 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11050,7 +11050,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 246.38 125.73 0)
+			(at 248.92 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11606,7 +11606,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 121.92 180)
+		(at 248.92 121.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11615,7 +11615,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a9ee595-0ebe-49b3-b6e7-883ffd303f70")
 		(property "Reference" "#PWR010"
-			(at 246.38 115.57 0)
+			(at 248.92 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11624,7 +11624,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 120.6499 0)
+			(at 251.46 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11633,7 +11633,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 121.92 0)
+			(at 248.92 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11642,7 +11642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 121.92 0)
+			(at 248.92 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11651,7 +11651,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 121.92 0)
+			(at 248.92 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12231,7 +12231,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x06"
-			(at 258.064 86.868 0)
+			(at 257.81 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13099,7 +13099,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 144.78 0)
+		(at 248.92 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13107,7 +13107,7 @@
 		(dnp no)
 		(uuid "485f8621-93ce-4227-9c2b-49c444f4863e")
 		(property "Reference" "#PWR09"
-			(at 246.38 151.13 0)
+			(at 248.92 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13116,7 +13116,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 148.59 0)
+			(at 248.92 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13124,7 +13124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 144.78 0)
+			(at 248.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13133,7 +13133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 144.78 0)
+			(at 248.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13142,7 +13142,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 144.78 0)
+			(at 248.92 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13327,7 +13327,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 261.62 125.73 0)
+		(at 264.16 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13336,7 +13336,7 @@
 		(fields_autoplaced yes)
 		(uuid "56bd55fc-4c1e-4bbe-8074-4ef2a9a111fd")
 		(property "Reference" "R8"
-			(at 264.16 124.4599 0)
+			(at 266.7 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13345,7 +13345,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 264.16 126.9999 0)
+			(at 266.7 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13354,7 +13354,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 259.842 125.73 90)
+			(at 262.382 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13363,7 +13363,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603680RFKEA/C844802"
-			(at 261.62 125.73 0)
+			(at 264.16 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13372,7 +13372,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 261.62 125.73 0)
+			(at 264.16 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13381,7 +13381,7 @@
 			)
 		)
 		(property "LCSC" "C844802"
-			(at 261.62 125.73 0)
+			(at 264.16 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13390,7 +13390,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 261.62 125.73 0)
+			(at 264.16 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13399,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 261.62 125.73 0)
+			(at 264.16 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16285,7 +16285,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 261.62 144.78 0)
+		(at 264.16 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16293,7 +16293,7 @@
 		(dnp no)
 		(uuid "b0a56432-d83f-4102-b7f5-5c2929dc56e7")
 		(property "Reference" "#PWR018"
-			(at 261.62 151.13 0)
+			(at 264.16 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16302,7 +16302,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 261.62 148.59 0)
+			(at 264.16 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16310,7 +16310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 144.78 0)
+			(at 264.16 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16319,7 +16319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 144.78 0)
+			(at 264.16 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16328,7 +16328,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 261.62 144.78 0)
+			(at 264.16 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17595,7 +17595,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ7.0CA")
-		(at 246.38 140.97 90)
+		(at 248.92 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17604,7 +17604,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7d2fc3d-5b8a-4cef-b830-67679adf94ac")
 		(property "Reference" "D5"
-			(at 248.92 139.6999 90)
+			(at 251.46 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17613,7 +17613,7 @@
 			)
 		)
 		(property "Value" "SMAJ7.0CA"
-			(at 248.92 142.2399 90)
+			(at 251.46 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17622,7 +17622,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 251.46 140.97 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17631,7 +17631,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/Brightking-SMAJ70CA/C309905"
-			(at 246.38 140.97 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17640,7 +17640,7 @@
 			)
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 7.0Vr, SMA(DO-214AC)"
-			(at 246.38 140.97 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17649,7 +17649,7 @@
 			)
 		)
 		(property "LCSC" "C309905"
-			(at 246.38 140.97 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17658,7 +17658,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 246.38 140.97 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17667,7 +17667,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 246.38 140.97 0)
+			(at 248.92 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17764,10 +17764,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db863774-f17e-4659-b804-ef78bbb932bc")
 		(property "Reference" "U6"
-			(at 230.7941 120.65 0)
+			(at 229.362 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17776,7 +17775,7 @@
 			)
 		)
 		(property "Value" "MAX3485EESA+T"
-			(at 230.7941 123.19 0)
+			(at 229.362 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17967,7 +17966,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 261.62 133.35 0)
+		(at 264.16 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17976,7 +17975,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfb03b28-5c1a-4925-9e33-653b3c669759")
 		(property "Reference" "R7"
-			(at 264.16 132.0799 0)
+			(at 266.7 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17985,7 +17984,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 264.16 134.6199 0)
+			(at 266.7 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17994,7 +17993,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 259.842 133.35 90)
+			(at 262.382 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18003,7 +18002,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805120RFKEAHP/C844392"
-			(at 261.62 133.35 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18012,7 +18011,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 261.62 133.35 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18021,7 +18020,7 @@
 			)
 		)
 		(property "LCSC" "C844392"
-			(at 261.62 133.35 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18030,7 +18029,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 261.62 133.35 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18039,7 +18038,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 261.62 133.35 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
