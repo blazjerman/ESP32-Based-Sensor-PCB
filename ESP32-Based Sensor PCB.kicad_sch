@@ -8030,7 +8030,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 76.2) (xy 205.74 76.2)
+			(xy 181.61 76.2) (xy 198.12 76.2)
 		)
 		(stroke
 			(width 0)
@@ -10282,7 +10282,7 @@
 	)
 	(global_label "IO0"
 		(shape input)
-		(at 205.74 76.2 0)
+		(at 198.12 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10292,7 +10292,7 @@
 		)
 		(uuid "e8ad9dd1-363c-406e-89d8-488f580231b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.87 76.2 0)
+			(at 204.25 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10707,7 +10707,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "07e75c93-ddfc-4fd7-8101-0e15e0ec9cd3")
 		(property "Reference" "J2"
 			(at 276.86 64.7699 0)
@@ -10719,7 +10718,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x08"
-			(at 276.86 67.3099 0)
+			(at 257.048 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13248,7 +13247,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220u"
+		(property "Value" "100u"
 			(at 34.29 88.0109 0)
 			(effects
 				(font
@@ -13266,7 +13265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Panasonic-EEEFT1C221AP/C178588"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Panasonic-EEEFK1C101P/C128532"
 			(at 30.48 87.63 0)
 			(effects
 				(font
@@ -13293,7 +13292,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C178588"
+		(property "LCSC" "C128532"
 			(at 30.48 87.63 0)
 			(effects
 				(font

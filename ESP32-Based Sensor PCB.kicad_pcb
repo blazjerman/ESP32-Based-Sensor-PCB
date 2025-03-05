@@ -1935,7 +1935,7 @@
 				)
 			)
 		)
-		(property "Value" "220u"
+		(property "Value" "100u"
 			(at 0 4.35 0)
 			(layer "F.Fab")
 			(uuid "5e9bb739-2941-48dd-a4f0-e658630e9098")
@@ -1946,7 +1946,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Panasonic-EEEFT1C221AP/C178588"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Panasonic-EEEFK1C101P/C128532"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1985,7 +1985,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C178588"
+		(property "LCSC" "C128532"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10363,11 +10363,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8442d83f-e4fd-49ae-b39f-c6d810d7853d")
-		(at 128.85 102.225 90)
+		(at 128.85 102.225 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R19"
-			(at 0 -1.4 90)
+			(at 0 1.45 90)
 			(layer "F.SilkS")
 			(uuid "d5a08054-a157-4d47-aea7-1e819698aa34")
 			(effects
@@ -10377,7 +10377,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "680"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "d68f28b2-af6e-46f5-8154-8ef2eea1a5e0")
@@ -10388,8 +10388,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
-			(at 0 0 90)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603680RFKEA/C844802"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10402,7 +10402,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10414,8 +10414,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C844918"
-			(at 0 0 90)
+		(property "LCSC" "C844802"
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10428,7 +10428,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10441,7 +10441,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10454,20 +10454,10 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/08b287c6-4977-464e-bd9a-c8b8a0d84aac/60ca1b56-8749-4c33-a919-b222cd6c4646")
+		(path "/08b287c6-4977-464e-bd9a-c8b8a0d84aac/690c79f2-7984-4d56-8019-56b8c66753d4")
 		(sheetname "/9V_Booster/")
 		(sheetfile "9V_Booster.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -0.237258 -0.5225)
-			(end 0.237258 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f406c940-5c18-478e-bf34-9fc021261fbe")
-		)
 		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
@@ -10479,34 +10469,14 @@
 			(uuid "221b8375-1c5b-4dca-bc25-d9f7ecf08716")
 		)
 		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "29199dbe-69f2-4c47-ba85-7529d84b39ef")
-		)
-		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7381c164-76e5-4da2-91c4-a36639d552ff")
-		)
-		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ea605a0b-e043-412f-a509-88856935780c")
+			(layer "F.SilkS")
+			(uuid "f406c940-5c18-478e-bf34-9fc021261fbe")
 		)
 		(fp_line
 			(start -1.48 0.73)
@@ -10519,24 +10489,44 @@
 			(uuid "94351857-bbe1-4ba4-81dc-967a5e1ea6de")
 		)
 		(fp_line
-			(start 0.8 -0.4125)
-			(end 0.8 0.4125)
+			(start 1.48 0.73)
+			(end -1.48 0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "d6534330-956c-42ed-8a03-34b24bdb37c5")
+			(layer "F.CrtYd")
+			(uuid "ea605a0b-e043-412f-a509-88856935780c")
 		)
 		(fp_line
-			(start -0.8 -0.4125)
-			(end 0.8 -0.4125)
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7381c164-76e5-4da2-91c4-a36639d552ff")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "29199dbe-69f2-4c47-ba85-7529d84b39ef")
+		)
+		(fp_line
+			(start -0.8 0.4125)
+			(end -0.8 -0.4125)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "48dcfc21-920d-46ae-9eb6-a3c38d808d46")
+			(uuid "a52a00ef-8a5c-419f-8505-b221734deb54")
 		)
 		(fp_line
 			(start 0.8 0.4125)
@@ -10549,14 +10539,24 @@
 			(uuid "8b8d00bd-4e64-4e17-b150-59691b6ba66f")
 		)
 		(fp_line
-			(start -0.8 0.4125)
-			(end -0.8 -0.4125)
+			(start -0.8 -0.4125)
+			(end 0.8 -0.4125)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a52a00ef-8a5c-419f-8505-b221734deb54")
+			(uuid "48dcfc21-920d-46ae-9eb6-a3c38d808d46")
+		)
+		(fp_line
+			(start 0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d6534330-956c-42ed-8a03-34b24bdb37c5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -10570,20 +10570,20 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0 90)
-			(size 0.8 0.95)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 89 "Net-(U8-EN)")
-			(pintype "passive")
-			(uuid "db095dd5-5593-4592-a183-549bcc52aafd")
-		)
-		(pad "2" smd roundrect
-			(at 0.825 0 90)
+			(at -0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 12 "EN_9V")
+			(pintype "passive")
+			(uuid "db095dd5-5593-4592-a183-549bcc52aafd")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0 270)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 89 "Net-(U8-EN)")
 			(pintype "passive")
 			(uuid "979f876a-8cb3-44d2-a476-d8ef38fe18dc")
 		)
