@@ -1,8 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "VEML7700-TR")(type "KiCad")(uri "${KIPRJMOD}/lib/VEML7700-TR/VEML7700-TR.kicad_sym")(options "")(descr ""))
-  (lib (name "LQH5BPB4R7NT0L")(type "KiCad")(uri "${KIPRJMOD}/lib/LQH5BPB4R7NT0L/LQH5BPB4R7NT0L.kicad_sym")(options "")(descr ""))
   (lib (name "LTST-G563EGBW")(type "KiCad")(uri "${KIPRJMOD}/lib/LTST-G563EGBW/LTST-G563EGBW.kicad_sym")(options "")(descr ""))
-  (lib (name "LQH3NPN6R8MMEL")(type "KiCad")(uri "${KIPRJMOD}/lib/LQH3NPN6R8MMEL/LQH3NPN6R8MMEL.kicad_sym")(options "")(descr ""))
   (lib (name "TEMT6000X01")(type "KiCad")(uri "${KIPRJMOD}/lib/TEMT6000X01/TEMT6000X01.kicad_sym")(options "")(descr ""))
 )
