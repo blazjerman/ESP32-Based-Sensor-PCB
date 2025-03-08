@@ -10428,6 +10428,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 264.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5723f9a7-81a5-4c01-808a-426940e9ebb9")
 		)
@@ -10520,6 +10528,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 151.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10616,6 +10632,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10735,7 +10759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Dorabo-DB125_2_54_8P_GNS/C918126"
 			(at 274.32 64.77 0)
 			(effects
 				(font
@@ -10751,6 +10775,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C918126"
+			(at 274.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value_0" ""
+			(at 274.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10867,6 +10907,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c212e57-601f-458d-a8e1-817a63016919")
 		)
@@ -10959,6 +11007,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11058,6 +11114,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 248.92 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f83d5f89-3ce2-4033-9a1e-01cbc1d66cbe")
 		)
@@ -11155,6 +11219,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d13e449-ba3a-4537-9dc7-d01fe59f1dca")
 		)
@@ -11250,6 +11322,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 214.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11350,6 +11430,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 50.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11521,6 +11609,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 105.41 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11823,6 +11919,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 48.26 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2aef15b-820a-430b-b3f0-8b1693336538")
 		)
@@ -12034,6 +12138,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 130.81 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0bcdc649-874d-47ba-8011-dde2d17ae874")
 		)
@@ -12194,6 +12306,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 45.72 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a47a047d-9991-4300-b920-acd458f853cd")
 		)
@@ -12248,7 +12368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Dorabo-DB125_2_54_6P_GNS/C918124"
 			(at 274.32 97.79 0)
 			(effects
 				(font
@@ -12264,6 +12384,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C918124"
+			(at 274.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value_0" ""
+			(at 274.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -12431,6 +12567,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 245.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b7a530d-4ddf-4a9f-94a1-e14543e3c070")
 		)
@@ -12520,6 +12664,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 105.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12749,6 +12901,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 214.63 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2a5c350-b174-4bf1-9538-173023496f87")
 		)
@@ -12842,6 +13002,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 33.02 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -13015,6 +13183,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 218.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13310,6 +13486,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 30.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bee05fff-749a-4448-aaf4-a39a6a886b36")
 		)
@@ -13405,6 +13589,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 264.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13504,6 +13696,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 163.83 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13670,6 +13870,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 233.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "5844366a-fb2e-4767-be98-255b74e2a401")
 		)
@@ -13833,6 +14041,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2d9ff376-821d-46ad-b3cc-0f663db1349a")
 		)
@@ -13930,6 +14146,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 201.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d231391-f035-4c8f-b88c-4d52b2ceb80d")
 		)
@@ -14023,6 +14247,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 50.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14121,6 +14353,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e0692ed-d24d-4525-aebb-d9aa97690db8")
 		)
@@ -14207,6 +14447,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 260.35 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14298,6 +14546,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 163.83 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14392,6 +14648,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 138.43 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14624,6 +14888,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 91.44 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "15"
 			(uuid "8b155aa6-e0ca-4450-8089-e84a746c56de")
 		)
@@ -14820,6 +15092,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 267.97 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2c3fe4e9-fd0d-4646-9293-df9f2d947fbd")
 		)
@@ -14868,7 +15148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Dorabo-DB125_2_54_6P_GNS/C918124"
 			(at 100.33 39.37 0)
 			(effects
 				(font
@@ -14884,6 +15164,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C918124"
+			(at 100.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value_0" ""
+			(at 100.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -15126,6 +15422,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 138.43 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15404,6 +15708,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 130.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "765c0006-52df-43dc-a396-9c75d63baf8a")
 		)
@@ -15557,6 +15869,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 252.73 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "194fb7a7-97e1-4c28-8e52-74f985ba1626")
 		)
@@ -15704,6 +16024,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 189.23 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15864,6 +16192,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "34"
@@ -16069,6 +16405,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 39.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16500,6 +16844,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 48.26 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f6521d9a-1604-47aa-9b68-a8c365fb48ff")
 		)
@@ -16701,6 +17053,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b74cf8e9-946d-46b8-bf46-fcd254f698d0")
 		)
@@ -16798,6 +17158,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 125.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "67ffa5f1-ecd8-492e-9f69-aaa4ea3572c5")
 		)
@@ -16891,6 +17259,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 214.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17120,6 +17496,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 151.13 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17406,6 +17790,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 119.38 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "5d805350-f3ee-4b74-a170-5e7cd275350f")
 		)
@@ -17578,6 +17970,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 39.37 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3565b2f5-0d36-4676-a12f-1f61520fe70e")
 		)
@@ -17673,6 +18073,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 248.92 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17837,6 +18245,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 228.6 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2bb2c30-6a4d-4cd0-9373-3e2b9159de66")
 		)
@@ -17949,6 +18365,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 105.41 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "daa33cb9-4494-4ccc-b01a-6267dae70eec")
 		)
@@ -18046,6 +18470,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 264.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "62958a0e-fde7-4ace-80ca-95a68ee9f00f")
 		)
@@ -18131,6 +18563,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 194.31 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18293,6 +18733,14 @@
 				(hide yes)
 			)
 		)
+		(property "Value_0" ""
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6579524c-2d2b-4095-829b-427879c3c832")
 		)
@@ -18387,6 +18835,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 57.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18484,6 +18940,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18644,6 +19108,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 173.99 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -18884,6 +19356,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
