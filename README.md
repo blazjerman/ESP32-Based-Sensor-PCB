@@ -12,7 +12,7 @@ This ESP32-based sensor board is designed for various sensing and communication 
   - RO (Receive Out): IO16
   - RE/DE (Receive/Drive Enable): IO18
   - Outputs: Terminal block labeled A & B
-- **External UART**: Connected directly to ESP32 (TX: IO25, RX: IO16, available on a labeled terminal block).
+- **External UART**: Connected directly to ESP32 (TX: IO25, RX: IO26, available on a labeled terminal block).
 - **Sound Sensor Compatibility**: RT-ZS-BZ-* (Uses UART on RX: IO12 and TX: IO14, operates on 5V).
 - **RGB LED**:
   - Red: IO13
@@ -39,7 +39,7 @@ A `test` folder is included with example code for the Arduino IDE to test the bo
 | **I2C Multiplexer**  | IO21 (SDA) / IO22 (SCL) | Address 0x70 |
 | **9V Booster**       | IO19      | Enable pin |
 | **RS485** (MAX3485) | IO17 (DI) / IO16 (RO) / IO18 (RE/DE) | Terminal block labeled A & B |
-| **External UART**    | IO25 (TX) / IO16 (RX) | Direct ESP32 connection |
+| **External UART**    | IO25 (TX) / IO26 (RX) | Direct ESP32 connection |
 | **Sound Sensor**     | IO12 (RX) / IO14 (TX) | RT-ZS-BZ-* sensor |
 | **RGB LED**         | IO13 (Red) / IO02 (Green) / IO32 (Blue) | Controlled via PWM |
 | **General Terminal** | IO33      | Labeled "ANA" |
