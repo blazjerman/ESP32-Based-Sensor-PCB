@@ -3,6 +3,10 @@
 ## Overview
 This ESP32-based sensor board is designed for various sensing and communication applications. It includes multiple integrated components such as light sensors, an I2C multiplexer, an RGB LED, RS485 communication, UART, and more. Below is a breakdown of the board’s features and how to interface with it.
 
+<p align="center">
+  <img src="https://github.com/blazjerman/ESP32-Based-Sensor-PCB/blob/main/pcb.png" width="300">
+</p>
+
 ## Features
 - **Light Sensor**: TEMT6000X01 (Analog Output on IO27, requires 3.3V power, and has a 10kΩ pull-down resistor to GND).
 - **I2C Multiplexer**: TCA9548APWR (Address: 0x70, ESP32 SDA: IO21, SCL: IO22; four outputs labeled SD0/SC0 to SD3/SC3).
