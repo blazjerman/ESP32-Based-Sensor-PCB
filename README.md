@@ -28,7 +28,7 @@ This ESP32-based sensor board is designed for various sensing and communication 
   - 3.3V (Labeled "3.3V")
   - 5V (Labeled "5V")
   - 9V (Labeled "9V")
-- **USB Port**: Used for power and ESP32 flashing. Includes TVS diodes for protection and a 1A fuse.
+- **USB Port**: Used for power and ESP32 flashing. Includes ESD protection and a 1A fuse.
 - **Protection Features**:
   - RS485 protection diodes
   - Overcurrent protection on all power terminals
