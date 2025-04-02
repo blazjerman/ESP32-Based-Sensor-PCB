@@ -14,7 +14,7 @@ This ESP32-based sensor board is designed for various sensing and communication 
 - **RS485 Communication**: MAX3485EESA+T
   - DI (Data In): IO17
   - RO (Receive Out): IO16
-  - RE/DE (Receive/Drive Enable): IO18
+  - NEG_RE_DE (writing at high reading at low): IO18
   - Outputs: Terminal block labeled A & B
 - **External UART**: Connected directly to ESP32 (TX: IO25, RX: IO26, available on a labeled terminal block).
 - **Sound Sensor Compatibility**: RT-ZS-BZ-* (Uses UART on RX: IO12 and TX: IO14, operates on 5V).
