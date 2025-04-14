@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "LTST-G563EGBW")(type "KiCad")(uri "${KIPRJMOD}/lib/LTST-G563EGBW")(options "")(descr ""))
   (lib (name "TEMT6000X01")(type "KiCad")(uri "${KIPRJMOD}/lib/TEMT6000X01")(options "")(descr ""))
+  (lib (name "EVQ-P7B01P")(type "KiCad")(uri "${KIPRJMOD}/lib/EVQ-P7B01P")(options "")(descr ""))
 )

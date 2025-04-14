@@ -24,6 +24,7 @@ This ESP32-based sensor board is designed for various sensing and communication 
   - Blue: IO32
   - Controlled via PWM signals and powered using transistors for higher current (Each LED draws ~20mA; see LTST-G563EGBW datasheet).
 - **General-Purpose Terminal Block**: Connected to IO33 (Labeled "ANA").
+- **Button**: Button for any purpose (on press, it will pull I04 down).
 - **Power Outputs**:
   - 3.3V (Labeled "3.3V")
   - 5V (Labeled "5V")
@@ -47,6 +48,7 @@ A `test` folder is included with example code for the Arduino IDE to test the bo
 | **Sound Sensor**     | IO12 (RX) / IO14 (TX) | RT-ZS-BZ-* sensor |
 | **RGB LED**         | IO13 (Red) / IO02 (Green) / IO32 (Blue) | Controlled via PWM |
 | **General Terminal** | IO33      | Labeled "ANA" |
+| **Button** | I04      | pull down |
 
 ## Licensing Information
 - This project is licensed under the [MIT License](LICENSE).
