@@ -15514,7 +15514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Panasonic-EVQP7B01P/C485515"
 			(at 208.28 86.36 0)
 			(effects
 				(font
@@ -15610,6 +15610,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C485515"
+			(at 208.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
