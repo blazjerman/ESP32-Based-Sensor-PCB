@@ -9639,7 +9639,7 @@
 			)
 		)
 	)
-	(global_label "ANA_IN"
+	(global_label "GP"
 		(shape input)
 		(at 95.25 34.29 180)
 		(fields_autoplaced yes)
@@ -9651,7 +9651,7 @@
 		)
 		(uuid "45e87e7b-8f5b-4fa3-a0df-273eadb86433")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.8542 34.29 0)
+			(at 89.7248 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,7 +10079,7 @@
 			)
 		)
 	)
-	(global_label "ANA_IN"
+	(global_label "GP"
 		(shape input)
 		(at 184.15 143.51 270)
 		(fields_autoplaced yes)
@@ -10091,7 +10091,7 @@
 		)
 		(uuid "88a1c50d-ba72-4e81-a399-97d1b2462481")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 152.9058 90)
+			(at 184.15 149.0352 90)
 			(effects
 				(font
 					(size 1.27 1.27)
