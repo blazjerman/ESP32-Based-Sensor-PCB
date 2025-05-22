@@ -7668,16 +7668,16 @@
 		(uuid "c42478e7-eb07-420f-b11a-186006b55af2")
 	)
 	(no_connect
-		(at 181.61 134.62)
-		(uuid "c97e0971-8c8b-4e6b-8d25-f2b415a3aafe")
-	)
-	(no_connect
 		(at 151.13 116.84)
 		(uuid "d52e167d-9f89-43e2-a6be-83b8de4a2469")
 	)
 	(no_connect
 		(at 179.07 26.67)
 		(uuid "dc0f8b06-716a-414e-ae92-c04d109aeee5")
+	)
+	(no_connect
+		(at 181.61 124.46)
+		(uuid "e905c5c7-4fc7-4536-a6a2-b88b1c9f7366")
 	)
 	(no_connect
 		(at 81.28 109.22)
@@ -8035,6 +8035,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 147.32) (xy 181.61 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55fdb461-0217-4526-a2d3-67299b0620b7")
+	)
+	(wire
+		(pts
 			(xy 135.89 48.26) (xy 140.97 48.26)
 		)
 		(stroke
@@ -8212,16 +8222,6 @@
 			(type default)
 		)
 		(uuid "69e8bb48-7787-4575-8e19-66eecb29d057")
-	)
-	(wire
-		(pts
-			(xy 190.5 132.08) (xy 190.5 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae30ce5-2fa2-4405-9f19-80263886e491")
 	)
 	(wire
 		(pts
@@ -8642,16 +8642,6 @@
 			(type default)
 		)
 		(uuid "bde86e9e-6368-4abd-a2de-cad86f1bb39d")
-	)
-	(wire
-		(pts
-			(xy 190.5 124.46) (xy 181.61 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c194c9a4-938d-4737-bad6-0a063c5eb97c")
 	)
 	(wire
 		(pts
@@ -10295,7 +10285,7 @@
 	)
 	(global_label "LIG_ANA"
 		(shape input)
-		(at 190.5 132.08 270)
+		(at 181.61 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10305,7 +10295,7 @@
 		)
 		(uuid "a28f6030-7bea-41e5-bf9f-709677890591")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5 142.4434 90)
+			(at 181.61 157.6834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
