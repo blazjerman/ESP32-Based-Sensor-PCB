@@ -7668,16 +7668,16 @@
 		(uuid "c42478e7-eb07-420f-b11a-186006b55af2")
 	)
 	(no_connect
+		(at 181.61 124.46)
+		(uuid "cadac1a2-ed0e-41f9-92af-61c2084763e2")
+	)
+	(no_connect
 		(at 151.13 116.84)
 		(uuid "d52e167d-9f89-43e2-a6be-83b8de4a2469")
 	)
 	(no_connect
 		(at 179.07 26.67)
 		(uuid "dc0f8b06-716a-414e-ae92-c04d109aeee5")
-	)
-	(no_connect
-		(at 181.61 124.46)
-		(uuid "e905c5c7-4fc7-4536-a6a2-b88b1c9f7366")
 	)
 	(no_connect
 		(at 81.28 109.22)
@@ -10848,7 +10848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603680RFKEA/C844802"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23955-0603WAF6800T5E/C23228"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -10866,7 +10866,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844802"
+		(property "LCSC" "C23228"
 			(at 264.16 140.97 0)
 			(effects
 				(font
@@ -10950,7 +10950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 151.13 157.48 0)
 			(effects
 				(font
@@ -10968,7 +10968,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
+		(property "LCSC" "C25804"
 			(at 151.13 157.48 0)
 			(effects
 				(font
@@ -11119,7 +11119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
 			(at 157.48 63.5 0)
 			(effects
 				(font
@@ -11137,7 +11137,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 157.48 63.5 0)
 			(effects
 				(font
@@ -11392,7 +11392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
 			(at 120.65 113.03 0)
 			(effects
 				(font
@@ -11410,7 +11410,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 120.65 113.03 0)
 			(effects
 				(font
@@ -11494,7 +11494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 137.16 123.19 0)
 			(effects
 				(font
@@ -11512,7 +11512,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
+		(property "LCSC" "C25804"
 			(at 137.16 123.19 0)
 			(effects
 				(font
@@ -11704,7 +11704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 138.43 63.5 0)
 			(effects
 				(font
@@ -11722,7 +11722,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
+		(property "LCSC" "C25804"
 			(at 138.43 63.5 0)
 			(effects
 				(font
@@ -11809,7 +11809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
 			(at 214.63 123.19 0)
 			(effects
 				(font
@@ -11827,7 +11827,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 214.63 123.19 0)
 			(effects
 				(font
@@ -12096,7 +12096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805120RFKEAHP/C844392"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18125-0805W8F1200T5E/C17437"
 			(at 105.41 176.53 0)
 			(effects
 				(font
@@ -12114,7 +12114,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844392"
+		(property "LCSC" "C17437"
 			(at 105.41 176.53 0)
 			(effects
 				(font
@@ -12383,7 +12383,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3904LT1G"
+		(property "Value" "MMBT3904"
 			(at 53.34 172.72 0)
 			(effects
 				(font
@@ -12403,7 +12403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/21237-MMBT3904_RANGE_100_300/C20526"
 			(at 28.194 153.416 0)
 			(effects
 				(font
@@ -12422,7 +12422,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81464"
+		(property "LCSC" "C20526"
 			(at 42.164 168.402 0)
 			(effects
 				(font
@@ -13151,7 +13151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805120RFKEAHP/C844392"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18125-0805W8F1200T5E/C17437"
 			(at 105.41 161.29 0)
 			(effects
 				(font
@@ -13169,7 +13169,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844392"
+		(property "LCSC" "C17437"
 			(at 105.41 161.29 0)
 			(effects
 				(font
@@ -13386,7 +13386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 214.63 49.53 0)
 			(effects
 				(font
@@ -13404,7 +13404,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
+		(property "LCSC" "C25804"
 			(at 214.63 49.53 0)
 			(effects
 				(font
@@ -13670,7 +13670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 218.44 49.53 0)
 			(effects
 				(font
@@ -13688,7 +13688,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
+		(property "LCSC" "C25804"
 			(at 218.44 49.53 0)
 			(effects
 				(font
@@ -14076,7 +14076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603680RFKEA/C844802"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23955-0603WAF6800T5E/C23228"
 			(at 264.16 125.73 0)
 			(effects
 				(font
@@ -14094,7 +14094,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844802"
+		(property "LCSC" "C23228"
 			(at 264.16 125.73 0)
 			(effects
 				(font
@@ -14163,7 +14163,7 @@
 				)
 			)
 		)
-		(property "Value" "MMBT3904LT1G"
+		(property "Value" "MMBT3904"
 			(at 163.83 182.88 90)
 			(effects
 				(font
@@ -14182,7 +14182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/21237-MMBT3904_RANGE_100_300/C20526"
 			(at 184.404 153.924 0)
 			(effects
 				(font
@@ -14201,7 +14201,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81464"
+		(property "LCSC" "C20526"
 			(at 169.418 167.894 0)
 			(effects
 				(font
@@ -14356,7 +14356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
 			(at 102.87 96.52 0)
 			(effects
 				(font
@@ -14374,7 +14374,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 102.87 96.52 0)
 			(effects
 				(font
@@ -14631,7 +14631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
 			(at 138.43 80.01 0)
 			(effects
 				(font
@@ -14649,7 +14649,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 138.43 80.01 0)
 			(effects
 				(font
@@ -14736,7 +14736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
 			(at 201.93 43.18 0)
 			(effects
 				(font
@@ -14754,7 +14754,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 201.93 43.18 0)
 			(effects
 				(font
@@ -14943,7 +14943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/99399-CL21A226MOQNNNE/C98190"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -14961,7 +14961,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C98190"
+		(property "LCSC" "C45783"
 			(at 34.29 53.34 0)
 			(effects
 				(font
@@ -15138,7 +15138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 163.83 165.1 0)
 			(effects
 				(font
@@ -15156,7 +15156,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
+		(property "LCSC" "C25804"
 			(at 163.83 165.1 0)
 			(effects
 				(font
@@ -15240,7 +15240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 138.43 149.86 0)
 			(effects
 				(font
@@ -15258,7 +15258,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
+		(property "LCSC" "C25804"
 			(at 138.43 149.86 0)
 			(effects
 				(font
@@ -16157,7 +16157,7 @@
 				)
 			)
 		)
-		(property "Value" "MMBT3904LT1G"
+		(property "Value" "MMBT3904"
 			(at 138.43 167.64 90)
 			(effects
 				(font
@@ -16176,7 +16176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/21237-MMBT3904_RANGE_100_300/C20526"
 			(at 159.004 138.684 0)
 			(effects
 				(font
@@ -16195,7 +16195,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81464"
+		(property "LCSC" "C20526"
 			(at 144.018 152.654 0)
 			(effects
 				(font
@@ -17160,7 +17160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 39.37 158.75 0)
 			(effects
 				(font
@@ -17178,7 +17178,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
+		(property "LCSC" "C25804"
 			(at 39.37 158.75 0)
 			(effects
 				(font
@@ -17576,7 +17576,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3904LT1G"
+		(property "Value" "MMBT3904"
 			(at 53.34 160.02 0)
 			(effects
 				(font
@@ -17596,7 +17596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/21237-MMBT3904_RANGE_100_300/C20526"
 			(at 28.194 179.324 0)
 			(effects
 				(font
@@ -17615,7 +17615,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81464"
+		(property "LCSC" "C20526"
 			(at 42.164 164.338 0)
 			(effects
 				(font
@@ -17911,7 +17911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -17929,7 +17929,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -18080,7 +18080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 214.63 69.85 0)
 			(effects
 				(font
@@ -18098,7 +18098,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
+		(property "LCSC" "C25804"
 			(at 214.63 69.85 0)
 			(effects
 				(font
@@ -18297,7 +18297,7 @@
 				)
 			)
 		)
-		(property "Value" "MMBT3904LT1G"
+		(property "Value" "MMBT3904"
 			(at 151.13 175.26 90)
 			(effects
 				(font
@@ -18316,7 +18316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Onsemi-MMBT3904LT1G/C81464"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/21237-MMBT3904_RANGE_100_300/C20526"
 			(at 171.704 146.304 0)
 			(effects
 				(font
@@ -18335,7 +18335,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C81464"
+		(property "LCSC" "C20526"
 			(at 156.718 160.274 0)
 			(effects
 				(font
@@ -18789,7 +18789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 39.37 173.99 0)
 			(effects
 				(font
@@ -18807,7 +18807,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
+		(property "LCSC" "C25804"
 			(at 39.37 173.99 0)
 			(effects
 				(font
@@ -19184,7 +19184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805120RFKEAHP/C844392"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18125-0805W8F1200T5E/C17437"
 			(at 105.41 168.91 0)
 			(effects
 				(font
@@ -19202,7 +19202,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844392"
+		(property "LCSC" "C17437"
 			(at 105.41 168.91 0)
 			(effects
 				(font
@@ -19289,7 +19289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0805120RFKEAHP/C844392"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/18125-0805W8F1200T5E/C17437"
 			(at 264.16 133.35 0)
 			(effects
 				(font
@@ -19307,7 +19307,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844392"
+		(property "LCSC" "C17437"
 			(at 264.16 133.35 0)
 			(effects
 				(font
@@ -19552,7 +19552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -19570,7 +19570,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -19656,7 +19656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/99399-CL21A226MOQNNNE/C98190"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -19674,7 +19674,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C98190"
+		(property "LCSC" "C45783"
 			(at 57.15 53.34 0)
 			(effects
 				(font
@@ -19761,7 +19761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1943-CL10B104KB8NNNC/C1591"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
 			(at 62.23 105.41 0)
 			(effects
 				(font
@@ -19779,7 +19779,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1591"
+		(property "LCSC" "C14663"
 			(at 62.23 105.41 0)
 			(effects
 				(font
@@ -20177,7 +20177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/99399-CL21A226MOQNNNE/C98190"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
 			(at 147.32 63.5 0)
 			(effects
 				(font
@@ -20195,7 +20195,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C98190"
+		(property "LCSC" "C45783"
 			(at 147.32 63.5 0)
 			(effects
 				(font

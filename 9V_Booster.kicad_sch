@@ -1132,7 +1132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 142.24 116.84 0)
 			(effects
 				(font
@@ -1150,7 +1150,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
+		(property "LCSC" "C25804"
 			(at 142.24 116.84 0)
 			(effects
 				(font
@@ -1237,7 +1237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/99399-CL21A226MOQNNNE/C98190"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
 			(at 156.21 104.14 0)
 			(effects
 				(font
@@ -1255,7 +1255,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C98190"
+		(property "LCSC" "C45783"
 			(at 156.21 104.14 0)
 			(effects
 				(font
@@ -1342,7 +1342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW060310K0FKEA/C844918"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -1360,7 +1360,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
+		(property "LCSC" "C25804"
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -1577,7 +1577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603680RFKEA/C844802"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23955-0603WAF6800T5E/C23228"
 			(at 109.22 100.33 0)
 			(effects
 				(font
@@ -1595,7 +1595,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844802"
+		(property "LCSC" "C23228"
 			(at 109.22 100.33 0)
 			(effects
 				(font
@@ -1681,7 +1681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/99399-CL21A226MOQNNNE/C98190"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
 			(at 90.17 93.98 0)
 			(effects
 				(font
@@ -1699,7 +1699,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C98190"
+		(property "LCSC" "C45783"
 			(at 90.17 93.98 0)
 			(effects
 				(font
@@ -1786,7 +1786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW0603205KFKEA/C4141412"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23676-0603WAF2053T5E/C22949"
 			(at 142.24 101.6 0)
 			(effects
 				(font
@@ -1804,7 +1804,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4141412"
+		(property "LCSC" "C22949"
 			(at 142.24 101.6 0)
 			(effects
 				(font
