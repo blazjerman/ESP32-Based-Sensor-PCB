@@ -8,7 +8,7 @@ This ESP32-based sensor board is designed for various sensing and communication 
 </p>
 
 ## Features
-- **Light Sensor**: TEMT6000X01 (Analog Output on IO27, requires 3.3V power, and has a 10kΩ pull-down resistor to GND).
+- **Light Sensor**: TEMT6000X01 (Analog Output on IO35, requires 3.3V power, and has a 10kΩ pull-down resistor to GND).
 - **I2C Multiplexer**: TCA9548APWR (Address: 0x70, ESP32 SDA: IO21, SCL: IO22; four outputs labeled SD0/SC0 to SD3/SC3).
 - **9V Booster**: TLV61046ADBVR (Enable pin: IO19; 9V output available on a labeled terminal block).
 - **RS485 Communication**: MAX3485EESA+T
@@ -40,7 +40,7 @@ A `test` folder is included with example code for the Arduino IDE to test the bo
 ## Pinout Summary
 | Component             | ESP32 Pin  | Notes |
 |----------------------|-----------|-------|
-| **Light Sensor**     | IO27      | 3.3V, 10kΩ pull-down resistor |
+| **Light Sensor**     | IO35      | 3.3V, 10kΩ pull-down resistor |
 | **I2C Multiplexer**  | IO21 (SDA) / IO22 (SCL) | Address 0x70 |
 | **9V Booster**       | IO19      | Enable pin |
 | **RS485** (MAX3485) | IO17 (DI) / IO16 (RO) / IO18 (RE/DE) | Terminal block labeled A & B |
