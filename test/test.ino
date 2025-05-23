@@ -157,16 +157,39 @@ void loop() {
   Serial.println("Modbus RS485 Communication");
   switchUartPins(RS485_RO, RS485_DI, RS485_BOUND_RATE, RS485_CONF);
 
-  uint16_t data;
-  uint8_t result = node.readInputRegisters(RS485_READ_REGISTER, 2);
-  
+  // Read 17 registers starting from RS485_READ_REGISTER (e.g., 0)
+  uint8_t result = node.readInputRegisters(0, 17);
+
   if (result == node.ku8MBSuccess) {
-      data = node.getResponseBuffer(0);
-      Serial.print("Read Successful, Value: ");
-      Serial.println(data);
+    float temperature = node.getResponseBuffer(0) / 100.0;
+    float humidity = node.getResponseBuffer(1) / 100.0;
+    float dewpoint = node.getResponseBuffer(2) / 100.0;
+    float moisture = node.getResponseBuffer(3) / 100.0;
+    uint32_t resistance_p = ((uint32_t)node.getResponseBuffer(4) << 16) | node.getResponseBuffer(5);
+    float abs_humidity = node.getResponseBuffer(6) / 100.0;
+    float voltage = node.getResponseBuffer(8) / 100.0;
+    float temperature2 = node.getResponseBuffer(10) / 100.0;
+    float humidity2 = node.getResponseBuffer(11) / 100.0;
+    float dewpoint2 = node.getResponseBuffer(12) / 100.0;
+    uint32_t resistance_n = ((uint32_t)node.getResponseBuffer(14) << 16) | node.getResponseBuffer(15);
+    float abs_humidity2 = node.getResponseBuffer(16) / 100.0;
+
+    Serial.printf("Temperature: %.2f °C\n", temperature);
+    Serial.printf("Humidity: %.2f %%\n", humidity);
+    Serial.printf("Dew Point: %.2f °C\n", dewpoint);
+    Serial.printf("Moisture: %.2f %%\n", moisture);
+    Serial.printf("Abs. Humidity: %.2f g/m³\n", abs_humidity);
+    Serial.printf("Voltage: %.2f V\n", voltage);
+    Serial.printf("Cavity Temp: %.2f °C\n", temperature2);
+    Serial.printf("Cavity Humidity: %.2f %%\n", humidity2);
+    Serial.printf("Cavity Dew Point: %.2f °C\n", dewpoint2);
+    Serial.printf("Cavity Abs. Humidity: %.2f g/m³\n", abs_humidity2);
+    Serial.printf("Resistance+ (P): %lu kΩ\n", resistance_p);
+    Serial.printf("Resistance- (N): %lu kΩ\n", resistance_n);
+    
   } else {
-      Serial.print("Read Failed, Code: ");
-      Serial.println(result, HEX);
+    Serial.print("Read Failed, Code: ");
+    Serial.println(result, HEX);
   }
 
   delay(1000);
