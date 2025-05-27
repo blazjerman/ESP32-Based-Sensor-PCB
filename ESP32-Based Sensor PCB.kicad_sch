@@ -16947,7 +16947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/EspressifSystems-ESP32_WROOM_32EN4/C701341"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/EspressifSystems-ESP32_WROOM_32EN8/C701342"
 			(at 158.75 105.41 0)
 			(effects
 				(font
@@ -16965,7 +16965,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C701341"
+		(property "LCSC" "C701342"
 			(at 166.37 106.68 0)
 			(effects
 				(font
