@@ -7399,10 +7399,22 @@
 		(uuid "87d2c256-b855-4c5b-b2e9-82d0b0353b37")
 	)
 	(junction
+		(at 212.09 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aa37e0b-2746-46b8-9a37-2f8078fc4605")
+	)
+	(junction
 		(at 137.16 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f515576-afb9-4796-a78d-a3fcedcdf352")
+	)
+	(junction
+		(at 204.47 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "905020c6-b54a-4d29-9440-129feb6b07b6")
 	)
 	(junction
 		(at 34.29 158.75)
@@ -7978,6 +7990,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 143.51) (xy 220.98 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f0c3d3-5127-4175-97ed-5d727cee114b")
+	)
+	(wire
+		(pts
 			(xy 181.61 147.32) (xy 181.61 134.62)
 		)
 		(stroke
@@ -8075,6 +8097,16 @@
 			(type default)
 		)
 		(uuid "5c4a85c4-472f-44a5-8915-a2a1faadb1b7")
+	)
+	(wire
+		(pts
+			(xy 203.2 133.35) (xy 214.63 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5cebe5-f669-459b-83af-2e9cd0751c32")
 	)
 	(wire
 		(pts
@@ -8188,7 +8220,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 138.43) (xy 218.44 138.43)
+			(xy 203.2 138.43) (xy 204.47 138.43)
 		)
 		(stroke
 			(width 0)
@@ -8325,6 +8357,16 @@
 			(type default)
 		)
 		(uuid "8dc62ecf-074e-40a4-a459-6b8521ca3fa8")
+	)
+	(wire
+		(pts
+			(xy 204.47 138.43) (xy 218.44 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3f26e1-1268-44bb-b1f3-2fc03bbc5296")
 	)
 	(wire
 		(pts
@@ -8498,16 +8540,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 133.35) (xy 209.55 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae01ed0b-1258-40cf-8006-0a6f67e980f5")
-	)
-	(wire
-		(pts
 			(xy 214.63 135.89) (xy 220.98 135.89)
 		)
 		(stroke
@@ -8665,6 +8697,26 @@
 			(type default)
 		)
 		(uuid "c9221bca-227f-4790-abdf-7184b9e7884b")
+	)
+	(wire
+		(pts
+			(xy 212.09 157.48) (xy 218.44 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9938ac8-9dc5-4404-8060-f7df6dcf8d0b")
+	)
+	(wire
+		(pts
+			(xy 218.44 143.51) (xy 218.44 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad079cd-1898-4ea5-9959-273048c50b02")
 	)
 	(wire
 		(pts
@@ -8928,7 +8980,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 143.51) (xy 220.98 143.51)
+			(xy 203.2 157.48) (xy 212.09 157.48)
 		)
 		(stroke
 			(width 0)
@@ -9532,7 +9584,7 @@
 	)
 	(global_label "~{RE}_DE"
 		(shape input)
-		(at 209.55 138.43 180)
+		(at 203.2 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9542,7 +9594,7 @@
 		)
 		(uuid "39e823d9-9010-4ff0-9aec-d6c748393b7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.7592 138.43 0)
+			(at 194.4092 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9812,6 +9864,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_3.3"
+		(shape input)
+		(at 212.09 149.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67d26e83-e852-4a4c-b9e1-78969edf1941")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.09 139.2548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10280,7 +10354,7 @@
 	)
 	(global_label "DI"
 		(shape input)
-		(at 209.55 133.35 180)
+		(at 203.2 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10290,7 +10364,7 @@
 		)
 		(uuid "a5e91c4e-59f9-42bd-8f10-1f79a32a3c70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.69 133.35 0)
+			(at 198.34 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10324,7 +10398,7 @@
 	)
 	(global_label "RO"
 		(shape input)
-		(at 209.55 143.51 180)
+		(at 203.2 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10334,7 +10408,7 @@
 		)
 		(uuid "a8eda103-6034-427e-ad52-c93dbeb4b8b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.9643 143.51 0)
+			(at 197.6143 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13325,6 +13399,108 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 212.09 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31c1c705-4339-4190-8c96-aeec1afe2e5e")
+		(property "Reference" "R20"
+			(at 215.138 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 215.138 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 210.312 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+			(at 212.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 212.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 212.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 212.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 212.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 212.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "309238a2-f1af-4b02-8d24-1c05e397a14b")
+		)
+		(pin "2"
+			(uuid "00749b9e-8f3c-44aa-a818-41de5bf8dece")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -16752,6 +16928,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a27b6da9-36b0-45c3-a81b-4743ff089167")
+		(property "Reference" "#PWR05"
+			(at 204.47 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc812fab-11eb-4e7e-9dab-80d19e8b11db")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 189.23 21.59 270)
 		(unit 1)
@@ -19777,6 +20018,108 @@
 			(project ""
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f42da4c4-5468-4bf6-bc2a-2c84bf910194")
+		(property "Reference" "R22"
+			(at 207.518 143.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 207.518 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 202.692 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
+			(at 204.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 204.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_1" ""
+			(at 204.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 204.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_0" ""
+			(at 204.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b860f6b-920d-4433-a001-10c0da7cfcde")
+		)
+		(pin "2"
+			(uuid "732e6727-bcb3-4c13-a03e-a76613c4fadb")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "R22")
 					(unit 1)
 				)
 			)
