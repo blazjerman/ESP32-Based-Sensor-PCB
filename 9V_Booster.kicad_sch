@@ -2617,7 +2617,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8uH"
+		(property "Value" "10uH"
 			(at 147.32 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2627,7 +2627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4020S"
 			(at 147.32 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2638,7 +2638,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Sunlord-SWPA4030S6R8MT/C62684"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Sunlord-SWPA4020S100MT/C82398"
 			(at 147.32 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2660,7 +2660,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C62684"
+		(property "LCSC" "C82398"
 			(at 147.32 68.58 0)
 			(hide yes)
 			(show_name no)

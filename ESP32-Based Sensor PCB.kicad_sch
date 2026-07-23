@@ -18730,7 +18730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Molex_47346-0001"
+		(property "Footprint" "Connector_USB:USB_Micro-B_Molex-105017-0001"
 			(at 36.83 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -18741,7 +18741,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/MOLEX-1050170001/C136000"
 			(at 36.83 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -18753,6 +18753,17 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 33.02 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C136000"
 			(at 33.02 114.3 0)
 			(hide yes)
 			(show_name no)

@@ -1855,7 +1855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4020S"
 			(at 142.24 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2023,7 +2023,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV62568DBV"
+		(property "Value" "TLV62568DBVR"
 			(at 127 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2046,7 +2046,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv62568.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/TexasInstruments-TLV62568DBVR/C163219"
 			(at 120.65 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2058,6 +2058,17 @@
 			)
 		)
 		(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-23-5"
+			(at 127 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C163219"
 			(at 127 95.25 0)
 			(hide yes)
 			(show_name no)
