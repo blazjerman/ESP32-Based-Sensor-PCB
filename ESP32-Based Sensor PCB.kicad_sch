@@ -7388,6 +7388,16 @@
 		)
 		(uuid "55a2c75f-6d41-4ea7-bb30-af7090ee825e")
 	)
+	(text "Rev: ${REV}"
+		(exclude_from_sim no)
+		(at 185.42 171.196 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c98a04da-e796-4ff5-8a88-8bebdcc58cb2")
+	)
 	(junction
 		(at 218.44 138.43)
 		(diameter 0)

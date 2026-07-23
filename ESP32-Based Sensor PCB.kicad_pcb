@@ -131,6 +131,7 @@
 			(outputdirectory "")
 		)
 	)
+	(property "REV" "1.2.3")
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "05e0ed49-fddb-483e-a451-f77d916c756c")
@@ -25423,14 +25424,14 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "V1.2.2"
-		(at 123.4 143.8 0)
+	(gr_text "Rev: ${REV}\n"
+		(at 121.88 143.89 0)
 		(layer "F.SilkS")
-		(uuid "c514a94a-5f75-4672-b710-b83007dbf99f")
+		(uuid "dbeecd3d-a113-40b9-ae94-5ee3b4df8000")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)

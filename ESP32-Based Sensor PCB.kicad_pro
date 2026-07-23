@@ -802,7 +802,9 @@
       "9V_Booster"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "REV": "1.2.3"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
