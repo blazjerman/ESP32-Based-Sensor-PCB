@@ -2315,455 +2315,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EVQ-P7B01P:EVQ-P7B01P"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "S"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "EVQ-P7B01P"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EVQ-P7B01P:EVQ-P7B01P"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MF" "Panasonic Electronic Components"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7B01P/Panasonic+Electronic+Components/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "EVQ-P7B01P"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7B01P/Panasonic+Electronic+Components/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "EVQ-P7B01P_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.1778)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -1.905 -2.54)
-					)
-					(stroke
-						(width 0.1778)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.905 0)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.1778)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -2.54) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0.889 0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 2.54) (xy -1.143 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.143 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.651) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.1778)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 0.508)
-					)
-					(stroke
-						(width 0.1778)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 0) (xy 1.651 0)
-					)
-					(stroke
-						(width 0.1778)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 2.54) (xy 1.143 1.651)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 0.1796)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 -2.54) (xy 1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.1778)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.651 0)
-					)
-					(stroke
-						(width 0.1778)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1'"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2'"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Interface_Expansion:TCA9548APWR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6426,6 +5977,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TEMT6000X01:TEMT6000X01"
 			(pin_names
 				(offset 1.016)
@@ -7426,13 +7141,7 @@
 		(at 205.74 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2f9a62c2-1c7e-4731-b4a2-466cf69a62ff")
-	)
-	(junction
-		(at 233.68 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3af35bde-b988-431e-97b6-f953f846f391")
+		(uuid "1e084ff7-8354-4f82-8fd1-2edda691bdb9")
 	)
 	(junction
 		(at 50.8 109.22)
@@ -7465,7 +7174,7 @@
 		(uuid "7458a6ca-5298-42a1-be8e-4b44c44118db")
 	)
 	(junction
-		(at 223.52 85.09)
+		(at 226.06 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ce344c5-4524-41dc-b217-5cba6c014699")
@@ -7477,22 +7186,10 @@
 		(uuid "80e32911-b441-4419-8745-734ffb4014b0")
 	)
 	(junction
-		(at 214.63 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "854ce8a6-f358-4d03-9b7a-fb386dd785df")
-	)
-	(junction
 		(at 88.9 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85931ed8-ef9a-432e-9ebd-75b1fde92099")
-	)
-	(junction
-		(at 201.93 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8767c51b-54af-4032-a2e0-ddfef3f44cf1")
 	)
 	(junction
 		(at 247.65 144.78)
@@ -7537,16 +7234,10 @@
 		(uuid "a97b1b08-a435-48ea-bab7-43a0640264a0")
 	)
 	(junction
-		(at 210.82 57.15)
+		(at 236.22 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d135beec-9dfd-4987-b04b-979ee2f2c99c")
-	)
-	(junction
-		(at 210.82 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd11df76-f1ff-4eac-8f3f-39c07bd4e924")
+		(uuid "b8af35bd-a09b-4ea5-88bd-236674c7ed7b")
 	)
 	(junction
 		(at 262.89 105.41)
@@ -7567,7 +7258,13 @@
 		(uuid "f0dbda16-8758-48ec-9cae-8e1a1aa8cf42")
 	)
 	(junction
-		(at 223.52 87.63)
+		(at 217.17 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5ff4c8f-f840-4213-9b68-6b4dcb9039d7")
+	)
+	(junction
+		(at 226.06 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7b239c0-409d-47e1-b190-2517d4c55806")
@@ -7578,12 +7275,18 @@
 		(color 0 0 0 0)
 		(uuid "f9a23b6a-9b58-44e2-9b2a-fa24a1bc0551")
 	)
+	(junction
+		(at 213.36 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd99d8b4-eb0f-4b06-a6f3-a7743ed9c564")
+	)
 	(no_connect
-		(at 243.84 85.09)
+		(at 246.38 85.09)
 		(uuid "1408ad3e-3a49-42b8-867c-a6f23decc131")
 	)
 	(no_connect
-		(at 243.84 92.71)
+		(at 246.38 92.71)
 		(uuid "1a44de23-4eb2-412d-9fd3-b431393919c0")
 	)
 	(no_connect
@@ -7591,7 +7294,7 @@
 		(uuid "1d8768fe-f451-4529-a809-e5d25156fc3d")
 	)
 	(no_connect
-		(at 243.84 77.47)
+		(at 246.38 77.47)
 		(uuid "2de73eea-5536-4637-8a3e-1362fab1235e")
 	)
 	(no_connect
@@ -7615,7 +7318,7 @@
 		(uuid "56c2b83d-887a-44b3-bac8-b0c60da1b09b")
 	)
 	(no_connect
-		(at 243.84 87.63)
+		(at 246.38 87.63)
 		(uuid "6cb13e6c-47f5-4d28-924a-3e1b5346282d")
 	)
 	(no_connect
@@ -7627,7 +7330,7 @@
 		(uuid "797a399d-c6f0-49bf-9c9d-dd756a33b4fb")
 	)
 	(no_connect
-		(at 243.84 95.25)
+		(at 246.38 95.25)
 		(uuid "7e868d23-abea-4fee-a71e-0bc8c8726f7a")
 	)
 	(no_connect
@@ -7655,7 +7358,7 @@
 		(uuid "a0f09d77-fb18-4c44-ba1d-3b0398ff7275")
 	)
 	(no_connect
-		(at 243.84 82.55)
+		(at 246.38 82.55)
 		(uuid "a4a29c90-6cc7-4a3f-8e2d-c15a06a314a0")
 	)
 	(no_connect
@@ -7671,11 +7374,11 @@
 		(uuid "b713ab4a-58e8-4bcb-baeb-168b8528b2dd")
 	)
 	(no_connect
-		(at 243.84 90.17)
+		(at 246.38 90.17)
 		(uuid "c21fadc7-5cb5-45ef-9337-b45d9e9cb6c0")
 	)
 	(no_connect
-		(at 243.84 80.01)
+		(at 246.38 80.01)
 		(uuid "c42478e7-eb07-420f-b11a-186006b55af2")
 	)
 	(no_connect
@@ -7846,16 +7549,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 86.36) (xy 201.93 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2971cb55-7e8f-445a-8c49-f39b5bfed05d")
-	)
-	(wire
-		(pts
 			(xy 254 97.79) (xy 269.24 97.79)
 		)
 		(stroke
@@ -7906,7 +7599,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 85.09) (xy 223.52 87.63)
+			(xy 220.98 86.36) (xy 218.44 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc1b53c-1592-424d-87aa-e5212cbddd31")
+	)
+	(wire
+		(pts
+			(xy 226.06 85.09) (xy 226.06 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7926,7 +7629,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 38.1) (xy 233.68 52.07)
+			(xy 236.22 38.1) (xy 236.22 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8026,17 +7729,17 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 86.36) (xy 205.74 88.9)
+			(xy 181.61 86.36) (xy 205.74 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40a7b77e-2346-44e3-ae37-18e90fd253be")
+		(uuid "420b6722-9d5c-4ddc-bcb1-35809d5dbd87")
 	)
 	(wire
 		(pts
-			(xy 210.82 86.36) (xy 210.82 88.9)
+			(xy 220.98 86.36) (xy 220.98 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8083,16 +7786,6 @@
 			(type default)
 		)
 		(uuid "4ed32b13-5a33-4e4e-a634-12c416cc7828")
-	)
-	(wire
-		(pts
-			(xy 224.79 38.1) (xy 233.68 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50682bcc-a712-4d40-b629-5eb52b0c9d71")
 	)
 	(wire
 		(pts
@@ -8156,7 +7849,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 54.61) (xy 210.82 57.15)
+			(xy 213.36 54.61) (xy 213.36 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8296,7 +7989,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 57.15) (xy 223.52 57.15)
+			(xy 213.36 57.15) (xy 226.06 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8386,7 +8079,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 44.45) (xy 210.82 46.99)
+			(xy 205.74 86.36) (xy 208.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776fdba6-aa40-4239-9d77-1632ae581574")
+	)
+	(wire
+		(pts
+			(xy 213.36 44.45) (xy 213.36 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8416,6 +8119,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 38.1) (xy 236.22 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8402f09d-2835-491f-b868-202a78921575")
+	)
+	(wire
+		(pts
 			(xy 214.63 119.38) (xy 228.6 119.38)
 		)
 		(stroke
@@ -8436,7 +8149,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 82.55) (xy 223.52 85.09)
+			(xy 226.06 82.55) (xy 226.06 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8586,7 +8299,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 59.69) (xy 223.52 59.69)
+			(xy 217.17 59.69) (xy 226.06 59.69)
 		)
 		(stroke
 			(width 0)
@@ -8603,16 +8316,6 @@
 			(type default)
 		)
 		(uuid "a57926d0-684a-4a32-928a-35e30361b2ac")
-	)
-	(wire
-		(pts
-			(xy 218.44 69.85) (xy 223.52 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a749be58-278b-408d-859a-d57ee12c25c0")
 	)
 	(wire
 		(pts
@@ -8666,16 +8369,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 86.36) (xy 205.74 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5584b50-227e-4e78-9402-c91fbea99089")
-	)
-	(wire
-		(pts
 			(xy 185.42 83.82) (xy 181.61 83.82)
 		)
 		(stroke
@@ -8686,7 +8379,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 35.56) (xy 233.68 38.1)
+			(xy 236.22 35.56) (xy 236.22 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8816,7 +8509,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 54.61) (xy 214.63 59.69)
+			(xy 217.17 54.61) (xy 217.17 59.69)
 		)
 		(stroke
 			(width 0)
@@ -8926,7 +8619,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 100.33) (xy 223.52 87.63)
+			(xy 226.06 100.33) (xy 226.06 87.63)
 		)
 		(stroke
 			(width 0)
@@ -8946,7 +8639,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 57.15) (xy 210.82 57.15)
+			(xy 208.28 57.15) (xy 213.36 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8956,7 +8649,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 59.69) (xy 214.63 59.69)
+			(xy 208.28 59.69) (xy 217.17 59.69)
 		)
 		(stroke
 			(width 0)
@@ -9016,16 +8709,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 69.85) (xy 205.74 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6701808-6574-4902-bbcd-8d6a6f9f6efa")
-	)
-	(wire
-		(pts
 			(xy 218.44 133.35) (xy 218.44 138.43)
 		)
 		(stroke
@@ -9046,7 +8729,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 44.45) (xy 214.63 46.99)
+			(xy 217.17 44.45) (xy 217.17 46.99)
 		)
 		(stroke
 			(width 0)
@@ -9156,7 +8839,7 @@
 	)
 	(global_label "SD3"
 		(shape input)
-		(at 243.84 74.93 0)
+		(at 246.38 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9166,7 +8849,7 @@
 		)
 		(uuid "00013501-25ee-4c44-bb22-e71d2d7c6209")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.5142 74.93 0)
+			(at 253.0542 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9228,7 +8911,7 @@
 	)
 	(global_label "VCC_3.3"
 		(shape input)
-		(at 233.68 35.56 90)
+		(at 236.22 35.56 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9238,7 +8921,7 @@
 		)
 		(uuid "038611f6-8113-47b2-8ccd-6792567154f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.68 24.9548 90)
+			(at 236.22 24.9548 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9276,7 +8959,7 @@
 	)
 	(global_label "SD0"
 		(shape input)
-		(at 243.84 59.69 0)
+		(at 246.38 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9286,7 +8969,7 @@
 		)
 		(uuid "0bf8c017-d9b7-4074-8509-33176fd09a46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.5142 59.69 0)
+			(at 253.0542 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9324,7 +9007,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 205.74 59.69 180)
+		(at 208.28 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9334,7 +9017,7 @@
 		)
 		(uuid "1065ec5e-fce1-48ef-82b8-e2ce1a6e14d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.1867 59.69 0)
+			(at 201.7267 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9420,7 +9103,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 205.74 57.15 180)
+		(at 208.28 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9430,7 +9113,7 @@
 		)
 		(uuid "1ba8b098-f042-4e56-9855-d051fd6aeaa4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.2472 57.15 0)
+			(at 201.7872 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9756,7 +9439,7 @@
 	)
 	(global_label "SC3"
 		(shape input)
-		(at 243.84 72.39 0)
+		(at 246.38 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9766,7 +9449,7 @@
 		)
 		(uuid "43a59e45-ec44-4109-a951-c47227d8cb8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.5142 72.39 0)
+			(at 253.0542 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10020,7 +9703,7 @@
 	)
 	(global_label "VCC_3.3"
 		(shape input)
-		(at 205.74 69.85 180)
+		(at 218.44 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10030,7 +9713,7 @@
 		)
 		(uuid "63ea10b3-a5d1-4f8c-aba7-4c308667c33d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.1348 69.85 0)
+			(at 207.8348 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10236,7 +9919,7 @@
 	)
 	(global_label "VCC_3.3"
 		(shape input)
-		(at 210.82 44.45 90)
+		(at 213.36 44.45 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10246,7 +9929,7 @@
 		)
 		(uuid "7618042e-b413-4a16-b95c-54c6a307f6be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.82 33.8448 90)
+			(at 213.36 33.8448 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10260,7 +9943,7 @@
 	)
 	(global_label "SC0"
 		(shape input)
-		(at 243.84 57.15 0)
+		(at 246.38 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10270,7 +9953,7 @@
 		)
 		(uuid "7dba157b-aa5c-492e-a58f-8876216fc0d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.5142 57.15 0)
+			(at 253.0542 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10692,7 +10375,7 @@
 	)
 	(global_label "SD2"
 		(shape input)
-		(at 243.84 69.85 0)
+		(at 246.38 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10702,7 +10385,7 @@
 		)
 		(uuid "ae659ca7-242f-4765-b7b7-87a87c99dc04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.5142 69.85 0)
+			(at 253.0542 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10764,7 +10447,7 @@
 	)
 	(global_label "SC2"
 		(shape input)
-		(at 243.84 67.31 0)
+		(at 246.38 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10774,7 +10457,7 @@
 		)
 		(uuid "bff7443c-1b60-4781-ad74-29cdd26105b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.5142 67.31 0)
+			(at 253.0542 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10860,17 +10543,17 @@
 	)
 	(global_label "VCC_3.3"
 		(shape input)
-		(at 201.93 93.98 270)
+		(at 205.74 78.74 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "cdf6aeea-9925-4a48-8fdf-05eb8c4ebc66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.93 104.5852 90)
+			(at 205.74 68.1348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10878,13 +10561,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "SC1"
 		(shape input)
-		(at 243.84 62.23 0)
+		(at 246.38 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10894,7 +10577,7 @@
 		)
 		(uuid "d10d242b-5a5f-48d3-ba81-d99e1143511c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.5142 62.23 0)
+			(at 253.0542 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10956,7 +10639,7 @@
 	)
 	(global_label "SD1"
 		(shape input)
-		(at 243.84 64.77 0)
+		(at 246.38 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10966,7 +10649,7 @@
 		)
 		(uuid "d7d45d43-ef40-46f2-9f07-842f02d10315")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.5142 64.77 0)
+			(at 253.0542 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11148,7 +10831,7 @@
 	)
 	(global_label "VCC_3.3"
 		(shape input)
-		(at 214.63 44.45 90)
+		(at 217.17 44.45 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11158,7 +10841,7 @@
 		)
 		(uuid "f88ef7fb-d2f4-4ae2-b8ba-4957b0581fbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.63 33.8448 90)
+			(at 217.17 33.8448 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12579,7 +12262,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 100.33 0)
+		(at 236.22 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12589,7 +12272,7 @@
 		(dnp no)
 		(uuid "132ce131-6400-4034-97e2-95f2ef6f1cfc")
 		(property "Reference" "#PWR06"
-			(at 233.68 106.68 0)
+			(at 236.22 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12600,7 +12283,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 103.886 0)
+			(at 236.22 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12610,7 +12293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 100.33 0)
+			(at 236.22 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12621,7 +12304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 100.33 0)
+			(at 236.22 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12632,7 +12315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 100.33 0)
+			(at 236.22 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13643,7 +13326,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 201.93 90.17 180)
+		(at 205.74 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13653,7 +13336,7 @@
 		(dnp no)
 		(uuid "29ba183a-cae1-4c2f-b729-58c6c6a529f9")
 		(property "Reference" "R25"
-			(at 196.596 89.154 0)
+			(at 203.962 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13664,7 +13347,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 196.85 91.694 0)
+			(at 203.708 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13675,7 +13358,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 203.708 90.17 90)
+			(at 203.962 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13686,7 +13369,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 201.93 90.17 0)
+			(at 205.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13697,7 +13380,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 201.93 90.17 0)
+			(at 205.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13708,7 +13391,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 201.93 90.17 0)
+			(at 205.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13719,7 +13402,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 201.93 90.17 0)
+			(at 205.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13730,7 +13413,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 201.93 90.17 0)
+			(at 205.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13741,7 +13424,7 @@
 			)
 		)
 		(property "Value_0" ""
-			(at 201.93 90.17 0)
+			(at 205.74 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14354,7 +14037,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 50.8 180)
+		(at 213.36 50.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14364,7 +14047,7 @@
 		(dnp no)
 		(uuid "34e37043-171c-4d65-8051-714a5a7b5769")
 		(property "Reference" "R12"
-			(at 205.486 49.784 0)
+			(at 208.026 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14375,7 +14058,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 205.74 52.324 0)
+			(at 208.28 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14386,7 +14069,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 212.598 50.8 90)
+			(at 215.138 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14397,7 +14080,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 210.82 50.8 0)
+			(at 213.36 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14408,7 +14091,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 210.82 50.8 0)
+			(at 213.36 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14419,7 +14102,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 210.82 50.8 0)
+			(at 213.36 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14430,7 +14113,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 210.82 50.8 0)
+			(at 213.36 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14441,7 +14124,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 210.82 50.8 0)
+			(at 213.36 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14452,7 +14135,7 @@
 			)
 		)
 		(property "Value_0" ""
-			(at 210.82 50.8 0)
+			(at 213.36 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14555,7 +14238,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 50.8 180)
+		(at 217.17 50.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14565,7 +14248,7 @@
 		(dnp no)
 		(uuid "3e161b17-c80d-4fcd-9c6f-6337b6a59a7c")
 		(property "Reference" "R11"
-			(at 215.9 49.53 0)
+			(at 218.44 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14576,7 +14259,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 216.154 52.07 0)
+			(at 218.694 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14587,7 +14270,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 216.408 50.8 90)
+			(at 218.948 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14598,7 +14281,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 214.63 50.8 0)
+			(at 217.17 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14609,7 +14292,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 50.8 0)
+			(at 217.17 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14620,7 +14303,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 214.63 50.8 0)
+			(at 217.17 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14631,7 +14314,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 214.63 50.8 0)
+			(at 217.17 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14642,7 +14325,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 214.63 50.8 0)
+			(at 217.17 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14653,7 +14336,7 @@
 			)
 		)
 		(property "Value_0" ""
-			(at 214.63 50.8 0)
+			(at 217.17 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15388,7 +15071,7 @@
 	)
 	(symbol
 		(lib_id "Interface_Expansion:TCA9548APWR")
-		(at 233.68 74.93 0)
+		(at 236.22 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15398,7 +15081,7 @@
 		(dnp no)
 		(uuid "5c01a5f6-8eca-4b0d-b4d3-efda2b3f366f")
 		(property "Reference" "U5"
-			(at 234.442 48.768 0)
+			(at 236.982 48.768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15409,7 +15092,7 @@
 			)
 		)
 		(property "Value" "TCA9548APWR"
-			(at 234.442 51.054 0)
+			(at 236.982 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15420,7 +15103,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
-			(at 233.68 100.33 0)
+			(at 236.22 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15431,7 +15114,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/TexasInstruments-TCA9548APWR/C130026"
-			(at 234.95 68.58 0)
+			(at 237.49 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15442,7 +15125,7 @@
 			)
 		)
 		(property "Description" "Low voltage 8-channel I2C switch with reset, TSSOP-24"
-			(at 233.68 74.93 0)
+			(at 236.22 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15453,7 +15136,7 @@
 			)
 		)
 		(property "LCSC" "C130026"
-			(at 233.68 74.93 0)
+			(at 236.22 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15464,7 +15147,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 233.68 74.93 0)
+			(at 236.22 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15475,7 +15158,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 233.68 74.93 0)
+			(at 236.22 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15486,7 +15169,7 @@
 			)
 		)
 		(property "Value_0" ""
-			(at 233.68 74.93 0)
+			(at 236.22 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15703,7 +15386,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 224.79 41.91 0)
+		(at 227.33 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15713,7 +15396,7 @@
 		(dnp no)
 		(uuid "653c89bd-49df-46a9-987e-4d49b1290627")
 		(property "Reference" "C8"
-			(at 227.584 40.64 0)
+			(at 230.124 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15724,7 +15407,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 227.584 43.18 0)
+			(at 230.124 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15735,7 +15418,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 225.7552 45.72 0)
+			(at 228.2952 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15746,7 +15429,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
-			(at 224.79 41.91 0)
+			(at 227.33 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15757,7 +15440,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 224.79 41.91 0)
+			(at 227.33 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15768,7 +15451,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 224.79 41.91 0)
+			(at 227.33 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15779,7 +15462,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 224.79 41.91 0)
+			(at 227.33 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15790,7 +15473,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 224.79 41.91 0)
+			(at 227.33 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15801,7 +15484,7 @@
 			)
 		)
 		(property "Value_0" ""
-			(at 224.79 41.91 0)
+			(at 227.33 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16706,200 +16389,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EVQ-P7B01P:EVQ-P7B01P")
-		(at 208.28 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82e7982c-745e-4c46-9ea7-bcf3bd40cbc1")
-		(property "Reference" "S1"
-			(at 208.28 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EVQ-P7B01P"
-			(at 208.28 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EVQ-P7B01P:EVQ-P7B01P"
-			(at 208.28 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Panasonic-EVQP7B01P/C485515"
-			(at 208.28 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" "Panasonic Electronic Components"
-			(at 208.28 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-			(at 208.28 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 208.28 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 208.28 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-P7B01P/Panasonic+Electronic+Components/view-part/?ref=snap"
-			(at 208.28 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "EVQ-P7B01P"
-			(at 208.28 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 208.28 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-P7B01P/Panasonic+Electronic+Components/view-part/?ref=eda"
-			(at 208.28 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "LCSC" "C485515"
-			(at 208.28 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "974bd6f6-6b72-4ee5-9101-b576910404c6")
-		)
-		(pin "2'"
-			(uuid "b0f30f40-d575-4dc5-9cb8-54c5808ac4c9")
-		)
-		(pin "1"
-			(uuid "52c08a03-a5a4-451c-9355-8334e466689b")
-		)
-		(pin "1'"
-			(uuid "0794be0d-5496-4ad5-ae78-f787bc1ec037")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 267.97 24.13 0)
 		(unit 1)
@@ -17411,7 +16900,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 100.33 0)
+		(at 226.06 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17421,7 +16910,7 @@
 		(dnp no)
 		(uuid "93d81298-e96a-495f-89cb-506282f75804")
 		(property "Reference" "#PWR019"
-			(at 223.52 106.68 0)
+			(at 226.06 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17432,7 +16921,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 103.886 0)
+			(at 226.06 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17442,7 +16931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 100.33 0)
+			(at 226.06 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17453,7 +16942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 100.33 0)
+			(at 226.06 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17464,7 +16953,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 100.33 0)
+			(at 226.06 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18554,7 +18043,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 45.72 0)
+		(at 227.33 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18565,7 +18054,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6bafd25-8340-4955-8963-82da0cec0cf7")
 		(property "Reference" "#PWR020"
-			(at 224.79 52.07 0)
+			(at 227.33 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18576,7 +18065,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 50.8 0)
+			(at 227.33 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18586,7 +18075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 45.72 0)
+			(at 227.33 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18597,7 +18086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 45.72 0)
+			(at 227.33 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18608,7 +18097,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 45.72 0)
+			(at 227.33 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19549,7 +19038,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 88.9 0)
+		(at 220.98 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19560,7 +19049,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb015768-a76f-4f9a-8e97-7eb74abffea7")
 		(property "Reference" "#PWR043"
-			(at 210.82 95.25 0)
+			(at 220.98 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19571,7 +19060,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 93.98 0)
+			(at 220.98 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19581,7 +19070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 88.9 0)
+			(at 220.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19592,7 +19081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 88.9 0)
+			(at 220.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19603,7 +19092,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 88.9 0)
+			(at 220.98 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19627,7 +19116,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 69.85 90)
+		(at 222.25 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19635,10 +19124,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c40afdff-6670-43d8-b097-48807477226f")
 		(property "Reference" "R10"
-			(at 214.63 63.5 90)
+			(at 222.25 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19648,7 +19136,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 214.63 66.04 90)
+			(at 222.25 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19658,7 +19146,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 214.63 71.628 90)
+			(at 222.25 71.628 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19669,7 +19157,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"
-			(at 214.63 69.85 0)
+			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19680,7 +19168,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 69.85 0)
+			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19691,7 +19179,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 214.63 69.85 0)
+			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19702,7 +19190,7 @@
 			)
 		)
 		(property "Value_1" ""
-			(at 214.63 69.85 0)
+			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19713,7 +19201,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 214.63 69.85 0)
+			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19724,7 +19212,7 @@
 			)
 		)
 		(property "Value_0" ""
-			(at 214.63 69.85 0)
+			(at 222.25 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19974,6 +19462,97 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 213.36 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7c8935c-c791-4f9d-869c-4598df06d80d")
+		(property "Reference" "SW1"
+			(at 213.36 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 213.36 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
+			(at 213.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/ALPSALPINE-SKHHLNA010/C125031"
+			(at 213.36 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 213.36 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C125031"
+			(at 213.36 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7472785f-2874-4561-82c6-4cc1f35d125c")
+		)
+		(pin "2"
+			(uuid "d8570c4e-e619-453e-8675-bb03bbee3ed8")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -20506,6 +20085,130 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 205.74 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6d1e2d0-d10e-4506-8ac6-1c4c204c75b9")
+		(property "Reference" "C15"
+			(at 198.882 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 198.12 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 206.7052 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Yageo-CC0603KRX7R9BB104/C14663"
+			(at 205.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 205.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 205.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value_1" ""
+			(at 205.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 205.74 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value_0" ""
+			(at 205.74 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1769ade-5c6b-41c9-a279-d09baf8da227")
+		)
+		(pin "2"
+			(uuid "52ca04d0-93ba-4d68-8ccd-34735c89e4ea")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -21144,6 +20847,83 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed526ef3-3372-441e-82fd-436acfcfb625")
+		(property "Reference" "#PWR032"
+			(at 205.74 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd2bfb1e-c7f3-480d-89a0-ff6be6c2ee7d")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
