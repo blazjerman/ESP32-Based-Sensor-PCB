@@ -7243,7 +7243,7 @@
 		(at 262.89 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e22c417e-7dfa-44ef-9cd0-aae6c6f7abef")
+		(uuid "be4fb554-68d5-46fa-b806-70f107088d15")
 	)
 	(junction
 		(at 273.05 138.43)
@@ -7649,7 +7649,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 105.41) (xy 269.24 105.41)
+			(xy 257.81 105.41) (xy 262.89 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7686,16 +7686,6 @@
 			(type default)
 		)
 		(uuid "3af21a75-26c2-46be-9398-a2bf0db324c6")
-	)
-	(wire
-		(pts
-			(xy 257.81 105.41) (xy 262.89 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bb9446f-3b29-4b85-abab-6cc0cea59bea")
 	)
 	(wire
 		(pts
@@ -8426,6 +8416,16 @@
 			(type default)
 		)
 		(uuid "c0c12460-5509-4068-ac00-1ced4aad89dd")
+	)
+	(wire
+		(pts
+			(xy 262.89 105.41) (xy 269.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3155f28-c768-4820-a033-2505a6eee434")
 	)
 	(wire
 		(pts
@@ -11741,130 +11741,6 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 262.89 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ba94f7b-1741-41b7-b4a0-60fd6c082123")
-		(property "Reference" "C11"
-			(at 265.176 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7u"
-			(at 265.176 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 263.8552 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/52218-CL31B475KBHNNNE/C51205"
-			(at 262.89 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 262.89 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C51205"
-			(at 262.89 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value_1" ""
-			(at 262.89 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 262.89 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value_0" ""
-			(at 262.89 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10a111c9-940b-4a3a-82c9-63617ebf9bb1")
-		)
-		(pin "2"
-			(uuid "e3fb2d60-adf6-4888-a32d-22e16af3bf0b")
-		)
-		(instances
-			(project "ESP32-Based Sensor PCB"
-				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -15981,6 +15857,130 @@
 			(project "ESP32-Based Sensor PCB"
 				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 262.89 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73d49e66-47a0-4e5c-b322-32d8db667f93")
+		(property "Reference" "C11"
+			(at 265.176 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 265.176 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 263.8552 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/15532-CL31B106KAHNNNE/C14860"
+			(at 262.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 262.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14860"
+			(at 262.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value_1" ""
+			(at 262.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 262.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value_0" ""
+			(at 262.89 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7248a91-170e-4d72-95a5-44380647604b")
+		)
+		(pin "2"
+			(uuid "c4d97745-dc3b-40a2-b3ac-f49f1d987d76")
+		)
+		(instances
+			(project "ESP32-Based Sensor PCB"
+				(path "/a479f37a-16b5-4c7f-a386-cf874951af37"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -21566,7 +21566,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 149.606 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21588,7 +21588,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/52218-CL31B475KBHNNNE/C51205"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/15532-CL31B106KAHNNNE/C14860"
 			(at 147.32 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -21610,7 +21610,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C51205"
+		(property "LCSC" "C14860"
 			(at 147.32 63.5 0)
 			(hide yes)
 			(show_name no)
