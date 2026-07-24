@@ -12152,7 +12152,7 @@
 		(property "Reference" "Q5"
 			(at -2.6125 0 90)
 			(layer "F.SilkS")
-			(uuid "92a959a9-5319-46ce-833e-a98220c0f46b")
+			(uuid "03b61da1-ca26-49d5-96f0-0084211a5aab")
 			(effects
 				(font
 					(size 1 1)
@@ -12163,7 +12163,7 @@
 		(property "Value" "MMBT3904"
 			(at 0 2.4 0)
 			(layer "F.Fab")
-			(uuid "a8d42877-fc2f-4cbb-bc28-e00ce3e41622")
+			(uuid "de970b15-0dd4-4b95-8794-542d16edfbb4")
 			(effects
 				(font
 					(size 1 1)
@@ -12176,7 +12176,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1ce6087-f0aa-4a91-8704-dde80041c9af")
+			(uuid "3995df36-9b63-4055-aa13-4f77dbd6d172")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12189,7 +12189,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a4b68dd6-7469-4f64-9f26-871c25bc3498")
+			(uuid "c0ef9669-0784-4c8f-8ffa-717c240a821b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15076,7 +15076,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at -3.0875 -0.65 0)
+			(at -3.1075 0.03 0)
 			(layer "F.SilkS")
 			(uuid "0769676b-5605-4751-95f6-d8f1abe66f33")
 			(effects
@@ -15504,7 +15504,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at -3.0875 -0.65 0)
+			(at -3.1075 0.03 0)
 			(layer "F.SilkS")
 			(uuid "c931feb0-63ee-436a-823a-07d044c1e492")
 			(effects
@@ -15718,7 +15718,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at -3.0875 -0.65 0)
+			(at -3.1075 0.03 0)
 			(layer "F.SilkS")
 			(uuid "aeb1679d-5857-4b3e-95ab-c6ab3a24d5b2")
 			(effects
@@ -24681,15 +24681,6 @@
 		(uuid "05925649-5253-41dc-ac73-b9bdca28f5de")
 	)
 	(via
-		(at 134.32 116.93)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "05bd144a-615b-4a9b-9e38-9fd6703d02c5")
-	)
-	(via
 		(at 126.651 86.269528)
 		(size 0.6)
 		(drill 0.3)
@@ -24827,6 +24818,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "16143a47-def7-4adf-9132-e20b9ba78d28")
+	)
+	(via
+		(at 122.47 107.58)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "18a3e03d-a22d-40f5-947f-edb7f523c584")
 	)
 	(via
 		(at 129.41 92.322249)
@@ -25125,6 +25125,15 @@
 		(filling no)
 		(net "GND")
 		(uuid "343b0932-c2b0-4f8d-8715-801f83f08548")
+	)
+	(via
+		(at 122.56 109.83)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "384f39d8-a726-4103-92ef-ab3440e1fa96")
 	)
 	(via
 		(at 130.91 95.611555)
@@ -25637,25 +25646,6 @@
 		(filling no)
 		(net "GND")
 		(uuid "71d0e1f1-0c38-4e8a-b680-9b822b5b707e")
-	)
-	(via
-		(at 132.53 137.96)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(capping no)
-		(covering
-			(front no)
-			(back no)
-		)
-		(plugging
-			(front no)
-			(back no)
-		)
-		(filling no)
-		(net "GND")
-		(uuid "73d58f6a-3651-43fd-8fe0-802529135c7c")
 	)
 	(via
 		(at 110.92 121.48)
@@ -26393,25 +26383,6 @@
 		(uuid "b6f80b16-b65b-4f18-91e0-b5c4d86922a8")
 	)
 	(via
-		(at 136.66 136.88)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(capping no)
-		(covering
-			(front no)
-			(back no)
-		)
-		(plugging
-			(front no)
-			(back no)
-		)
-		(filling no)
-		(net "GND")
-		(uuid "b810d8ec-d95f-41f9-844c-ae94a5e62036")
-	)
-	(via
 		(at 100.55 133.76)
 		(size 0.6)
 		(drill 0.3)
@@ -26532,15 +26503,6 @@
 		(uuid "cd612fed-bb2b-41ef-8ba0-e732d7dc19b4")
 	)
 	(via
-		(at 134.53 121.93)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "ce2ba7f7-c9d9-4563-83a0-3cc891e5a380")
-	)
-	(via
 		(at 122.48 90.67)
 		(size 0.6)
 		(drill 0.3)
@@ -26566,25 +26528,6 @@
 		(free yes)
 		(net "GND")
 		(uuid "d3da9ff0-94e4-4bd6-9e2d-eb8338046a58")
-	)
-	(via
-		(at 135.8 113.91)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(capping no)
-		(covering
-			(front no)
-			(back no)
-		)
-		(plugging
-			(front no)
-			(back no)
-		)
-		(filling no)
-		(net "GND")
-		(uuid "d42be196-39d9-4736-b773-56f7394bfce6")
 	)
 	(via
 		(at 118.35 118.6)
